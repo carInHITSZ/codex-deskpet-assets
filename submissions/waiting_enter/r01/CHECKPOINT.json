@@ -3,10 +3,10 @@
   "clip": "waiting_enter",
   "revision": "r01",
   "branch": "web/waiting-enter-r01",
-  "sessionId": "chatgpt-github-20261019-keypose-scale-review",
-  "updatedUtc": "2026-10-19T10:57:25.566Z",
+  "sessionId": "chatgpt-20261019-waiting-enter-004-generated-candidate",
+  "updatedUtc": "2026-10-19T12:06:12.124Z",
   "baseCommit": "a05db27dd707cb31436e219f99aed823e022674d",
-  "status": "needs_revision_reference_generation_blocked",
+  "status": "generated_candidate_uploaded_pending_art_and_sequence_review",
   "plannedFrames": 17,
   "candidateSourceSlots": [
     0,
@@ -28,7 +28,9 @@
     16
   ],
   "missingFrames": [],
-  "candidateFramesStaged": [],
+  "candidateFramesStaged": [
+    4
+  ],
   "completedFrames": [],
   "confirmedIssueType": "scale_and_framing_discontinuity_observed",
   "targetedKeyposeFramesForRepairOrReference": [
@@ -40,7 +42,7 @@
     12,
     16
   ],
-  "confirmedNewImages": 0,
+  "confirmedNewImages": 1,
   "acceptedNewDraws": 0,
   "localAcceptance": false,
   "runtimeAcceptance": false,
@@ -55,7 +57,11 @@
     "continuousArtisticPlayback025": "not_checked",
     "familyTransitions": "not_checked",
     "runtime": "not_checked",
-    "referenceLockedGeneration": "attempted_on_walk_left_001_result_invalid_GitHub_screenshot_no_accepted_frame"
+    "referenceLockedGeneration": "one_new_reference_based_image_generated_pending_visual_acceptance",
+    "originalGeneratedMaster": "native_1254_RGBA_sha256_recorded",
+    "candidateExportRGBA": "checked_1024x1024_alpha_bbox_640",
+    "footCenterProxy": "checked_offset_0p55px_not_anatomical_validation",
+    "binaryGitHubCommit": "checked_both_files_git_blob_sha1_consistent"
   },
   "evidence": {
     "report": "submissions/waiting_enter/r01/qa/scale-discontinuity-review.md",
@@ -75,13 +81,20 @@
       "008": 550,
       "012": 677,
       "016": 675
+    },
+    "newFrame004": {
+      "generatedImageSHA256": "4185144ab9c0da503cd798e9208a93750979e405014717315c1d1eb4aa931d5c",
+      "masterSHA256": "5565187a4ab158dcd00fc3f3272c0a7cabe2458cd1150e5894c281254abef34a",
+      "imageCommit": "7f543a8d504810043e30dc41749eac16f51d6429",
+      "notes": "new drawable candidate, not accepted; 004 original scale issue repaired at bbox proxy level only",
+      "file": "submissions/waiting_enter/r01/candidates/waiting_enter_004_ref_repaint_candidate.png"
     }
   },
   "blockers": [
-    "Existing endpoint candidates show significant subject-framing scale jumps across the waiting entry timeline, despite fixed-foot subtle tilt requirement.",
-    "Current image-generation route failed source-reference fidelity on first missing walk_left test; no safe independent high-resolution redraw to stage.",
-    "Anatomical contact, head-to-body keypoints, live artistic playback, family transitions and local runtime not accepted."
+    "004 generated image requires artwork identity/topology, anatomical contact, exact frame-to-frame motion and 3-speed playback review.",
+    "008 existing keypose still has scale discontinuity and has not been repainted.",
+    "Full family transitions, local renderer/DPI and runtime still not checked."
   ],
-  "nextExactAction": "Do not repeat CI/contact sheets. Once source-reference locked generation + actual PNG file export is demonstrated, redraw waiting_enter endpoints 004 and 008 at invariant anatomical scale, preserve native original files, then re-evaluate neighboring 001–011. Meanwhile process other independent tasks; do not infer web_sequence_checked from 17 source slots.",
+  "nextExactAction": "Next repair waiting_enter/008 with real source pixels and master reference; then check 004→008 and nearby frames; do not count unfinished sequence as accepted.",
   "pr": "https://github.com/carInHITSZ/codex-deskpet-assets/pull/3"
 }
