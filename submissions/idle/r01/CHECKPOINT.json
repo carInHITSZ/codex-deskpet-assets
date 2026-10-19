@@ -3,8 +3,8 @@
   "clip": "idle",
   "revision": "r01",
   "branch": "web/idle-r01",
-  "sessionId": "chatgpt-github-20261019-01",
-  "updatedUtc": "2026-10-19T09:53:27.009Z",
+  "sessionId": "chatgpt-github-20261019-forensic-continuation",
+  "updatedUtc": "2026-10-19T10:26:18.550Z",
   "status": "mechanical_playback_pass_visual_review_pending",
   "baseCommit": "eba7dd6478744b1e3820963b024c0302e2d05da8",
   "completedFrames": [],
@@ -89,23 +89,30 @@
   ],
   "checks": {
     "technical": "ci_pass_20_of_20_png_pixel_alpha_bbox_margin_and_masters",
-    "visualIdentity": "all_20_still_frames_viewed_on_default_black_but_no_art_acceptance",
+    "visualIdentity": "all_20_native_png_still_frames_viewed; 20_on_black_white_lilac_true_alpha_contact_sheet_reviewed_at_reduced_size; detailed_art_acceptance_pending",
     "playback100": "actual_headless_browser_three_cycles_60_paints_mechanical_pass_visual_pending",
     "playback050": "actual_headless_browser_three_cycles_60_paints_mechanical_pass_visual_pending",
     "playback025": "actual_headless_browser_three_cycles_60_paints_mechanical_pass_visual_pending",
     "loopOrEndpoints": "not_checked_artistically_even_after_mechanical_cycle",
-    "familyTransitions": "not_checked"
+    "familyTransitions": "not_checked",
+    "alphaComposite": "actual_Pillow_compositing_20x3_backdrops; raw_below_baseline_alpha_max_2_of_255_and_black_composite_channel_max_1_of_255; no_confirmed_visible_artifact_below_feet",
+    "shoeBottomROIProxies": "actual_measured_image_left_range_x_2.23_y_1_and_image_right_range_x_2.02_y_1; NOT_anatomical_contact_2px_acceptance",
+    "loopPixelSeam": "actual_fixed_viewport_premul_RGB_MAE_9.4961_ratio_to_median_adjacent_1.092; artistic_loop_not_checked",
+    "visualCompositing": "static_review_only_at_reduced_resolution_not_full_1024_edge_art_acceptance",
+    "referenceLockedRedraw": "not_performed_no_confirmed_failure_for_safe_repaint"
   },
   "dependencyCommits": [],
   "blockers": [
-    "20 static frames visually viewed, but no frame formally art-accepted against all reference standards",
-    "Need black-white-lilac composite per-frame edge inspection and reference comparison; only final-frame screenshots captured automatically",
-    "No anatomical foot-contact ≤2px/keypoint-scale ≤1% measurement",
-    "Mechanical browser 3-speed 3-cycle playback passed, but subjective loop seam/motion smoothness NOT accepted",
-    "No family transitions, local runtime, DPI/multi-screen verification",
-    "Accurate new reference-locked redraw not achieved; newly generated sample was rejected"
+    "No formally art-accepted frames; 20 originals retained without modification and 0 newly generated or repaired frames accepted",
+    "Raw-viewer bright magenta speck suspicion under feet is caused by near-transparent residual alpha: below y896 max alpha 2/255, actual black composite channel max 1/255; do not destructively clean without visible evidence",
+    "Native-resolution head/face/Codex knot/wing and right-hair fringe review remains to be performed per frame; downsampled 3-background contact sheets reviewed only",
+    "Foot image-ROI proxy horizontal ranges 2.23px left/2.02px right and vertical <=1px are not anatomical ground-contact measurement; true <=2px gate not checked",
+    "Loop 019->000 normalized RGB error 9.4961 (~1.092x median internal adjacent difference) is diagnostic only; true motion/respiration seam and 3-speed artist observation not checked",
+    "Idle to blink/waiting family transitions unverified; those clips lack local artistic acceptance",
+    "No identity-locked generation plus verified master-to-export-to-remote repair in this session; original image assets deliberately preserved",
+    "Local runtime/DPI/multiple monitors not checked"
   ],
-  "nextExactAction": "Inspect all 20 frames in real black/white/lilac compositing with focus on suspected edge speckles, measure foot contacts and global keypoint scale, check browser motion visually at three speeds and loop seam, repair reference-locked failed poses; then validate adjacent idle/blink/waiting transitions. Do NOT claim web_sequence_checked without those gates.",
+  "nextExactAction": "At native resolution, inspect head/horns/Codex knot, right hair/wing-edge and shoe contacts in frame 005,008,013,014,016,017 against 000/012/019 and the full-res primary master. Annotate anatomical left/right shoe landmarks per frame and compare <=2px; watch actual complete breathing loop at 100/50/25% x3 for seam and deformation, then redraw only confirmed failures with master + adjacent accepted pose. Keep idle/blink/waiting transition NOT_CHECKED until both clips art-accepted.",
   "report": "qa/web-report.md",
   "technicalEvidence": {
     "runUrl": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39231855426",
@@ -136,5 +143,38 @@
     },
     "allMechanicalOk": true,
     "visualAccepted": false
+  },
+  "suspectedFramesForNativeResolutionReinspection": [
+    5,
+    8,
+    13,
+    14,
+    16,
+    17
+  ],
+  "confirmedVisualFailedFrames": [],
+  "diagnosticEvidence": {
+    "run": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39237080876",
+    "machineReport": "submissions/idle/r01/qa/diagnostic/forensics.json",
+    "sourceCommit": "b07a7347ffaa71b66efbc027aa1e7bda80a779b2",
+    "artifactCommit": "dfd61f70bb434b9515317da9a9e450d96008ca55",
+    "composites": [
+      "submissions/idle/r01/qa/diagnostic/overview-black-review.jpg",
+      "submissions/idle/r01/qa/diagnostic/overview-white-review.jpg",
+      "submissions/idle/r01/qa/diagnostic/overview-lilac-review.jpg",
+      "submissions/idle/r01/qa/diagnostic/feet-000-009.png",
+      "submissions/idle/r01/qa/diagnostic/feet-010-019.png"
+    ],
+    "nominalBelowBottomMaxAlpha": 2,
+    "blackCompositedBelowBottomMaxChannel": 1,
+    "feetProxyRangesPx": {
+      "imageLeftHorizontal": 2.23,
+      "imageRightHorizontal": 2.02,
+      "imageLeftVertical": 1,
+      "imageRightVertical": 1
+    },
+    "seamPremultipliedRGBMAE": 9.4961,
+    "seamRatioToMedianAdjacent": 1.092,
+    "role": "quantitative and downsampled visual diagnostic, not formal art or loop acceptance"
   }
 }

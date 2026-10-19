@@ -15,7 +15,7 @@
       "branch": "web/idle-r01",
       "pr": "https://github.com/carInHITSZ/codex-deskpet-assets/pull/1",
       "checkpoint": "submissions/idle/r01/CHECKPOINT.json",
-      "note": "Existing candidate images and native masters staged. CI RGBA pixel pass 20/20 and actual headless 3-speed x3-cycle mechanical browser pass; art, contacts, loop seam/family and runtime NOT accepted.",
+      "note": "20 existing source candidates unchanged; targeted black/white/lilac composite and foot-ROI pixel forensics archived. Alpha<=2 beneath baseline (max black composite channel=1), no confirmed visible fragment to remove. Shoe X ROI proxy range 2.23/2.02px is NOT anatomical contact. Artistic 3-speed loop and family joins remain NOT_CHECKED; newly accepted redrawn frames 0.",
       "technicalEvidence": {
         "run": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39231855426",
         "passed": 20,
@@ -31,6 +31,15 @@
         ],
         "threeCyclesEach": true,
         "visualAccepted": false
+      },
+      "forensicEvidence": {
+        "report": "submissions/idle/r01/qa/diagnostic/forensics.json",
+        "sourceCommit": "dfd61f70bb434b9515317da9a9e450d96008ca55",
+        "framesSourceUnchanged": true,
+        "acceptedRedrawCount": 0,
+        "fullArtAccepted": false,
+        "contactLandmarksVerified": false,
+        "loopArtistReviewed": false
       }
     },
     {
