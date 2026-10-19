@@ -3,9 +3,9 @@
   "clip": "idle",
   "revision": "r01",
   "branch": "web/idle-r01",
-  "sessionId": "chatgpt-github-20261019-forensic-continuation",
-  "updatedUtc": "2026-10-19T10:32:33.068Z",
-  "status": "mechanical_playback_pass_visual_review_pending",
+  "sessionId": "chatgpt-github-20261019-local-review-handoff",
+  "updatedUtc": "2026-10-19T10:52:00Z",
+  "status": "pending_local_review",
   "baseCommit": "eba7dd6478744b1e3820963b024c0302e2d05da8",
   "completedFrames": [],
   "candidateFramesStaged": [
@@ -104,16 +104,16 @@
   },
   "dependencyCommits": [],
   "blockers": [
-    "No formally art-accepted frames; 20 originals retained without modification and 0 newly generated or repaired frames accepted",
     "Raw-viewer bright magenta speck suspicion under feet is caused by near-transparent residual alpha: below y896 max alpha 2/255, actual black composite channel max 1/255; do not destructively clean without visible evidence",
     "Unscaled face/Codex/horns cropped previews reviewed for all 20 and no gross identity drift found; formal pixel-perfect ornament topology, full native 1024 edge and wing/clothes review still pending",
     "Foot image-ROI proxy horizontal ranges 2.23px left/2.02px right and vertical <=1px are not anatomical ground-contact measurement; true <=2px gate not checked",
     "Loop 019->000 normalized RGB error 9.4961 (~1.092x median internal adjacent difference) is diagnostic only; true motion/respiration seam and 3-speed artist observation not checked",
     "Idle to blink/waiting family transitions unverified; those clips lack local artistic acceptance",
     "No identity-locked generation plus verified master-to-export-to-remote repair in this session; original image assets deliberately preserved",
-    "Local runtime/DPI/multiple monitors not checked"
+    "Local runtime/DPI/multiple monitors not checked",
+    "Transferred to pending_local_review: locally observe continuous animation, annotate anatomy/scale, and report specific failure frames before redrawing. No web_sequence_checked."
   ],
-  "nextExactAction": "Complete anatomical left/right shoe/sole landmark annotation at native size on idle frames 000–019; verify <=2px for both across same support phase (ROI proxy is insufficient). Directly observe true cyclic animation 100/50/25% each x3 including seam and body deformation. Inspect native wing/hair edges 005/008/013/014/016/017 and judge whether any material image fix needed; redraw only if actual art failure and safe identity-locked reference exists. Family idle/blink/waiting joins remain NOT_CHECKED.",
+  "nextExactAction": "Await specific local frame-pair/landmark evidence for 019->000 art seam, 2px anatomical shoe support, <=1% body landmarks, or native pixels of 005/008/013/014/016/017; then repair only confirmed failures in this existing Draft PR. Skip idle for independent next clip meanwhile.",
   "report": "qa/web-report.md",
   "technicalEvidence": {
     "runUrl": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39231855426",
@@ -188,5 +188,22 @@
       ],
       "note": "Extracted 290x245 source-pixel crops without spatial rescale from all 20 PNG files; review images saved as lossy JPEG for remote inspection, not pixel-perfect lossless examination or art acceptance."
     }
+  },
+  "previousStatus": "mechanical_playback_pass_visual_review_pending",
+  "handoff": {
+    "status": "pending_local_review",
+    "path": "submissions/idle/r01/qa/local-review-handoff-20261019.md",
+    "createdBy": "web",
+    "artAcceptance": false,
+    "newGeneratedFrames": 0,
+    "newRepairedFrames": 0,
+    "newCopiedSourceFrames": 0,
+    "confirmedFailedFrames": [],
+    "currentSessionNewChecks": [
+      "handoff_inventory_and_review_boundary"
+    ],
+    "continuousVisualObservation": "not_checked",
+    "localReviewRequested": true,
+    "skipUntilLocalFindings": true
   }
 }
