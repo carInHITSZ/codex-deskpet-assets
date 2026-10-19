@@ -121,6 +121,10 @@ def render_overviews(images: list[Image.Image], out: Path) -> list[str]:
         name = f"overview-{palette_name}.png"
         sheet.save(out/name, optimize=True)
         paths.append(name)
+        # Smaller RGB composites are review-only copies; keep full PNG evidence.
+        preview_name = f"overview-{palette_name}-review.jpg"
+        sheet.save(out/preview_name, "JPEG", quality=78, optimize=True)
+        paths.append(preview_name)
     return paths
 
 
