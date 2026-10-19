@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "clip": "idle",
   "revision": "r01",
-  "status": "technical_checked_visual_pending",
+  "status": "mechanical_playback_pass_visual_review_pending",
   "standard": "shuangxu-v3",
   "loop": true,
   "motionOwner": "none",
@@ -1175,13 +1175,13 @@
     }
   ],
   "webChecks": {
-    "actualPlayback": "not_checked",
-    "speed100ThreeRuns": "not_checked",
-    "speed050ThreeRuns": "not_checked",
-    "speed025ThreeRuns": "not_checked",
+    "actualPlayback": "mechanical_pass_3_speeds_x_3_cycles_but_visual_not_accepted",
+    "speed100ThreeRuns": "real_browser_three_cycles_60_paints_pass_visual_not_accepted",
+    "speed050ThreeRuns": "real_browser_three_cycles_60_paints_pass_visual_not_accepted",
+    "speed025ThreeRuns": "real_browser_three_cycles_60_paints_pass_visual_not_accepted",
     "alpha": "checked_ci_20_of_20",
     "header": "checked_20_of_20_RGBA8",
-    "identityAndCodexEmblem": "partial_keypose_view_5_of_20_no_acceptance",
+    "identityAndCodexEmblem": "all_20_static_images_viewed_but_art_acceptance_pending",
     "contactAndScale": "not_checked",
     "loopAndTransitions": "not_checked",
     "report": "qa/web-report.md",
@@ -1193,6 +1193,8 @@
     "runner": "GitHub Actions Ubuntu 24.04/Python 3.12/Pillow",
     "allTechnicalOk": true,
     "tested": 20,
-    "notVisualAcceptance": true
+    "notVisualAcceptance": true,
+    "browserRunUrl": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39232840986",
+    "browserJobId": 117994713995
   }
 }

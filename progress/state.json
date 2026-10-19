@@ -5,7 +5,7 @@
   "groups": [
     {
       "clip": "idle",
-      "status": "technical_checked_visual_pending",
+      "status": "mechanical_playback_pass_visual_review_pending",
       "plannedFrames": 20,
       "candidateSlots": 20,
       "missingFrames": [],
@@ -15,11 +15,22 @@
       "branch": "web/idle-r01",
       "pr": "https://github.com/carInHITSZ/codex-deskpet-assets/pull/1",
       "checkpoint": "submissions/idle/r01/CHECKPOINT.json",
-      "note": "Candidate frames copied from main; successful independent CI PNG/alpha/margin technical preflight, not 20 newly generated or visually accepted frames.",
+      "note": "Existing candidate images and native masters staged. CI RGBA pixel pass 20/20 and actual headless 3-speed x3-cycle mechanical browser pass; art, contacts, loop seam/family and runtime NOT accepted.",
       "technicalEvidence": {
         "run": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39231855426",
         "passed": 20,
         "failed": 0
+      },
+      "browserEvidence": {
+        "run": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39232840986",
+        "mechanicalPass": true,
+        "threeSpeeds": [
+          1,
+          0.5,
+          0.25
+        ],
+        "threeCyclesEach": true,
+        "visualAccepted": false
       }
     },
     {
