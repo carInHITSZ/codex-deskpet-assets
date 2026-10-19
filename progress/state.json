@@ -18,7 +18,7 @@
     },
     {
       "clip": "blink",
-      "status": "candidate_source_technical_checked_visual_pending",
+      "status": "pending_local_review",
       "plannedFrames": 17,
       "candidateSlots": 17,
       "missingFrames": [],
@@ -28,7 +28,7 @@
       "branch": "web/blink-r01",
       "pr": "https://github.com/carInHITSZ/codex-deskpet-assets/pull/2",
       "checkpoint": "submissions/blink/r01/CHECKPOINT.json",
-      "note": "17 existing timeline source slots, 9 unique sources, palindrome; no PNGs copied to this branch, 0 accepted redraw. Actual 17 PNG source tech PASS and Chromium 100/50/25 x3 51-paint sequences PASS; art/eyelid/foot/interface NOT_CHECKED.",
+      "note": "17 slots / 9 original sources, no PNG copies or accepted new art. Local dynamic visual review pending; Draft and web_sequence_checked=false.",
       "technicalEvidence": {
         "run": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39239051047",
         "sourceSlotsPassed": 17,
@@ -47,7 +47,8 @@
         "paintsPerSpeed": 51,
         "allMechanicalOk": true,
         "visualAccepted": false
-      }
+      },
+      "localReviewHandoff": "submissions/blink/r01/qa/local-review-handoff-20261019.md"
     },
     {
       "clip": "waiting_enter",
