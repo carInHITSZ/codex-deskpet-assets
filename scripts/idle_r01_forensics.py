@@ -128,6 +128,28 @@ def render_overviews(images: list[Image.Image], out: Path) -> list[str]:
     return paths
 
 
+
+def render_native_head_details(images: list[Image.Image], out: Path) -> list[str]:
+    """1:1 facial/ornament/horn samples. Never scale or replace production frames."""
+    paths = []
+    for palette_name, bg in PALETTES.items():
+        sheet = Image.new("RGB", (1600, 1060), (45, 45, 50))
+        draw = ImageDraw.Draw(sheet)
+        for i, im in enumerate(images):
+            x = (i % 5) * 320
+            y = (i // 5) * 265
+            native = alpha_compose(im, bg).crop((365, 240, 655, 485))
+            # Source crop is 290x245: exactly 1 source pixel per review pixel.
+            sheet.paste(native, (x + 15, y + 3))
+            draw.text((x + 18, y + 248),
+                      f"{i:03d} | {palette_name} | 1:1 face/Codex/horns",
+                      fill=(222, 222, 222))
+        name = f"face-codex-native-{palette_name}-review.jpg"
+        sheet.save(out / name, "JPEG", quality=84, optimize=True)
+        paths.append(name)
+    return paths
+
+
 def render_feet(images: list[Image.Image], out: Path) -> list[str]:
     paths = []
     for start in (0, 10):
@@ -199,7 +221,7 @@ def main() -> None:
                        "local_DPI_multiscreen_runtime"],
         "notAcceptance": "No pixel statistic substitutes for actual artistically accepted motion, anatomy, or family joins."
     }
-    generated = render_overviews(originals, out) + render_feet(originals, out)
+    generated = render_overviews(originals, out) + render_feet(originals, out) + render_native_head_details(originals, out)
     report["diagnosticImages"] = generated
     (out/"forensics.json").write_text(json.dumps(report, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
     summary = {
