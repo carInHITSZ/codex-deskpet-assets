@@ -4,8 +4,8 @@
   "revision": "r01",
   "branch": "web/blink-r01",
   "baseCommit": "eba7dd6478744b1e3820963b024c0302e2d05da8",
-  "updatedUtc": "2026-10-19T10:43:43.151Z",
-  "status": "candidate_source_technical_checked_visual_pending",
+  "updatedUtc": "2026-10-19T10:52:00Z",
+  "status": "pending_local_review",
   "completedFrames": [],
   "candidateFramesStaged": [],
   "sourceCandidateSlots": [
@@ -52,9 +52,10 @@
     "Still-image eye closure progression and mirror-source recovery observed; uninterrupted visual judgment of natural eyelid cadence and global distortions not performed; mark not_checked",
     "Individual anatomical left and right foot ground contact and same-pose keypoint scale not measured; ROI/body bbox not proxy acceptance",
     "Idle->blink->idle transition can't be approved before idle art passes; even identical blink endpoint source is not proof of matching idle019",
-    "Local runtime, high-DPI and multi-monitor not checked"
+    "Local runtime, high-DPI and multi-monitor not checked",
+    "Transferred to pending_local_review: locally observe continuous animation, annotate anatomy/scale, and report specific failure frames before redrawing. No web_sequence_checked."
   ],
-  "nextExactAction": "Inspect native eye-lid/iris and Codex knot details (especially 003-013 transitions) and create actual 100/50/25% x3 human-viewable artist review; annotate anatomical both-shoe contact and keypoint scale. Only rework confirmed failures with master plus accepted neighbors; do not count 9 reused candidate source images as newly drawn. After idle independently accepted, test idle->blink->idle.",
+  "nextExactAction": "Await local video/review evidence for natural eyelid 003–013, body/ornament stability, anatomical shoe contact and idle→blink→idle interface; repair specifically identified frames only. Skip blink for independent next clip meanwhile.",
   "report": "submissions/blink/r01/qa/web-report.md",
   "pr": "https://github.com/carInHITSZ/codex-deskpet-assets/pull/2",
   "evidence": {
@@ -92,5 +93,23 @@
       "submissions/blink/r01/qa/source-face-codex-eyes-white-review.jpg",
       "submissions/blink/r01/qa/source-full-lilac-review.jpg"
     ]
+  },
+  "previousStatus": "candidate_source_technical_checked_visual_pending",
+  "sessionId": "chatgpt-github-20261019-local-review-handoff",
+  "handoff": {
+    "status": "pending_local_review",
+    "path": "submissions/blink/r01/qa/local-review-handoff-20261019.md",
+    "createdBy": "web",
+    "artAcceptance": false,
+    "newGeneratedFrames": 0,
+    "newRepairedFrames": 0,
+    "newCopiedSourceFrames": 0,
+    "confirmedFailedFrames": [],
+    "currentSessionNewChecks": [
+      "handoff_inventory_and_review_boundary"
+    ],
+    "continuousVisualObservation": "not_checked",
+    "localReviewRequested": true,
+    "skipUntilLocalFindings": true
   }
 }
