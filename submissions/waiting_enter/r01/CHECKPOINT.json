@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "clip": "waiting_enter",
+  "revision": "r01",
+  "branch": "web/waiting-enter-r01",
+  "sessionId": "chatgpt-github-20261019-keypose-scale-review",
+  "updatedUtc": "2026-10-19T11:12:00Z",
+  "baseCommit": "a05db27dd707cb31436e219f99aed823e022674d",
+  "status": "needs_revision_reference_generation_blocked",
+  "plannedFrames": 17,
+  "candidateSourceSlots": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "missingFrames": [],
+  "candidateFramesStaged": [],
+  "completedFrames": [],
+  "confirmedIssueType": "scale_and_framing_discontinuity_observed",
+  "targetedKeyposeFramesForRepairOrReference": [
+    4,
+    8
+  ],
+  "otherKeyposesReviewed": [
+    0,
+    12,
+    16
+  ],
+  "confirmedNewImages": 0,
+  "acceptedNewDraws": 0,
+  "localAcceptance": false,
+  "runtimeAcceptance": false,
+  "webSequenceChecked": false,
+  "checks": {
+    "nativeKeyposeStaticReview": "checked_source_PNG_000_004_008_012_016_including_master",
+    "existingCatalogAlphaBboxReview": "checked_main_catalog_entries_not_rerun_pixel_CI",
+    "proportionalAnatomicalLandmarks": "not_checked",
+    "anatomicalFootContact2px": "not_checked",
+    "continuousArtisticPlayback100": "not_checked",
+    "continuousArtisticPlayback050": "not_checked",
+    "continuousArtisticPlayback025": "not_checked",
+    "familyTransitions": "not_checked",
+    "runtime": "not_checked",
+    "referenceLockedGeneration": "attempted_on_walk_left_001_result_invalid_GitHub_screenshot_no_accepted_frame"
+  },
+  "evidence": {
+    "report": "submissions/waiting_enter/r01/qa/scale-discontinuity-review.md",
+    "timeline": "groups/waiting_enter/current-timeline.json",
+    "catalog": "assets/catalog.json",
+    "previousQA": "qa/waiting-family-qa-review.json",
+    "sources": [
+      "reference/master_front_1024.png",
+      "groups/waiting_enter/images/poses/waiting_attention_forward.png",
+      "groups/waiting_enter/images/poses/waiting_lean_forward.png",
+      "groups/waiting_enter/images/poses/waiting_tilt_begin_v3.png",
+      "groups/waiting_enter/images/poses/waiting_expectant_base.png"
+    ],
+    "bboxHeightPxBySlot": {
+      "000": 640,
+      "004": 524,
+      "008": 550,
+      "012": 677,
+      "016": 675
+    }
+  },
+  "blockers": [
+    "Existing endpoint candidates show significant subject-framing scale jumps across the waiting entry timeline, despite fixed-foot subtle tilt requirement.",
+    "Current image-generation route failed source-reference fidelity on first missing walk_left test; no safe independent high-resolution redraw to stage.",
+    "Anatomical contact, head-to-body keypoints, live artistic playback, family transitions and local runtime not accepted."
+  ],
+  "nextExactAction": "Do not repeat CI/contact sheets. Once source-reference locked generation + actual PNG file export is demonstrated, redraw waiting_enter endpoints 004 and 008 at invariant anatomical scale, preserve native original files, then re-evaluate neighboring 001–011. Meanwhile process other independent tasks; do not infer web_sequence_checked from 17 source slots."
+}
