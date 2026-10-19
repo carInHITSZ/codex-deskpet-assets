@@ -1,0 +1,57 @@
+{
+  "clip": "blink",
+  "revision": "r01",
+  "url": "http://127.0.0.1:8765/submissions/blink/r01/qa/preview.html",
+  "sourceFrames": 17,
+  "uniqueSourceImages": 9,
+  "speedRecords": [
+    {
+      "speed": 1,
+      "cycles": 3,
+      "decoded": 17,
+      "paints": 51,
+      "expectedPaints": 51,
+      "elapsedMs": 2124.4000000000087,
+      "maxLatenessMs": 14.533333333330347,
+      "maxGapMs": 56.10000000000582,
+      "aborted": false,
+      "visuallyAccepted": false,
+      "sequenceCorrect": true,
+      "mechanicalOk": true
+    },
+    {
+      "speed": 0.5,
+      "cycles": 3,
+      "decoded": 17,
+      "paints": 51,
+      "expectedPaints": 51,
+      "elapsedMs": 4249.699999999997,
+      "maxLatenessMs": 0.63333333333685,
+      "maxGapMs": 83.80000000000291,
+      "aborted": false,
+      "visuallyAccepted": false,
+      "sequenceCorrect": true,
+      "mechanicalOk": true
+    },
+    {
+      "speed": 0.25,
+      "cycles": 3,
+      "decoded": 17,
+      "paints": 51,
+      "expectedPaints": 51,
+      "elapsedMs": 8499.600000000006,
+      "maxLatenessMs": 0.5,
+      "maxGapMs": 167.60000000000582,
+      "aborted": false,
+      "visuallyAccepted": false,
+      "sequenceCorrect": true,
+      "mechanicalOk": true
+    }
+  ],
+  "pageErrors": [],
+  "allMechanicalOk": true,
+  "artisticVisualAcceptance": "not_checked",
+  "anatomicalContact": "not_checked",
+  "familyTransitions": "not_checked",
+  "note": "3 real Chromium Canvas repetitions per speed; no visual art judgment"
+}

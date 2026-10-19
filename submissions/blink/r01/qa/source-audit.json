@@ -1,0 +1,528 @@
+{
+  "clip": "blink",
+  "revision": "r01",
+  "measuredUtc": "2026-10-19T10:40:23.945351+00:00",
+  "sourceTimeline": "groups/blink/current-timeline.json",
+  "plannedFrames": 17,
+  "uniqueOriginalCandidateSourceFiles": 9,
+  "palindromicExplicitSourceReuse": true,
+  "pixelIdenticalEndpoints": true,
+  "originalsCopiedOrModified": false,
+  "acceptedNewlyRedrawnFrames": 0,
+  "technicalPass": true,
+  "eyeRegionPremultipliedAbsoluteDeltaFromFirst": [
+    0.0,
+    8.962,
+    11.698,
+    14.966,
+    14.869,
+    17.709,
+    18.561,
+    20.309,
+    21.903,
+    20.309,
+    18.561,
+    17.709,
+    14.869,
+    14.966,
+    11.698,
+    8.962,
+    0.0
+  ],
+  "frameEvidence": [
+    {
+      "frame": 0,
+      "assetId": "master_front",
+      "path": "groups/blink/images/initial/master_front.png",
+      "fileSha256": "f2505e9eb7bf3240659c639717a76830aeaf991690c799109702111d34621f2a",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaBBoxGt8": [
+        293,
+        256,
+        753,
+        896
+      ],
+      "alphaMargins": [
+        293,
+        256,
+        271,
+        128
+      ],
+      "reusedFrameNumbers": [],
+      "failures": [],
+      "technicalOk": true,
+      "visualAccepted": false
+    },
+    {
+      "frame": 1,
+      "assetId": "blink_open_0875",
+      "path": "groups/blink/images/blink/blink_open_0875.png",
+      "fileSha256": "0cc1f1be0c7c8a9138777d02d2fc25b67b4d1d8f023812d105234c4d991db37b",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaBBoxGt8": [
+        293,
+        255,
+        754,
+        897
+      ],
+      "alphaMargins": [
+        293,
+        255,
+        270,
+        127
+      ],
+      "reusedFrameNumbers": [],
+      "failures": [],
+      "technicalOk": true,
+      "visualAccepted": false
+    },
+    {
+      "frame": 2,
+      "assetId": "blink_open_075",
+      "path": "groups/blink/images/blink/blink_open_075.png",
+      "fileSha256": "3fb532dbd8baa6c921c59cb13f46563c98383f96cf4c075bbbd2a58c7257690f",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaBBoxGt8": [
+        292,
+        255,
+        755,
+        897
+      ],
+      "alphaMargins": [
+        292,
+        255,
+        269,
+        127
+      ],
+      "reusedFrameNumbers": [],
+      "failures": [],
+      "technicalOk": true,
+      "visualAccepted": false
+    },
+    {
+      "frame": 3,
+      "assetId": "blink_open_0625",
+      "path": "groups/blink/images/blink/blink_open_0625.png",
+      "fileSha256": "3d3a7cb715d31531c14a2a35aed08256358ee3fef9e4931b5ccca41e8dde3188",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaBBoxGt8": [
+        293,
+        256,
+        754,
+        896
+      ],
+      "alphaMargins": [
+        293,
+        256,
+        270,
+        128
+      ],
+      "reusedFrameNumbers": [],
+      "failures": [],
+      "technicalOk": true,
+      "visualAccepted": false
+    },
+    {
+      "frame": 4,
+      "assetId": "blink_open_050",
+      "path": "groups/blink/images/blink/blink_open_050.png",
+      "fileSha256": "fb222beca4fc874bd9c14bd38bd27ff10c8c83e3da7ce962c8d908e3f531fe60",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaBBoxGt8": [
+        293,
+        255,
+        754,
+        896
+      ],
+      "alphaMargins": [
+        293,
+        255,
+        270,
+        128
+      ],
+      "reusedFrameNumbers": [],
+      "failures": [],
+      "technicalOk": true,
+      "visualAccepted": false
+    },
+    {
+      "frame": 5,
+      "assetId": "blink_open_0375",
+      "path": "groups/blink/images/blink/blink_open_0375.png",
+      "fileSha256": "6742a94129bf7d6038b949f8556535ad2ffb4ef2b62fd3ca226c7116f8af61fe",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaBBoxGt8": [
+        293,
+        255,
+        754,
+        897
+      ],
+      "alphaMargins": [
+        293,
+        255,
+        270,
+        127
+      ],
+      "reusedFrameNumbers": [],
+      "failures": [],
+      "technicalOk": true,
+      "visualAccepted": false
+    },
+    {
+      "frame": 6,
+      "assetId": "blink_open_025",
+      "path": "groups/blink/images/blink/blink_open_025.png",
+      "fileSha256": "a137818f2f65efe34161eacc694409c9b2c408ab09772c8915598c2c3a4804e7",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaBBoxGt8": [
+        293,
+        256,
+        753,
+        896
+      ],
+      "alphaMargins": [
+        293,
+        256,
+        271,
+        128
+      ],
+      "reusedFrameNumbers": [],
+      "failures": [],
+      "technicalOk": true,
+      "visualAccepted": false
+    },
+    {
+      "frame": 7,
+      "assetId": "blink_open_0125",
+      "path": "groups/blink/images/blink/blink_open_0125.png",
+      "fileSha256": "0b008eadb151a33b95934944f193ebf901eb8f35c5b70975d860275652fbcecf",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaBBoxGt8": [
+        293,
+        255,
+        754,
+        897
+      ],
+      "alphaMargins": [
+        293,
+        255,
+        270,
+        127
+      ],
+      "reusedFrameNumbers": [],
+      "failures": [],
+      "technicalOk": true,
+      "visualAccepted": false
+    },
+    {
+      "frame": 8,
+      "assetId": "blink_open_000",
+      "path": "groups/blink/images/blink/blink_open_000.png",
+      "fileSha256": "3b4b82bd730e8109f7e06778a7e21f554daf7e6f5685ade4fbcbe7ccfce88e42",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaBBoxGt8": [
+        292,
+        256,
+        755,
+        896
+      ],
+      "alphaMargins": [
+        292,
+        256,
+        269,
+        128
+      ],
+      "reusedFrameNumbers": [],
+      "failures": [],
+      "technicalOk": true,
+      "visualAccepted": false
+    },
+    {
+      "frame": 9,
+      "assetId": "blink_open_0125",
+      "path": "groups/blink/images/blink/blink_open_0125.png",
+      "fileSha256": "0b008eadb151a33b95934944f193ebf901eb8f35c5b70975d860275652fbcecf",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaBBoxGt8": [
+        293,
+        255,
+        754,
+        897
+      ],
+      "alphaMargins": [
+        293,
+        255,
+        270,
+        127
+      ],
+      "reusedFrameNumbers": [
+        7
+      ],
+      "failures": [],
+      "technicalOk": true,
+      "visualAccepted": false
+    },
+    {
+      "frame": 10,
+      "assetId": "blink_open_025",
+      "path": "groups/blink/images/blink/blink_open_025.png",
+      "fileSha256": "a137818f2f65efe34161eacc694409c9b2c408ab09772c8915598c2c3a4804e7",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaBBoxGt8": [
+        293,
+        256,
+        753,
+        896
+      ],
+      "alphaMargins": [
+        293,
+        256,
+        271,
+        128
+      ],
+      "reusedFrameNumbers": [
+        6
+      ],
+      "failures": [],
+      "technicalOk": true,
+      "visualAccepted": false
+    },
+    {
+      "frame": 11,
+      "assetId": "blink_open_0375",
+      "path": "groups/blink/images/blink/blink_open_0375.png",
+      "fileSha256": "6742a94129bf7d6038b949f8556535ad2ffb4ef2b62fd3ca226c7116f8af61fe",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaBBoxGt8": [
+        293,
+        255,
+        754,
+        897
+      ],
+      "alphaMargins": [
+        293,
+        255,
+        270,
+        127
+      ],
+      "reusedFrameNumbers": [
+        5
+      ],
+      "failures": [],
+      "technicalOk": true,
+      "visualAccepted": false
+    },
+    {
+      "frame": 12,
+      "assetId": "blink_open_050",
+      "path": "groups/blink/images/blink/blink_open_050.png",
+      "fileSha256": "fb222beca4fc874bd9c14bd38bd27ff10c8c83e3da7ce962c8d908e3f531fe60",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaBBoxGt8": [
+        293,
+        255,
+        754,
+        896
+      ],
+      "alphaMargins": [
+        293,
+        255,
+        270,
+        128
+      ],
+      "reusedFrameNumbers": [
+        4
+      ],
+      "failures": [],
+      "technicalOk": true,
+      "visualAccepted": false
+    },
+    {
+      "frame": 13,
+      "assetId": "blink_open_0625",
+      "path": "groups/blink/images/blink/blink_open_0625.png",
+      "fileSha256": "3d3a7cb715d31531c14a2a35aed08256358ee3fef9e4931b5ccca41e8dde3188",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaBBoxGt8": [
+        293,
+        256,
+        754,
+        896
+      ],
+      "alphaMargins": [
+        293,
+        256,
+        270,
+        128
+      ],
+      "reusedFrameNumbers": [
+        3
+      ],
+      "failures": [],
+      "technicalOk": true,
+      "visualAccepted": false
+    },
+    {
+      "frame": 14,
+      "assetId": "blink_open_075",
+      "path": "groups/blink/images/blink/blink_open_075.png",
+      "fileSha256": "3fb532dbd8baa6c921c59cb13f46563c98383f96cf4c075bbbd2a58c7257690f",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaBBoxGt8": [
+        292,
+        255,
+        755,
+        897
+      ],
+      "alphaMargins": [
+        292,
+        255,
+        269,
+        127
+      ],
+      "reusedFrameNumbers": [
+        2
+      ],
+      "failures": [],
+      "technicalOk": true,
+      "visualAccepted": false
+    },
+    {
+      "frame": 15,
+      "assetId": "blink_open_0875",
+      "path": "groups/blink/images/blink/blink_open_0875.png",
+      "fileSha256": "0cc1f1be0c7c8a9138777d02d2fc25b67b4d1d8f023812d105234c4d991db37b",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaBBoxGt8": [
+        293,
+        255,
+        754,
+        897
+      ],
+      "alphaMargins": [
+        293,
+        255,
+        270,
+        127
+      ],
+      "reusedFrameNumbers": [
+        1
+      ],
+      "failures": [],
+      "technicalOk": true,
+      "visualAccepted": false
+    },
+    {
+      "frame": 16,
+      "assetId": "master_front",
+      "path": "groups/blink/images/initial/master_front.png",
+      "fileSha256": "f2505e9eb7bf3240659c639717a76830aeaf991690c799109702111d34621f2a",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaBBoxGt8": [
+        293,
+        256,
+        753,
+        896
+      ],
+      "alphaMargins": [
+        293,
+        256,
+        271,
+        128
+      ],
+      "reusedFrameNumbers": [
+        0
+      ],
+      "failures": [],
+      "technicalOk": true,
+      "visualAccepted": false
+    }
+  ],
+  "reviewImages": [
+    "source-full-black-review.jpg",
+    "source-full-white-review.jpg",
+    "source-full-lilac-review.jpg",
+    "source-face-codex-eyes-black-review.jpg",
+    "source-face-codex-eyes-white-review.jpg",
+    "source-face-codex-eyes-lilac-review.jpg"
+  ],
+  "artAcceptance": false,
+  "notChecked": [
+    "human_eyelid_artistic_motion",
+    "full_identity_and_Codex_topology",
+    "true_ground_contact_landmarks_2px",
+    "same_pose_anatomical_scale_1percent",
+    "three_speed_human_viewing",
+    "family_idle_blink",
+    "local_runtime"
+  ],
+  "status": "candidate_source_technical_checked_visual_pending"
+}
