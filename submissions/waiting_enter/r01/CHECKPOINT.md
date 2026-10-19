@@ -1,6 +1,9 @@
-# waiting_enter / r01 checkpoint
+# waiting_enter / r01 checkpoint (2026-10-19T12:27:42.911Z)
 
-- Status: `needs_revision_reference_generation_blocked`, all 17 source slots exist, 0 production PNG copied or generated.
-- New static visual check: [frame-specific scale discontinuity QA](qa/scale-discontinuity-review.md), emphasis 004 and 008 vs 000/012/016.
-- No artistic/3-speed/local/runtime acceptance; no forced resizing, no merge.
-- Next: identity-locked original-resolution redraw for the flagged frames when supported, then independently verify full animation and family endpoints.
+- 最新核对HEAD（文档提交前）：`907393386dad335fe07dbcaf01b00f4235ebc8b1`；Draft PR #3，分支`web/waiting-enter-r01`，未合并main。
+- 分支真实新绘候选 **004、008共2帧**，对应**2张未修改的原始生成母版**，合计4个PNG文件；非4帧；本次记录纠错不新增生图。
+- 新绘候选验收通过 **0帧**。旧候选源17/17存在不等于正式验收通过；无006/007新绘远端证据。
+- 004历史记录见`manifest-004-generated.json`；008补登记`manifest-008-generated.json`、`prompts-008.md`、`qa/008-generated-candidate-review.md`。
+- 静态源图已读主基准、003、004、005、006、007、008及009。005旧源相对004有尺度风险。008头部接近正向，但姿态角、真实双足接触、Codex精确拓扑及全片顺序仍需复核。
+- 完整`003→004→005→006→007→008→009`动态检查、100/50/25%×3、waiting_loop衔接、local/runtime：`not_checked`。
+- 下一步：实际确认生成器可使用**原始PNG参考像素**，优先复核004/008关键姿态，确定005返修，再重绘006/007；每张新图单独提交回读。

@@ -3,10 +3,10 @@
   "clip": "waiting_enter",
   "revision": "r01",
   "branch": "web/waiting-enter-r01",
-  "sessionId": "chatgpt-20261019-waiting-enter-004-generated-candidate",
-  "updatedUtc": "2026-10-19T12:06:12.124Z",
+  "sessionId": "chatgpt-20261019-waiting-enter-r01-record-reconciliation",
+  "updatedUtc": "2026-10-19T12:27:42.911Z",
   "baseCommit": "a05db27dd707cb31436e219f99aed823e022674d",
-  "status": "generated_candidate_uploaded_pending_art_and_sequence_review",
+  "status": "two_remote_generated_keypose_candidates_pending_art_and_sequence_review",
   "plannedFrames": 17,
   "candidateSourceSlots": [
     0,
@@ -29,7 +29,8 @@
   ],
   "missingFrames": [],
   "candidateFramesStaged": [
-    4
+    4,
+    8
   ],
   "completedFrames": [],
   "confirmedIssueType": "scale_and_framing_discontinuity_observed",
@@ -42,13 +43,13 @@
     12,
     16
   ],
-  "confirmedNewImages": 1,
+  "confirmedNewImages": 2,
   "acceptedNewDraws": 0,
   "localAcceptance": false,
   "runtimeAcceptance": false,
   "webSequenceChecked": false,
   "checks": {
-    "nativeKeyposeStaticReview": "checked_source_PNG_000_004_008_012_016_including_master",
+    "nativeKeyposeStaticReview": "actual_images_opened_main_003_004_005_006_007_008_009_and_008_master;not_art_accepted",
     "existingCatalogAlphaBboxReview": "checked_main_catalog_entries_not_rerun_pixel_CI",
     "proportionalAnatomicalLandmarks": "not_checked",
     "anatomicalFootContact2px": "not_checked",
@@ -57,11 +58,11 @@
     "continuousArtisticPlayback025": "not_checked",
     "familyTransitions": "not_checked",
     "runtime": "not_checked",
-    "referenceLockedGeneration": "one_new_reference_based_image_generated_pending_visual_acceptance",
-    "originalGeneratedMaster": "native_1254_RGBA_sha256_recorded",
-    "candidateExportRGBA": "checked_1024x1024_alpha_bbox_640",
+    "referenceLockedGeneration": "historical_two_new_drawing_candidates_remote; complete_generation_prompts_unknown",
+    "originalGeneratedMaster": "004_1254_RGBA_SHA256_recorded;008_1254_RGBA8_IHDR_verified_SHA256_unknown",
+    "candidateExportRGBA": "004_1024_RGBA_and_bbox_640_historical;008_1024_RGBA8_IHDR_verified_alpha_distribution_not_checked",
     "footCenterProxy": "checked_offset_0p55px_not_anatomical_validation",
-    "binaryGitHubCommit": "checked_both_files_git_blob_sha1_consistent"
+    "binaryGitHubCommit": "004_two_png_sha1_historical;008_two_png_sha1_readback_checked"
   },
   "evidence": {
     "report": "submissions/waiting_enter/r01/qa/scale-discontinuity-review.md",
@@ -88,13 +89,59 @@
       "imageCommit": "7f543a8d504810043e30dc41749eac16f51d6429",
       "notes": "new drawable candidate, not accepted; 004 original scale issue repaired at bbox proxy level only",
       "file": "submissions/waiting_enter/r01/candidates/waiting_enter_004_ref_repaint_candidate.png"
+    },
+    "newFrame008": {
+      "frame": 8,
+      "file": "submissions/waiting_enter/r01/candidates/waiting_enter_008_ref_repaint_candidate.png",
+      "master": "submissions/waiting_enter/r01/masters/waiting_enter_008_gen_6adcd1e8_original.png",
+      "candidateBytes": 505279,
+      "masterBytes": 949693,
+      "candidateGitBlobSha1": "e9add97024813e7a2b93398b96f5c2cff3ac90b6",
+      "masterGitBlobSha1": "43536e7a3ca374b2cb7298eb06d0c172f210b841",
+      "candidatePNG_IHDR": {
+        "width": 1024,
+        "height": 1024,
+        "bitDepth": 8,
+        "colorType": 6
+      },
+      "masterPNG_IHDR": {
+        "width": 1254,
+        "height": 1254,
+        "bitDepth": 8,
+        "colorType": 6
+      },
+      "candidateSHA256": "unknown_not_recalculated",
+      "masterSHA256": "unknown_not_recalculated",
+      "generatorFullPrompt": "unknown",
+      "originalReferenceInputBytes": "unknown",
+      "exportScale": "unknown",
+      "exportTranslation": "unknown",
+      "exactAlphaDistribution": "not_checked",
+      "bodyLandmarks": "not_checked",
+      "posture": "apparently_front_facing_head;small_lean_not_angularly_measured",
+      "imageCommit": "907393386dad335fe07dbcaf01b00f4235ebc8b1",
+      "remoteReadback": "verified_contents_API_Git_blob_SHAs"
     }
   },
   "blockers": [
-    "004 generated image requires artwork identity/topology, anatomical contact, exact frame-to-frame motion and 3-speed playback review.",
-    "008 existing keypose still has scale discontinuity and has not been repainted.",
-    "Full family transitions, local renderer/DPI and runtime still not checked."
+    "004 and 008: candidate files exist but exact face/Codex topology, torso lean angle, proportional landmarks and anatomical foot contacts remain pending art/measurement acceptance.",
+    "005: old inbetween has historical alpha-bbox height ~676px vs 004 candidate 640px; requires redraw decision; 006/007 have old source candidates but no new drawings in submission branch.",
+    "003→004→005→006→007→008→009 sequence and all 100/50/25 percent playback rounds not checked.",
+    "waiting_loop family transition, DPI and runtime not checked."
   ],
-  "nextExactAction": "Next repair waiting_enter/008 with real source pixels and master reference; then check 004→008 and nearby frames; do not count unfinished sequence as accepted.",
-  "pr": "https://github.com/carInHITSZ/codex-deskpet-assets/pull/3"
+  "nextExactAction": "With source-reference images actually accessible to generator, validate/repair 004 and 008 keyposes, redraw oversized 005 if needed, then create distinct 006 and 007; upload masters/candidates and read back per frame. Do not mark accepted without art/sequence validation.",
+  "pr": "https://github.com/carInHITSZ/codex-deskpet-assets/pull/3",
+  "reconciliation": {
+    "reconciledUtc": "2026-10-19T12:27:42.911Z",
+    "previousHead": "907393386dad335fe07dbcaf01b00f4235ebc8b1",
+    "oldCheckpointConfirmedNewImages": 1,
+    "old008BlockerIncorrect": true,
+    "sourceFramesNotNewDrawing": "Historical 17/17 source slots; only submission candidate 004 and 008 are new drawing files.",
+    "newRemoteFramesAbsentAtReconciliation": [
+      5,
+      6,
+      7,
+      9
+    ]
+  }
 }

@@ -31,7 +31,7 @@
     },
     {
       "clip": "waiting_enter",
-      "status": "needs_revision_reference_generation_blocked",
+      "status": "two_remote_generated_keypose_candidates_pending_art_and_sequence_review",
       "plannedFrames": 17,
       "candidateSlots": 17,
       "missingFrames": [],
@@ -41,7 +41,7 @@
       "branch": "web/waiting-enter-r01",
       "pr": "https://github.com/carInHITSZ/codex-deskpet-assets/pull/3",
       "checkpoint": "submissions/waiting_enter/r01/CHECKPOINT.json",
-      "note": "Reference-verified 000/004/008/012/016 static keypose size discontinuity; bbox heights 640/524/550/677/675px. Existing QA silhouette proxies not anatomical. New PNG=0, safe reference-locked image generation blocked. Draft PR pending."
+      "note": "Branch HEAD 907393386dad confirmed 004/008 new drawing candidates + 2 native masters, not accepted; no new 006/007. Still 17/17 OLD source slots, 0 formal accepted. 005 old scale risk; 3-speed/family/runtime not checked. See CHECKPOINT.json."
     },
     {
       "clip": "waiting_loop",
