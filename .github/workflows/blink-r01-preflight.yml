@@ -1,0 +1,55 @@
+name: Shuangxu blink candidate-source and Chrome audit
+on:
+  push:
+    branches: [web/blink-r01]
+    paths:
+      - 'scripts/blink_r01_source_audit.py'
+      - 'submissions/blink/r01/qa/preview.html'
+      - 'submissions/blink/r01/qa/browser_playback.js'
+      - '.github/workflows/blink-r01-preflight.yml'
+permissions:
+  contents: write
+jobs:
+  candidate-source-and-chrome:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install actual PNG decoder and browser driver
+        run: |
+          python -m pip install --disable-pip-version-check "Pillow==11.3.0" "numpy==2.2.6"
+          npm install --no-save --no-audit --no-fund puppeteer-core@24.23.0
+      - name: Inspect all 17 timeline slots without copying candidate images
+        run: python scripts/blink_r01_source_audit.py
+      - name: Replay actual browser at 100 50 25 percent x3
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m http.server 8765 --bind 127.0.0.1 >/tmp/shuangxu_blink_http.log 2>&1 &
+          sleep 2
+          node submissions/blink/r01/qa/browser_playback.js
+      - name: Push new QA evidence only (no source frames) to production branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add submissions/blink/r01/qa/
+          if ! git diff --cached --quiet; then
+            git commit -m "qa(blink): add measured source-image and 3-speed browser evidence"
+            git push origin HEAD:refs/heads/web/blink-r01
+          fi
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: blink-r01-candidate-evidence
+          path: submissions/blink/r01/qa/
+          if-no-files-found: warn

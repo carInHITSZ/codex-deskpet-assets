@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "baselineDate": "2026-10-19",
-  "note": "Baseline only. Before resuming inspect open PRs and web branches for newer checkpoints. Limited runtime trials are not formal acceptance.",
+  "note": "Baseline only. Before resuming inspect open PRs and web branches for newer checkpoints. Limited runtime trials are not formal acceptance. Each production branch updates only its own clip. Aggregate newer per-clip checkpoint across branches; never replace all 54 from another branch.",
   "groups": [
     {
       "clip": "idle",
@@ -18,16 +18,17 @@
     },
     {
       "clip": "blink",
-      "status": "candidate_complete_needs_review",
+      "status": "candidate_source_audit_running_visual_review_pending",
       "plannedFrames": 17,
       "candidateSlots": 17,
       "missingFrames": [],
       "webChecks": "not_accepted",
       "localAcceptance": false,
       "runtimeAcceptance": false,
-      "branch": null,
+      "branch": "web/blink-r01",
       "pr": null,
-      "checkpoint": null
+      "checkpoint": "submissions/blink/r01/CHECKPOINT.json",
+      "note": "Existing 17 timeline slots/9 distinct main PNG source references. Source/Chrome audit pending. 0 newly accepted redrawn frames; no original PNGs copied."
     },
     {
       "clip": "waiting_enter",
