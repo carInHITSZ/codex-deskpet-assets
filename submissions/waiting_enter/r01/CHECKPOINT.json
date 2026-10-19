@@ -4,7 +4,7 @@
   "revision": "r01",
   "branch": "web/waiting-enter-r01",
   "sessionId": "chatgpt-github-20261019-keypose-scale-review",
-  "updatedUtc": "2026-10-19T11:12:00Z",
+  "updatedUtc": "2026-10-19T10:57:25.566Z",
   "baseCommit": "a05db27dd707cb31436e219f99aed823e022674d",
   "status": "needs_revision_reference_generation_blocked",
   "plannedFrames": 17,
@@ -82,5 +82,6 @@
     "Current image-generation route failed source-reference fidelity on first missing walk_left test; no safe independent high-resolution redraw to stage.",
     "Anatomical contact, head-to-body keypoints, live artistic playback, family transitions and local runtime not accepted."
   ],
-  "nextExactAction": "Do not repeat CI/contact sheets. Once source-reference locked generation + actual PNG file export is demonstrated, redraw waiting_enter endpoints 004 and 008 at invariant anatomical scale, preserve native original files, then re-evaluate neighboring 001–011. Meanwhile process other independent tasks; do not infer web_sequence_checked from 17 source slots."
+  "nextExactAction": "Do not repeat CI/contact sheets. Once source-reference locked generation + actual PNG file export is demonstrated, redraw waiting_enter endpoints 004 and 008 at invariant anatomical scale, preserve native original files, then re-evaluate neighboring 001–011. Meanwhile process other independent tasks; do not infer web_sequence_checked from 17 source slots.",
+  "pr": "https://github.com/carInHITSZ/codex-deskpet-assets/pull/3"
 }

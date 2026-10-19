@@ -39,7 +39,7 @@
       "localAcceptance": false,
       "runtimeAcceptance": false,
       "branch": "web/waiting-enter-r01",
-      "pr": null,
+      "pr": "https://github.com/carInHITSZ/codex-deskpet-assets/pull/3",
       "checkpoint": "submissions/waiting_enter/r01/CHECKPOINT.json",
       "note": "Reference-verified 000/004/008/012/016 static keypose size discontinuity; bbox heights 640/524/550/677/675px. Existing QA silhouette proxies not anatomical. New PNG=0, safe reference-locked image generation blocked. Draft PR pending."
     },
