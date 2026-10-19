@@ -1,0 +1,54 @@
+{
+  "purpose": "reference inputs only; not new production art",
+  "validation": "PNG header and SHA256; no visual acceptance",
+  "files": [
+    {
+      "file": "master_front_1024.png",
+      "source": "reference/master_front_1024.png",
+      "bytes": 534966,
+      "sha256": "f2505e9eb7bf3240659c639717a76830aeaf991690c799109702111d34621f2a",
+      "size": [
+        1024,
+        1024
+      ],
+      "bitDepth": 8,
+      "colorType": 6
+    },
+    {
+      "file": "waiting_attention_forward.png",
+      "source": "groups/waiting_enter/images/poses/waiting_attention_forward.png",
+      "bytes": 364753,
+      "sha256": "24e6888e71bd6154f8991ad2fd651acb3e4ea8400f759cf7e1f2130b248f7716",
+      "size": [
+        1024,
+        1024
+      ],
+      "bitDepth": 8,
+      "colorType": 6
+    },
+    {
+      "file": "waiting_enter_frame_003.png",
+      "source": "groups/waiting_enter/images/frames/waiting_enter_frame_003.png",
+      "bytes": 554106,
+      "sha256": "0d6c4ab39853152d74167e756f7411219201722d5fea99c77b671b0ecdabb1dc",
+      "size": [
+        1024,
+        1024
+      ],
+      "bitDepth": 8,
+      "colorType": 6
+    },
+    {
+      "file": "waiting_enter_frame_005_v2.png",
+      "source": "groups/waiting_enter/images/frames/waiting_enter_frame_005_v2.png",
+      "bytes": 607658,
+      "sha256": "e01f0a5c22533dd7ca548acbc6fe05515c85528d274929c23b47eb4f5e54c8dd",
+      "size": [
+        1024,
+        1024
+      ],
+      "bitDepth": 8,
+      "colorType": 6
+    }
+  ]
+}
