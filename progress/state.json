@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "baselineDate": "2026-10-19",
-  "note": "Baseline only. Before resuming inspect open PRs and web branches for newer checkpoints. Limited runtime trials are not formal acceptance.",
+  "note": "Baseline only. Before resuming inspect open PRs and web branches for newer checkpoints. Limited runtime trials are not formal acceptance. Each production branch updates only its own clip. Aggregate newer per-clip checkpoint across branches; never replace all 54 from another branch.",
   "groups": [
     {
       "clip": "idle",
@@ -18,16 +18,37 @@
     },
     {
       "clip": "blink",
-      "status": "candidate_complete_needs_review",
+      "status": "pending_local_review",
       "plannedFrames": 17,
       "candidateSlots": 17,
       "missingFrames": [],
       "webChecks": "not_accepted",
       "localAcceptance": false,
       "runtimeAcceptance": false,
-      "branch": null,
-      "pr": null,
-      "checkpoint": null
+      "branch": "web/blink-r01",
+      "pr": "https://github.com/carInHITSZ/codex-deskpet-assets/pull/2",
+      "checkpoint": "submissions/blink/r01/CHECKPOINT.json",
+      "note": "17 slots / 9 original sources, no PNG copies or accepted new art. Local dynamic visual review pending; Draft and web_sequence_checked=false.",
+      "technicalEvidence": {
+        "run": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39239051047",
+        "sourceSlotsPassed": 17,
+        "failed": 0,
+        "uniqueSources": 9,
+        "sourceReport": "submissions/blink/r01/qa/source-audit.json"
+      },
+      "browserEvidence": {
+        "run": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39239051047",
+        "threeSpeeds": [
+          1,
+          0.5,
+          0.25
+        ],
+        "threeRepetitionsEach": true,
+        "paintsPerSpeed": 51,
+        "allMechanicalOk": true,
+        "visualAccepted": false
+      },
+      "localReviewHandoff": "submissions/blink/r01/qa/local-review-handoff-20261019.md"
     },
     {
       "clip": "waiting_enter",

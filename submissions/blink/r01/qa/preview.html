@@ -1,0 +1,50 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"/><title>blink 17源候选真实浏览器播放，非美术验收</title>
+<style>body{font:14px system-ui;background:#181820;color:white;margin:24px}canvas{width:600px;max-width:80vw;border:1px solid gray}select,button{padding:8px}</style></head>
+<body><h2>霜序 blink — 候选源动画</h2>
+<p>从main的blink时间线读取17帧位，含预定义正反复用。未生成新图；机械播放不代表美术验收。</p>
+<select id="speed"><option value="1">100%</option><option value="0.5">50%</option><option value="0.25">25%</option></select>
+<select id="bg"><option value="#12121b">黑</option><option value="#ffffff">白</option><option value="#e2d5f4">淡紫</option></select>
+<button id="play">播放三遍</button><button id="stop">停止</button><span id="status">加载中</span>
+<div><canvas id="canvas" width="1024" height="1024"></canvas></div>
+<script>
+"use strict";
+const c=document.getElementById("canvas"),ctx=c.getContext("2d"),note=document.getElementById("status");
+let imgs=null,timeline=null,stop=false,lastFrame=0;
+const base="../../../../groups/blink/";
+async function loadFrames(){
+ if(imgs)return imgs;
+ timeline=await(await fetch(new URL(base+"current-timeline.json",location.href))).json();
+ imgs=await Promise.all(timeline.frames.map(async f=>{
+  const im=new Image();im.src=new URL(base+f.file,location.href).href;await im.decode();return im;
+ }));
+ note.textContent="真实解码"+imgs.length+"帧";return imgs;
+}
+function draw(i,bg){
+ ctx.fillStyle=bg||document.getElementById("bg").value;ctx.fillRect(0,0,1024,1024);
+ ctx.drawImage(imgs[i],0,0,1024,1024);lastFrame=i;note.textContent="帧"+i;
+}
+function wait(ms){return new Promise(r=>setTimeout(r,Math.max(0,ms)))}
+window.setBackdrop=async bg=>{await loadFrames();draw(lastFrame,bg)};
+window.playCycles=async(speed,cycles)=>{
+ if(![1,0.5,0.25].includes(speed)||cycles!==3)throw Error("invalid args");
+ await loadFrames();stop=false;
+ const interval=1000/timeline.fps/speed,total=17*cycles,t0=performance.now();
+ let count=0,late=0,gap=0,last=t0;const seq=[];
+ for(let i=0;i<total;i++){
+  if(stop)break;
+  await wait(t0+i*interval-performance.now());
+  let r=await new Promise(resolve=>requestAnimationFrame(()=>{
+   const now=performance.now(),f=i%17;draw(f);resolve({now,f});
+  }));
+  count++;seq.push(r.f);late=Math.max(late,r.now-(t0+i*interval));gap=Math.max(gap,r.now-last);last=r.now;
+ }
+ await wait(t0+total*interval-performance.now());
+ return {speed,cycles,decoded:imgs.length,paints:count,expectedPaints:total,
+ sequence:seq,elapsedMs:performance.now()-t0,maxLatenessMs:late,maxGapMs:gap,
+ aborted:stop,visuallyAccepted:false};
+};
+document.getElementById("play").onclick=()=>window.playCycles(Number(document.getElementById("speed").value),3);
+document.getElementById("stop").onclick=()=>{stop=true};
+document.getElementById("bg").onchange=e=>window.setBackdrop(e.target.value);
+loadFrames().then(()=>draw(0)).catch(e=>note.textContent="载入失败 "+String(e));
+</script></body></html>
