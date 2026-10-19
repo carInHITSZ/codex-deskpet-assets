@@ -2,8 +2,8 @@
   "type": "targeted_idle_r01_image_forensics",
   "originalFramesModified": false,
   "origin": "Actual committed 1024x1024 RGBA PNG files in production branch",
-  "sourceGitCommit": "bf5df32b7735a9b1d09ba52a1253cfd2b6d5e439",
-  "createdUtc": "2026-10-19T10:21:26.850844+00:00",
+  "sourceGitCommit": "b07a7347ffaa71b66efbc027aa1e7bda80a779b2",
+  "createdUtc": "2026-10-19T10:23:50.964375+00:00",
   "frameCount": 20,
   "method": "Pillow PNG decode; NumPy actual alpha and RGB; alpha composite over black/white/lilac; fixed-ROI pixel differences",
   "frames": [
@@ -1014,8 +1014,11 @@
   "notAcceptance": "No pixel statistic substitutes for actual artistically accepted motion, anatomy, or family joins.",
   "diagnosticImages": [
     "overview-black.png",
+    "overview-black-review.jpg",
     "overview-white.png",
+    "overview-white-review.jpg",
     "overview-lilac.png",
+    "overview-lilac-review.jpg",
     "feet-000-009.png",
     "feet-010-019.png"
   ]
