@@ -5,7 +5,7 @@
   "groups": [
     {
       "clip": "idle",
-      "status": "mechanical_playback_pass_visual_review_pending",
+      "status": "pending_local_review",
       "plannedFrames": 20,
       "candidateSlots": 20,
       "missingFrames": [],
@@ -15,7 +15,7 @@
       "branch": "web/idle-r01",
       "pr": "https://github.com/carInHITSZ/codex-deskpet-assets/pull/1",
       "checkpoint": "submissions/idle/r01/CHECKPOINT.json",
-      "note": "20 existing source candidates unchanged; targeted black/white/lilac composite and foot-ROI pixel forensics archived. Alpha<=2 beneath baseline (max black composite channel=1), no confirmed visible fragment to remove. Shoe X ROI proxy range 2.23/2.02px is NOT anatomical contact. Artistic 3-speed loop and family joins remain NOT_CHECKED; newly accepted redrawn frames 0.",
+      "note": "No confirmed failed frames or safe redraw this session. Local review handoff created; no new PNG. Keep Draft and not web_sequence_checked.",
       "technicalEvidence": {
         "run": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39231855426",
         "passed": 20,
@@ -40,7 +40,8 @@
         "fullArtAccepted": false,
         "contactLandmarksVerified": false,
         "loopArtistReviewed": false
-      }
+      },
+      "localReviewHandoff": "submissions/idle/r01/qa/local-review-handoff-20261019.md"
     },
     {
       "clip": "blink",
