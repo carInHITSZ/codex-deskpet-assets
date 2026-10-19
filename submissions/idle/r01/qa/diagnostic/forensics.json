@@ -1,0 +1,1022 @@
+{
+  "type": "targeted_idle_r01_image_forensics",
+  "originalFramesModified": false,
+  "origin": "Actual committed 1024x1024 RGBA PNG files in production branch",
+  "sourceGitCommit": "bf5df32b7735a9b1d09ba52a1253cfd2b6d5e439",
+  "createdUtc": "2026-10-19T10:21:26.850844+00:00",
+  "frameCount": 20,
+  "method": "Pillow PNG decode; NumPy actual alpha and RGB; alpha composite over black/white/lilac; fixed-ROI pixel differences",
+  "frames": [
+    {
+      "frame": 0,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 24,
+        "countAlphaGt8": 0,
+        "maxAlpha": 1,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 496.23,
+          "y": 895,
+          "pixelSupport": 35,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 527.12,
+          "y": 893,
+          "pixelSupport": 49,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          366,
+          256,
+          648,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 1,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 21,
+        "countAlphaGt8": 0,
+        "maxAlpha": 1,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 496.88,
+          "y": 894,
+          "pixelSupport": 49,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 527.43,
+          "y": 893,
+          "pixelSupport": 42,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          366,
+          254,
+          648,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 2,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 68,
+        "countAlphaGt8": 0,
+        "maxAlpha": 2,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 496.71,
+          "y": 894,
+          "pixelSupport": 56,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 528.31,
+          "y": 893,
+          "pixelSupport": 54,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          366,
+          254,
+          649,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 3,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 65,
+        "countAlphaGt8": 0,
+        "maxAlpha": 1,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 495.18,
+          "y": 894,
+          "pixelSupport": 51,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 526.4,
+          "y": 893,
+          "pixelSupport": 47,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          365,
+          253,
+          647,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 4,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 68,
+        "countAlphaGt8": 0,
+        "maxAlpha": 1,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 497.08,
+          "y": 894,
+          "pixelSupport": 52,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 527.94,
+          "y": 893,
+          "pixelSupport": 50,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          366,
+          255,
+          648,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 5,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 434,
+        "countAlphaGt8": 0,
+        "maxAlpha": 1,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 495.38,
+          "y": 894,
+          "pixelSupport": 52,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 526.64,
+          "y": 893,
+          "pixelSupport": 50,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          364,
+          255,
+          647,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 6,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 105,
+        "countAlphaGt8": 0,
+        "maxAlpha": 1,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 497.41,
+          "y": 894,
+          "pixelSupport": 54,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 528.42,
+          "y": 893,
+          "pixelSupport": 55,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          367,
+          254,
+          649,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 7,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 250,
+        "countAlphaGt8": 0,
+        "maxAlpha": 1,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 496.51,
+          "y": 894,
+          "pixelSupport": 53,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 527.36,
+          "y": 893,
+          "pixelSupport": 50,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          366,
+          254,
+          648,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 8,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 69,
+        "countAlphaGt8": 0,
+        "maxAlpha": 1,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 496.08,
+          "y": 894,
+          "pixelSupport": 52,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 527.09,
+          "y": 893,
+          "pixelSupport": 46,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          366,
+          256,
+          647,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 9,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 97,
+        "countAlphaGt8": 0,
+        "maxAlpha": 2,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 497.21,
+          "y": 895,
+          "pixelSupport": 34,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 528.11,
+          "y": 893,
+          "pixelSupport": 55,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          366,
+          255,
+          649,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 10,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 54,
+        "countAlphaGt8": 0,
+        "maxAlpha": 1,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 496.9,
+          "y": 894,
+          "pixelSupport": 51,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 527.87,
+          "y": 893,
+          "pixelSupport": 47,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          366,
+          254,
+          649,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 11,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 59,
+        "countAlphaGt8": 0,
+        "maxAlpha": 2,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 497.21,
+          "y": 895,
+          "pixelSupport": 34,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 527.35,
+          "y": 893,
+          "pixelSupport": 40,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          366,
+          253,
+          648,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 12,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 40,
+        "countAlphaGt8": 0,
+        "maxAlpha": 1,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 497.38,
+          "y": 894,
+          "pixelSupport": 52,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 527.57,
+          "y": 893,
+          "pixelSupport": 42,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          367,
+          255,
+          648,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 13,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 221,
+        "countAlphaGt8": 0,
+        "maxAlpha": 1,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 497.18,
+          "y": 894,
+          "pixelSupport": 51,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 527.98,
+          "y": 893,
+          "pixelSupport": 46,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          366,
+          254,
+          649,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 14,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 185,
+        "countAlphaGt8": 0,
+        "maxAlpha": 1,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 495.71,
+          "y": 894,
+          "pixelSupport": 56,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 526.59,
+          "y": 893,
+          "pixelSupport": 56,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          364,
+          254,
+          647,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 15,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 80,
+        "countAlphaGt8": 0,
+        "maxAlpha": 1,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 497.41,
+          "y": 894,
+          "pixelSupport": 54,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 528.29,
+          "y": 893,
+          "pixelSupport": 49,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          366,
+          255,
+          649,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 16,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 205,
+        "countAlphaGt8": 0,
+        "maxAlpha": 1,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 495.91,
+          "y": 894,
+          "pixelSupport": 57,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 527.11,
+          "y": 893,
+          "pixelSupport": 55,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          365,
+          255,
+          648,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 17,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 326,
+        "countAlphaGt8": 0,
+        "maxAlpha": 2,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 497.4,
+          "y": 894,
+          "pixelSupport": 50,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 528.22,
+          "y": 893,
+          "pixelSupport": 50,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          367,
+          254,
+          650,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 18,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 35,
+        "countAlphaGt8": 0,
+        "maxAlpha": 1,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 497.18,
+          "y": 894,
+          "pixelSupport": 51,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 527.67,
+          "y": 893,
+          "pixelSupport": 42,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          366,
+          253,
+          649,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    },
+    {
+      "frame": 19,
+      "rawAlphaBelowNominalBaseline": {
+        "countNonzero": 22,
+        "countAlphaGt8": 0,
+        "maxAlpha": 1,
+        "maxBlackCompositedChannel": 1,
+        "countBlackChannelGe16": 0,
+        "countChromaGe80AlphaGe2": 0
+      },
+      "separatedChromaSignal": {
+        "definition": "alpha>=2, raw RGB max-minus-min>=80, farther than 7 pixels from alpha>=32 core",
+        "pixelCount": 0,
+        "examples": []
+      },
+      "shoeBottomImageProxies": {
+        "image_left": {
+          "x": 495.82,
+          "y": 894,
+          "pixelSupport": 55,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        },
+        "image_right": {
+          "x": 526.71,
+          "y": 894,
+          "pixelSupport": 35,
+          "kind": "opaque_bottom_proxy_not_anatomical_contact"
+        }
+      },
+      "headSilhouetteProxy": {
+        "bbox": [
+          365,
+          254,
+          647,
+          475
+        ],
+        "scope": "region alpha>=32 bbox includes horns/hair; not a measured face landmark"
+      },
+      "formalAnatomicalContact": null,
+      "formalKeypointScalePct": null,
+      "visualAcceptance": "not_checked"
+    }
+  ],
+  "adjacentTransitions": [
+    {
+      "pair": "000->001",
+      "premultipliedRGBMeanAbsolute": 8.5934,
+      "maxChannel": 247,
+      "fractionPixelsChannelDeltaGt16": 0.165368,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    },
+    {
+      "pair": "001->002",
+      "premultipliedRGBMeanAbsolute": 4.3813,
+      "maxChannel": 209,
+      "fractionPixelsChannelDeltaGt16": 0.09553,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    },
+    {
+      "pair": "002->003",
+      "premultipliedRGBMeanAbsolute": 12.1108,
+      "maxChannel": 242,
+      "fractionPixelsChannelDeltaGt16": 0.229351,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    },
+    {
+      "pair": "003->004",
+      "premultipliedRGBMeanAbsolute": 11.4195,
+      "maxChannel": 239,
+      "fractionPixelsChannelDeltaGt16": 0.218858,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    },
+    {
+      "pair": "004->005",
+      "premultipliedRGBMeanAbsolute": 11.5824,
+      "maxChannel": 252,
+      "fractionPixelsChannelDeltaGt16": 0.219358,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    },
+    {
+      "pair": "005->006",
+      "premultipliedRGBMeanAbsolute": 12.9877,
+      "maxChannel": 252,
+      "fractionPixelsChannelDeltaGt16": 0.239006,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    },
+    {
+      "pair": "006->007",
+      "premultipliedRGBMeanAbsolute": 8.6963,
+      "maxChannel": 235,
+      "fractionPixelsChannelDeltaGt16": 0.182244,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    },
+    {
+      "pair": "007->008",
+      "premultipliedRGBMeanAbsolute": 4.6791,
+      "maxChannel": 217,
+      "fractionPixelsChannelDeltaGt16": 0.086967,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    },
+    {
+      "pair": "008->009",
+      "premultipliedRGBMeanAbsolute": 7.1737,
+      "maxChannel": 221,
+      "fractionPixelsChannelDeltaGt16": 0.154159,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    },
+    {
+      "pair": "009->010",
+      "premultipliedRGBMeanAbsolute": 6.024,
+      "maxChannel": 255,
+      "fractionPixelsChannelDeltaGt16": 0.117589,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    },
+    {
+      "pair": "010->011",
+      "premultipliedRGBMeanAbsolute": 5.175,
+      "maxChannel": 244,
+      "fractionPixelsChannelDeltaGt16": 0.106298,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    },
+    {
+      "pair": "011->012",
+      "premultipliedRGBMeanAbsolute": 5.7169,
+      "maxChannel": 238,
+      "fractionPixelsChannelDeltaGt16": 0.119036,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    },
+    {
+      "pair": "012->013",
+      "premultipliedRGBMeanAbsolute": 7.0048,
+      "maxChannel": 240,
+      "fractionPixelsChannelDeltaGt16": 0.134591,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    },
+    {
+      "pair": "013->014",
+      "premultipliedRGBMeanAbsolute": 11.6407,
+      "maxChannel": 250,
+      "fractionPixelsChannelDeltaGt16": 0.221941,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    },
+    {
+      "pair": "014->015",
+      "premultipliedRGBMeanAbsolute": 12.1794,
+      "maxChannel": 249,
+      "fractionPixelsChannelDeltaGt16": 0.228034,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    },
+    {
+      "pair": "015->016",
+      "premultipliedRGBMeanAbsolute": 11.3006,
+      "maxChannel": 253,
+      "fractionPixelsChannelDeltaGt16": 0.213658,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    },
+    {
+      "pair": "016->017",
+      "premultipliedRGBMeanAbsolute": 11.2779,
+      "maxChannel": 254,
+      "fractionPixelsChannelDeltaGt16": 0.213831,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    },
+    {
+      "pair": "017->018",
+      "premultipliedRGBMeanAbsolute": 5.5471,
+      "maxChannel": 251,
+      "fractionPixelsChannelDeltaGt16": 0.11347,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    },
+    {
+      "pair": "018->019",
+      "premultipliedRGBMeanAbsolute": 9.5334,
+      "maxChannel": 243,
+      "fractionPixelsChannelDeltaGt16": 0.19351,
+      "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels"
+    }
+  ],
+  "loopSeam": {
+    "pair": "019->000_loop_seam",
+    "premultipliedRGBMeanAbsolute": 9.4961,
+    "maxChannel": 249,
+    "fractionPixelsChannelDeltaGt16": 0.177286,
+    "scope": "fixed x252:776 y230:924; alpha-premultiplied source pixels",
+    "ratioToMedianAdjacentDelta": 1.092
+  },
+  "shoeRoiProxyRanges": {
+    "image_left": {
+      "rangeXpx": 2.23,
+      "rangeYpx": 1,
+      "interpretation": "segmentation ROI proxy only; not anatomical sole location"
+    },
+    "image_right": {
+      "rangeXpx": 2.02,
+      "rangeYpx": 1,
+      "interpretation": "segmentation ROI proxy only; not anatomical sole location"
+    }
+  },
+  "notChecked": [
+    "anatomical_left_and_right_foot_2px",
+    "manual_face_and_Codex_knot_topology_at_100pct",
+    "same_pose_human_keypoint_scale_1pct",
+    "actual_human_observed_three_speed_loop_visual_acceptance",
+    "family_idle_blink_waiting",
+    "local_DPI_multiscreen_runtime"
+  ],
+  "notAcceptance": "No pixel statistic substitutes for actual artistically accepted motion, anatomy, or family joins.",
+  "diagnosticImages": [
+    "overview-black.png",
+    "overview-white.png",
+    "overview-lilac.png",
+    "feet-000-009.png",
+    "feet-010-019.png"
+  ]
+}
