@@ -1,13 +1,28 @@
-# idle r01 – 已使用的来源与制作约束
+# idle r01 素材来源及重绘规则
 
-## 已暂存的真实素材
+## 实际来源 (全部为已有候选的Git blob原样复制)
 
-- 000: `groups/idle/images/initial/master_front.png`（标准帧）和 `assets/masters/masters/master_front.png`（原始母版），完整字节原样复用；Git blob `7e8b5e5a3f15bd83a5c5dd5da476dff0e073e611`.
-- 004: `groups/idle/images/poses/idle_inhale_start.png`（标准帧）和 `assets/masters/generation-only/poses/idle_inhale_start.png`（原始母版），完整字节原样复用；Git blob `e86326bc208bff2e92942a4220bfd9e43604e2f8`.
-- 008: `groups/idle/images/poses/idle_inhale_mid.png`（标准帧）和 `assets/masters/generation-only/poses/idle_inhale_mid.png`（原始母版），完整字节原样复用；Git blob `7ad6740c315b342aa7295c47841c66da572378fa`.
-- 012: `groups/idle/images/initial/idle_breath_peak.png`（标准帧）和 `assets/masters/masters/idle_breath_peak.png`（原始母版），完整字节原样复用；Git blob `5f57e3b726edc1bae97f6b64536acc45aa9f3dba`.
-- 016: `groups/idle/images/poses/idle_exhale_mid.png`（标准帧）和 `assets/masters/generation-only/poses/idle_exhale_mid.png`（原始母版），完整字节原样复用；Git blob `303c52149a703f1cd10ca3a9d4532f66a7ee15ab`.
+- 000: `groups/idle/images/initial/master_front.png` → `frames/idle/000.png` (blob 7e8b5e5a3f15bd83a5c5dd5da476dff0e073e611); 母版 `assets/masters/masters/master_front.png` → `masters/000_source.png` (blob 0222b97258034e3283d40fcfa90517cc46f46324)
+- 001: `groups/idle/images/frames/idle_frame_001.png` → `frames/idle/001.png` (blob c0a46f674ac44f913d0140b04c0288e34cb81f19); 母版 `assets/masters/generation-only/frames/idle_frame_001.png` → `masters/001_source.png` (blob ba0677f2e6a3a8ceebbcfcb7a627ee4fdf43615c)
+- 002: `groups/idle/images/frames/idle_frame_002.png` → `frames/idle/002.png` (blob ac400fa5f1755716ffdb7c39585a95d9e3eaa6ab); 母版 `assets/masters/generation-only/frames/idle_frame_002.png` → `masters/002_source.png` (blob aa6a22881fb290cfe21d9b32691b72be0a39d546)
+- 003: `groups/idle/images/frames/idle_frame_003_v2.png` → `frames/idle/003.png` (blob dc4fb423346244563841106daa269666212756f6); 母版 `assets/masters/generation-only/frames/idle_frame_003_v2.png` → `masters/003_source.png` (blob ab63a5fc4ad381a332429a276d4b523448158d57)
+- 004: `groups/idle/images/poses/idle_inhale_start.png` → `frames/idle/004.png` (blob e86326bc208bff2e92942a4220bfd9e43604e2f8); 母版 `assets/masters/generation-only/poses/idle_inhale_start.png` → `masters/004_source.png` (blob 5932cfa7d12b07da6a41326560d3da39fd35cc2f)
+- 005: `groups/idle/images/frames/idle_frame_005.png` → `frames/idle/005.png` (blob f9cb8f8563330d233bd06ee2e38872c4208eda8c); 母版 `assets/masters/generation-only/frames/idle_frame_005.png` → `masters/005_source.png` (blob 70e43e194fe0a3e9eba675c7790dba1395335f52)
+- 006: `groups/idle/images/frames/idle_frame_006.png` → `frames/idle/006.png` (blob e454d143f616501a3fcb2d68017120dbe4b8f1a4); 母版 `assets/masters/generation-only/frames/idle_frame_006.png` → `masters/006_source.png` (blob 023a4fb9fd87cede50dc32bc0eade49b561a8321)
+- 007: `groups/idle/images/frames/idle_frame_007_v2.png` → `frames/idle/007.png` (blob 4b33567b3c1344ea8eed8493eabacdf0cb5b76f4); 母版 `assets/masters/generation-only/frames/idle_frame_007_v2.png` → `masters/007_source.png` (blob 28c7d812d26e35462befdb68a55c05f708fde61d)
+- 008: `groups/idle/images/poses/idle_inhale_mid.png` → `frames/idle/008.png` (blob 7ad6740c315b342aa7295c47841c66da572378fa); 母版 `assets/masters/generation-only/poses/idle_inhale_mid.png` → `masters/008_source.png` (blob 03966ebdcf09fe64ec0863f0bbaf77f74e6c6854)
+- 009: `groups/idle/images/frames/idle_frame_009.png` → `frames/idle/009.png` (blob f2db0277740717f827ce08905af6b0d2d12a55c7); 母版 `assets/masters/generation-only/frames/idle_frame_009.png` → `masters/009_source.png` (blob 5bb8de00c2fc506c567d21650043b85ccd535e3c)
+- 010: `groups/idle/images/frames/idle_frame_010.png` → `frames/idle/010.png` (blob 87f0f449f648ee82eb22a04dac46cadbf4d3378a); 母版 `assets/masters/generation-only/frames/idle_frame_010.png` → `masters/010_source.png` (blob 3713dae40f6be9ce76f0c94a18ff06bacd5b4810)
+- 011: `groups/idle/images/frames/idle_frame_011.png` → `frames/idle/011.png` (blob 3397ee6fdf35956e82d01b5c889eb9edf628dc80); 母版 `assets/masters/generation-only/frames/idle_frame_011.png` → `masters/011_source.png` (blob 422c25acb76a4d48e0740453be528685d01938e7)
+- 012: `groups/idle/images/initial/idle_breath_peak.png` → `frames/idle/012.png` (blob 5f57e3b726edc1bae97f6b64536acc45aa9f3dba); 母版 `assets/masters/masters/idle_breath_peak.png` → `masters/012_source.png` (blob 25aa725b763963780385e597bdb57d5c18e856b2)
+- 013: `groups/idle/images/frames/idle_frame_013.png` → `frames/idle/013.png` (blob 0b7b2d185e9603f4f008a265767af3bc615a276b); 母版 `assets/masters/generation-only/frames/idle_frame_013.png` → `masters/013_source.png` (blob 76b0dd2143d53a47f664b9351dede48dc7dd8eb3)
+- 014: `groups/idle/images/frames/idle_frame_014.png` → `frames/idle/014.png` (blob b5d37d431469218a45edc551946e7e899ce4b8a9); 母版 `assets/masters/generation-only/frames/idle_frame_014.png` → `masters/014_source.png` (blob b29917d2f07f856bacabea9dbc5e68e127225d5d)
+- 015: `groups/idle/images/frames/idle_frame_015_v2.png` → `frames/idle/015.png` (blob 2d2a200477fc78cfb4235af4518dde0ac62b3ebf); 母版 `assets/masters/generation-only/frames/idle_frame_015_v2.png` → `masters/015_source.png` (blob e4521a8486900282efcd7d1ee6cc51c7f943c556)
+- 016: `groups/idle/images/poses/idle_exhale_mid.png` → `frames/idle/016.png` (blob 303c52149a703f1cd10ca3a9d4532f66a7ee15ab); 母版 `assets/masters/generation-only/poses/idle_exhale_mid.png` → `masters/016_source.png` (blob 753c6af24f4354dea549d3aea360540dad1be5c8)
+- 017: `groups/idle/images/frames/idle_frame_017.png` → `frames/idle/017.png` (blob 7d52469b0233c6b8970d67c571e7c9a17cb06554); 母版 `assets/masters/generation-only/frames/idle_frame_017.png` → `masters/017_source.png` (blob 8d653b713405827f8d6660c0726609d0522d29eb)
+- 018: `groups/idle/images/frames/idle_frame_018_v2.png` → `frames/idle/018.png` (blob 31d5248755b5afd9ad6b189fb75d5950be4aeb1f); 母版 `assets/masters/generation-only/frames/idle_frame_018_v2.png` → `masters/018_source.png` (blob 087f8ad2c574cbf6b1a98505674d10d9ea5cb04a)
+- 019: `groups/idle/images/frames/idle_frame_019.png` → `frames/idle/019.png` (blob 6e4d15f9a9d8b17e1814d5c2f666608f186cf611); 母版 `assets/masters/generation-only/frames/idle_frame_019.png` → `masters/019_source.png` (blob 3a42760144e05513d992e4f968a1e3eddf955705)
 
-## 约束
+## 后续制作规则
 
-执行 main/CONTINUE.md、STANDARD.md V3、CORRECTIONS.md、groups/idle/PROMPT.md 与 planned-frames.jsonl。角色必须保留白发紫瞳、两角两翼一尾、白紫服饰、Codex连续交织饰物（不可变花）。动画目标微弱呼吸，脚底接触锁定；12fps、20帧、循环；站姿名义锚点[512,896]，所有技术与视觉验收必须实测。新增生成样例不符合身份已拒收。
+按 main/CONTINUE.md、STANDARD.md V3、CORRECTIONS.md、groups/idle/PROMPT.md、planned-frames.jsonl。角色白发紫瞳、两角两翼一尾、白紫服饰，头侧为**Codex连续交织饰物（不是花）**。待机须微呼吸、固定双脚，头发/尾巴迟滞，12fps共20帧。标准PNG 1024² 8-bit RGBA，名义anchor=[512,896]，安全边距至少24px，不得直接低清放大/复制帧/叠化/自动紧裁。任何新画按身份先验收关键姿态再接入。上一张新生图不合格已拒收。

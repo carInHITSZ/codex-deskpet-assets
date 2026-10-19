@@ -1,9 +1,9 @@
-# idle r01 – 恢复检查点
+# idle r01 可恢复检查点
 
-- 分支：`web/idle-r01`；基线main：`eba7dd6478744b1e3820963b024c0302e2d05da8`。
-- 本次候选暂存：`0, 4, 8, 12, 16`；尚待暂存：`1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 14, 15, 17, 18, 19`。
-- 已确认来源缺帧：无。**已验收成品帧：0；整个动作未验收**。
-- 真实Git blob复制，未重绘；原母版另存不可覆盖旧源图。
-- 技术检查：仅以源元数据和关键姿态可视检查为限；Alpha完整测量与多速实播均未检查。
-- 阻塞：需全帧美术/Alpha QA、三档三轮实播、loop接口；本地接入验收另行完成。
-- 下一步：Stage the remaining 15 selected existing idle candidate PNGs and corresponding original masters with their exact source Git blob SHAs; run byte/header/alpha/margin validation, inspect all frames at three actual playback speeds, repair any verified defects before marking web_sequence_checked.
+- 分支：`web/idle-r01`；Draft PR：https://github.com/carInHITSZ/codex-deskpet-assets/pull/1
+- 当前实际暂存：20张候选标准PNG和20张原始母版，来自main已有素材的原样Git blob引用。
+- 真实新增且正式验收的高清独立绘制帧：**0**；当前来源缺帧：0。
+- 已检：20张候选PNG的文件头（全部1024x1024 RGBA8非交错）；可视检查静态关键帧5/20，未通过正式验收。
+- 未检：像素级真Alpha与边距、所有帧美术身份、三档三轮真实播放、循环缝和家族衔接、本地运行。
+- 本分支只能按clip合并进度，不能覆盖其他生产PR的状态。
+- 下一条具体操作：Run pixel-level PNG alpha/margin/halo QA for idle 000–019; visually inspect all frames against reference; repair rejected poses with locked character identity; actually play each of 100%,50%,25% for 3 full loops, inspect seam/contact and family exits; document measured outcomes before state advance.

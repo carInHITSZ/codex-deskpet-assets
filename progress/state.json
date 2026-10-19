@@ -5,16 +5,17 @@
   "groups": [
     {
       "clip": "idle",
-      "status": "candidate_complete_needs_review",
+      "status": "candidate_uploaded_needs_validation",
       "plannedFrames": 20,
       "candidateSlots": 20,
       "missingFrames": [],
       "webChecks": "not_accepted",
       "localAcceptance": false,
       "runtimeAcceptance": false,
-      "branch": null,
-      "pr": null,
-      "checkpoint": null
+      "branch": "web/idle-r01",
+      "pr": "https://github.com/carInHITSZ/codex-deskpet-assets/pull/1",
+      "checkpoint": "submissions/idle/r01/CHECKPOINT.json",
+      "note": "20 existing selected candidate PNGs staged with matching original masters. Technical header valid; no web visual/runtime acceptance."
     },
     {
       "clip": "blink",

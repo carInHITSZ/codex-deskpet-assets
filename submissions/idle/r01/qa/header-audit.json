@@ -1,0 +1,159 @@
+{
+  "clip": "idle",
+  "revision": "r01",
+  "checkedUtc": "2026-10-19T09:36:10.568Z",
+  "method": "All 20 source PNG bytes read via authorized GitHub fetch_file(base64), PNG IHDR decoded and checked manually by JS; copied blob SHAs tracked by GitHub directory listings",
+  "tested": 20,
+  "headerPass": 20,
+  "expected": {
+    "PNGsignature": true,
+    "width": 1024,
+    "height": 1024,
+    "bitDepth": 8,
+    "colorType": 6,
+    "interlace": 0
+  },
+  "trueAlphaPixelStats": "not_checked",
+  "files": [
+    {
+      "frame": 0,
+      "path": "frames/idle/000.png",
+      "sha": "7e8b5e5a3f15bd83a5c5dd5da476dff0e073e611",
+      "source": "groups/idle/images/initial/master_front.png",
+      "headerPass": true
+    },
+    {
+      "frame": 1,
+      "path": "frames/idle/001.png",
+      "sha": "c0a46f674ac44f913d0140b04c0288e34cb81f19",
+      "source": "groups/idle/images/frames/idle_frame_001.png",
+      "headerPass": true
+    },
+    {
+      "frame": 2,
+      "path": "frames/idle/002.png",
+      "sha": "ac400fa5f1755716ffdb7c39585a95d9e3eaa6ab",
+      "source": "groups/idle/images/frames/idle_frame_002.png",
+      "headerPass": true
+    },
+    {
+      "frame": 3,
+      "path": "frames/idle/003.png",
+      "sha": "dc4fb423346244563841106daa269666212756f6",
+      "source": "groups/idle/images/frames/idle_frame_003_v2.png",
+      "headerPass": true
+    },
+    {
+      "frame": 4,
+      "path": "frames/idle/004.png",
+      "sha": "e86326bc208bff2e92942a4220bfd9e43604e2f8",
+      "source": "groups/idle/images/poses/idle_inhale_start.png",
+      "headerPass": true
+    },
+    {
+      "frame": 5,
+      "path": "frames/idle/005.png",
+      "sha": "f9cb8f8563330d233bd06ee2e38872c4208eda8c",
+      "source": "groups/idle/images/frames/idle_frame_005.png",
+      "headerPass": true
+    },
+    {
+      "frame": 6,
+      "path": "frames/idle/006.png",
+      "sha": "e454d143f616501a3fcb2d68017120dbe4b8f1a4",
+      "source": "groups/idle/images/frames/idle_frame_006.png",
+      "headerPass": true
+    },
+    {
+      "frame": 7,
+      "path": "frames/idle/007.png",
+      "sha": "4b33567b3c1344ea8eed8493eabacdf0cb5b76f4",
+      "source": "groups/idle/images/frames/idle_frame_007_v2.png",
+      "headerPass": true
+    },
+    {
+      "frame": 8,
+      "path": "frames/idle/008.png",
+      "sha": "7ad6740c315b342aa7295c47841c66da572378fa",
+      "source": "groups/idle/images/poses/idle_inhale_mid.png",
+      "headerPass": true
+    },
+    {
+      "frame": 9,
+      "path": "frames/idle/009.png",
+      "sha": "f2db0277740717f827ce08905af6b0d2d12a55c7",
+      "source": "groups/idle/images/frames/idle_frame_009.png",
+      "headerPass": true
+    },
+    {
+      "frame": 10,
+      "path": "frames/idle/010.png",
+      "sha": "87f0f449f648ee82eb22a04dac46cadbf4d3378a",
+      "source": "groups/idle/images/frames/idle_frame_010.png",
+      "headerPass": true
+    },
+    {
+      "frame": 11,
+      "path": "frames/idle/011.png",
+      "sha": "3397ee6fdf35956e82d01b5c889eb9edf628dc80",
+      "source": "groups/idle/images/frames/idle_frame_011.png",
+      "headerPass": true
+    },
+    {
+      "frame": 12,
+      "path": "frames/idle/012.png",
+      "sha": "5f57e3b726edc1bae97f6b64536acc45aa9f3dba",
+      "source": "groups/idle/images/initial/idle_breath_peak.png",
+      "headerPass": true
+    },
+    {
+      "frame": 13,
+      "path": "frames/idle/013.png",
+      "sha": "0b7b2d185e9603f4f008a265767af3bc615a276b",
+      "source": "groups/idle/images/frames/idle_frame_013.png",
+      "headerPass": true
+    },
+    {
+      "frame": 14,
+      "path": "frames/idle/014.png",
+      "sha": "b5d37d431469218a45edc551946e7e899ce4b8a9",
+      "source": "groups/idle/images/frames/idle_frame_014.png",
+      "headerPass": true
+    },
+    {
+      "frame": 15,
+      "path": "frames/idle/015.png",
+      "sha": "2d2a200477fc78cfb4235af4518dde0ac62b3ebf",
+      "source": "groups/idle/images/frames/idle_frame_015_v2.png",
+      "headerPass": true
+    },
+    {
+      "frame": 16,
+      "path": "frames/idle/016.png",
+      "sha": "303c52149a703f1cd10ca3a9d4532f66a7ee15ab",
+      "source": "groups/idle/images/poses/idle_exhale_mid.png",
+      "headerPass": true
+    },
+    {
+      "frame": 17,
+      "path": "frames/idle/017.png",
+      "sha": "7d52469b0233c6b8970d67c571e7c9a17cb06554",
+      "source": "groups/idle/images/frames/idle_frame_017.png",
+      "headerPass": true
+    },
+    {
+      "frame": 18,
+      "path": "frames/idle/018.png",
+      "sha": "31d5248755b5afd9ad6b189fb75d5950be4aeb1f",
+      "source": "groups/idle/images/frames/idle_frame_018_v2.png",
+      "headerPass": true
+    },
+    {
+      "frame": 19,
+      "path": "frames/idle/019.png",
+      "sha": "6e4d15f9a9d8b17e1814d5c2f666608f186cf611",
+      "source": "groups/idle/images/frames/idle_frame_019.png",
+      "headerPass": true
+    }
+  ]
+}

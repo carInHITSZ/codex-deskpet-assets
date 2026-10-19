@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "clip": "idle",
   "revision": "r01",
-  "status": "candidate_staging_not_accepted",
+  "status": "candidate_uploaded_needs_validation",
   "standard": "shuangxu-v3",
   "loop": true,
   "motionOwner": "none",
@@ -11,36 +11,138 @@
     "model": null,
     "date": null
   },
-  "note": "All listed PNGs are exact, byte-preserving Git blob copies of existing selected candidates; no newly generated art is claimed. They are staged for inspection and not accepted.",
+  "provenance": "All 20 PNGs and 20 native masters are byte-identical copies of existing selected main-branch candidates. No new generated frame was accepted. A separate non-compliant generated sample was rejected.",
   "frames": [
     {
       "file": "frames/idle/000.png",
       "sourceFrame": 0,
       "durationMs": 83.333333,
       "assetId": "master_front",
-      "sourceCandidate": "groups/idle/images/initial/master_front.png",
+      "sourceFile": "groups/idle/images/initial/master_front.png",
       "sourceGitBlobSha": "7e8b5e5a3f15bd83a5c5dd5da476dff0e073e611",
+      "sourceBytes": 534966,
       "masterFile": "masters/000_source.png",
-      "masterSource": "assets/masters/masters/master_front.png",
+      "originalMaster": "assets/masters/masters/master_front.png",
       "masterGitBlobSha": "0222b97258034e3283d40fcfa90517cc46f46324",
+      "masterBytes": 1408485,
       "actualMasterSize": null,
       "actualExportSize": [
         1024,
         1024
       ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
       "anchorPx": [
         512,
         896
       ],
-      "anchorKind": "nominal_v3_not_measured",
+      "anchorIsNominal": true,
       "rootOffset": null,
       "contactPoints": {
-        "anatomicalLeftFoot": null,
-        "anatomicalRightFoot": null,
         "anatomicalLeftHand": null,
-        "anatomicalRightHand": null
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/initial/master_front.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/001.png",
+      "sourceFrame": 1,
+      "durationMs": 83.333333,
+      "assetId": "idle_frame_001",
+      "sourceFile": "groups/idle/images/frames/idle_frame_001.png",
+      "sourceGitBlobSha": "c0a46f674ac44f913d0140b04c0288e34cb81f19",
+      "sourceBytes": 549249,
+      "masterFile": "masters/001_source.png",
+      "originalMaster": "assets/masters/generation-only/frames/idle_frame_001.png",
+      "masterGitBlobSha": "ba0677f2e6a3a8ceebbcfcb7a627ee4fdf43615c",
+      "masterBytes": 1408873,
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorIsNominal": true,
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
+      },
+      "reusedFrom": "groups/idle/images/frames/idle_frame_001.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/002.png",
+      "sourceFrame": 2,
+      "durationMs": 83.333333,
+      "assetId": "idle_frame_002",
+      "sourceFile": "groups/idle/images/frames/idle_frame_002.png",
+      "sourceGitBlobSha": "ac400fa5f1755716ffdb7c39585a95d9e3eaa6ab",
+      "sourceBytes": 558540,
+      "masterFile": "masters/002_source.png",
+      "originalMaster": "assets/masters/generation-only/frames/idle_frame_002.png",
+      "masterGitBlobSha": "aa6a22881fb290cfe21d9b32691b72be0a39d546",
+      "masterBytes": 1435455,
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorIsNominal": true,
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
+      },
+      "reusedFrom": "groups/idle/images/frames/idle_frame_002.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/003.png",
+      "sourceFrame": 3,
+      "durationMs": 83.333333,
+      "assetId": "idle_frame_003_v2",
+      "sourceFile": "groups/idle/images/frames/idle_frame_003_v2.png",
+      "sourceGitBlobSha": "dc4fb423346244563841106daa269666212756f6",
+      "sourceBytes": 550138,
+      "masterFile": "masters/003_source.png",
+      "originalMaster": "assets/masters/generation-only/frames/idle_frame_003_v2.png",
+      "masterGitBlobSha": "ab63a5fc4ad381a332429a276d4b523448158d57",
+      "masterBytes": 1419186,
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorIsNominal": true,
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
+      },
+      "reusedFrom": "groups/idle/images/frames/idle_frame_003_v2.png",
       "scaleTranslationRecord": null
     },
     {
@@ -48,29 +150,131 @@
       "sourceFrame": 4,
       "durationMs": 83.333333,
       "assetId": "idle_inhale_start",
-      "sourceCandidate": "groups/idle/images/poses/idle_inhale_start.png",
+      "sourceFile": "groups/idle/images/poses/idle_inhale_start.png",
       "sourceGitBlobSha": "e86326bc208bff2e92942a4220bfd9e43604e2f8",
+      "sourceBytes": 555072,
       "masterFile": "masters/004_source.png",
-      "masterSource": "assets/masters/generation-only/poses/idle_inhale_start.png",
+      "originalMaster": "assets/masters/generation-only/poses/idle_inhale_start.png",
       "masterGitBlobSha": "5932cfa7d12b07da6a41326560d3da39fd35cc2f",
+      "masterBytes": 1427105,
       "actualMasterSize": null,
       "actualExportSize": [
         1024,
         1024
       ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
       "anchorPx": [
         512,
         896
       ],
-      "anchorKind": "nominal_v3_not_measured",
+      "anchorIsNominal": true,
       "rootOffset": null,
       "contactPoints": {
-        "anatomicalLeftFoot": null,
-        "anatomicalRightFoot": null,
         "anatomicalLeftHand": null,
-        "anatomicalRightHand": null
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/poses/idle_inhale_start.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/005.png",
+      "sourceFrame": 5,
+      "durationMs": 83.333333,
+      "assetId": "idle_frame_005",
+      "sourceFile": "groups/idle/images/frames/idle_frame_005.png",
+      "sourceGitBlobSha": "f9cb8f8563330d233bd06ee2e38872c4208eda8c",
+      "sourceBytes": 560203,
+      "masterFile": "masters/005_source.png",
+      "originalMaster": "assets/masters/generation-only/frames/idle_frame_005.png",
+      "masterGitBlobSha": "70e43e194fe0a3e9eba675c7790dba1395335f52",
+      "masterBytes": 1414671,
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorIsNominal": true,
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
+      },
+      "reusedFrom": "groups/idle/images/frames/idle_frame_005.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/006.png",
+      "sourceFrame": 6,
+      "durationMs": 83.333333,
+      "assetId": "idle_frame_006",
+      "sourceFile": "groups/idle/images/frames/idle_frame_006.png",
+      "sourceGitBlobSha": "e454d143f616501a3fcb2d68017120dbe4b8f1a4",
+      "sourceBytes": 552135,
+      "masterFile": "masters/006_source.png",
+      "originalMaster": "assets/masters/generation-only/frames/idle_frame_006.png",
+      "masterGitBlobSha": "023a4fb9fd87cede50dc32bc0eade49b561a8321",
+      "masterBytes": 1413184,
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorIsNominal": true,
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
+      },
+      "reusedFrom": "groups/idle/images/frames/idle_frame_006.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/007.png",
+      "sourceFrame": 7,
+      "durationMs": 83.333333,
+      "assetId": "idle_frame_007_v2",
+      "sourceFile": "groups/idle/images/frames/idle_frame_007_v2.png",
+      "sourceGitBlobSha": "4b33567b3c1344ea8eed8493eabacdf0cb5b76f4",
+      "sourceBytes": 563479,
+      "masterFile": "masters/007_source.png",
+      "originalMaster": "assets/masters/generation-only/frames/idle_frame_007_v2.png",
+      "masterGitBlobSha": "28c7d812d26e35462befdb68a55c05f708fde61d",
+      "masterBytes": 1448772,
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorIsNominal": true,
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
+      },
+      "reusedFrom": "groups/idle/images/frames/idle_frame_007_v2.png",
       "scaleTranslationRecord": null
     },
     {
@@ -78,29 +282,131 @@
       "sourceFrame": 8,
       "durationMs": 83.333333,
       "assetId": "idle_inhale_mid",
-      "sourceCandidate": "groups/idle/images/poses/idle_inhale_mid.png",
+      "sourceFile": "groups/idle/images/poses/idle_inhale_mid.png",
       "sourceGitBlobSha": "7ad6740c315b342aa7295c47841c66da572378fa",
+      "sourceBytes": 546816,
       "masterFile": "masters/008_source.png",
-      "masterSource": "assets/masters/generation-only/poses/idle_inhale_mid.png",
+      "originalMaster": "assets/masters/generation-only/poses/idle_inhale_mid.png",
       "masterGitBlobSha": "03966ebdcf09fe64ec0863f0bbaf77f74e6c6854",
+      "masterBytes": 1399702,
       "actualMasterSize": null,
       "actualExportSize": [
         1024,
         1024
       ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
       "anchorPx": [
         512,
         896
       ],
-      "anchorKind": "nominal_v3_not_measured",
+      "anchorIsNominal": true,
       "rootOffset": null,
       "contactPoints": {
-        "anatomicalLeftFoot": null,
-        "anatomicalRightFoot": null,
         "anatomicalLeftHand": null,
-        "anatomicalRightHand": null
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/poses/idle_inhale_mid.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/009.png",
+      "sourceFrame": 9,
+      "durationMs": 83.333333,
+      "assetId": "idle_frame_009",
+      "sourceFile": "groups/idle/images/frames/idle_frame_009.png",
+      "sourceGitBlobSha": "f2db0277740717f827ce08905af6b0d2d12a55c7",
+      "sourceBytes": 547785,
+      "masterFile": "masters/009_source.png",
+      "originalMaster": "assets/masters/generation-only/frames/idle_frame_009.png",
+      "masterGitBlobSha": "5bb8de00c2fc506c567d21650043b85ccd535e3c",
+      "masterBytes": 1403236,
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorIsNominal": true,
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
+      },
+      "reusedFrom": "groups/idle/images/frames/idle_frame_009.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/010.png",
+      "sourceFrame": 10,
+      "durationMs": 83.333333,
+      "assetId": "idle_frame_010",
+      "sourceFile": "groups/idle/images/frames/idle_frame_010.png",
+      "sourceGitBlobSha": "87f0f449f648ee82eb22a04dac46cadbf4d3378a",
+      "sourceBytes": 551205,
+      "masterFile": "masters/010_source.png",
+      "originalMaster": "assets/masters/generation-only/frames/idle_frame_010.png",
+      "masterGitBlobSha": "3713dae40f6be9ce76f0c94a18ff06bacd5b4810",
+      "masterBytes": 1415056,
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorIsNominal": true,
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
+      },
+      "reusedFrom": "groups/idle/images/frames/idle_frame_010.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/011.png",
+      "sourceFrame": 11,
+      "durationMs": 83.333333,
+      "assetId": "idle_frame_011",
+      "sourceFile": "groups/idle/images/frames/idle_frame_011.png",
+      "sourceGitBlobSha": "3397ee6fdf35956e82d01b5c889eb9edf628dc80",
+      "sourceBytes": 547574,
+      "masterFile": "masters/011_source.png",
+      "originalMaster": "assets/masters/generation-only/frames/idle_frame_011.png",
+      "masterGitBlobSha": "422c25acb76a4d48e0740453be528685d01938e7",
+      "masterBytes": 1403282,
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorIsNominal": true,
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
+      },
+      "reusedFrom": "groups/idle/images/frames/idle_frame_011.png",
       "scaleTranslationRecord": null
     },
     {
@@ -108,29 +414,131 @@
       "sourceFrame": 12,
       "durationMs": 83.333333,
       "assetId": "idle_breath_peak",
-      "sourceCandidate": "groups/idle/images/initial/idle_breath_peak.png",
+      "sourceFile": "groups/idle/images/initial/idle_breath_peak.png",
       "sourceGitBlobSha": "5f57e3b726edc1bae97f6b64536acc45aa9f3dba",
+      "sourceBytes": 540349,
       "masterFile": "masters/012_source.png",
-      "masterSource": "assets/masters/masters/idle_breath_peak.png",
+      "originalMaster": "assets/masters/masters/idle_breath_peak.png",
       "masterGitBlobSha": "25aa725b763963780385e597bdb57d5c18e856b2",
+      "masterBytes": 1402551,
       "actualMasterSize": null,
       "actualExportSize": [
         1024,
         1024
       ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
       "anchorPx": [
         512,
         896
       ],
-      "anchorKind": "nominal_v3_not_measured",
+      "anchorIsNominal": true,
       "rootOffset": null,
       "contactPoints": {
-        "anatomicalLeftFoot": null,
-        "anatomicalRightFoot": null,
         "anatomicalLeftHand": null,
-        "anatomicalRightHand": null
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/initial/idle_breath_peak.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/013.png",
+      "sourceFrame": 13,
+      "durationMs": 83.333333,
+      "assetId": "idle_frame_013",
+      "sourceFile": "groups/idle/images/frames/idle_frame_013.png",
+      "sourceGitBlobSha": "0b7b2d185e9603f4f008a265767af3bc615a276b",
+      "sourceBytes": 560721,
+      "masterFile": "masters/013_source.png",
+      "originalMaster": "assets/masters/generation-only/frames/idle_frame_013.png",
+      "masterGitBlobSha": "76b0dd2143d53a47f664b9351dede48dc7dd8eb3",
+      "masterBytes": 1432546,
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorIsNominal": true,
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
+      },
+      "reusedFrom": "groups/idle/images/frames/idle_frame_013.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/014.png",
+      "sourceFrame": 14,
+      "durationMs": 83.333333,
+      "assetId": "idle_frame_014",
+      "sourceFile": "groups/idle/images/frames/idle_frame_014.png",
+      "sourceGitBlobSha": "b5d37d431469218a45edc551946e7e899ce4b8a9",
+      "sourceBytes": 559009,
+      "masterFile": "masters/014_source.png",
+      "originalMaster": "assets/masters/generation-only/frames/idle_frame_014.png",
+      "masterGitBlobSha": "b29917d2f07f856bacabea9dbc5e68e127225d5d",
+      "masterBytes": 1421152,
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorIsNominal": true,
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
+      },
+      "reusedFrom": "groups/idle/images/frames/idle_frame_014.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/015.png",
+      "sourceFrame": 15,
+      "durationMs": 83.333333,
+      "assetId": "idle_frame_015_v2",
+      "sourceFile": "groups/idle/images/frames/idle_frame_015_v2.png",
+      "sourceGitBlobSha": "2d2a200477fc78cfb4235af4518dde0ac62b3ebf",
+      "sourceBytes": 550195,
+      "masterFile": "masters/015_source.png",
+      "originalMaster": "assets/masters/generation-only/frames/idle_frame_015_v2.png",
+      "masterGitBlobSha": "e4521a8486900282efcd7d1ee6cc51c7f943c556",
+      "masterBytes": 1409864,
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorIsNominal": true,
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
+      },
+      "reusedFrom": "groups/idle/images/frames/idle_frame_015_v2.png",
       "scaleTranslationRecord": null
     },
     {
@@ -138,29 +546,131 @@
       "sourceFrame": 16,
       "durationMs": 83.333333,
       "assetId": "idle_exhale_mid",
-      "sourceCandidate": "groups/idle/images/poses/idle_exhale_mid.png",
+      "sourceFile": "groups/idle/images/poses/idle_exhale_mid.png",
       "sourceGitBlobSha": "303c52149a703f1cd10ca3a9d4532f66a7ee15ab",
+      "sourceBytes": 543191,
       "masterFile": "masters/016_source.png",
-      "masterSource": "assets/masters/generation-only/poses/idle_exhale_mid.png",
+      "originalMaster": "assets/masters/generation-only/poses/idle_exhale_mid.png",
       "masterGitBlobSha": "753c6af24f4354dea549d3aea360540dad1be5c8",
+      "masterBytes": 1398014,
       "actualMasterSize": null,
       "actualExportSize": [
         1024,
         1024
       ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
       "anchorPx": [
         512,
         896
       ],
-      "anchorKind": "nominal_v3_not_measured",
+      "anchorIsNominal": true,
       "rootOffset": null,
       "contactPoints": {
-        "anatomicalLeftFoot": null,
-        "anatomicalRightFoot": null,
         "anatomicalLeftHand": null,
-        "anatomicalRightHand": null
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/poses/idle_exhale_mid.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/017.png",
+      "sourceFrame": 17,
+      "durationMs": 83.333333,
+      "assetId": "idle_frame_017",
+      "sourceFile": "groups/idle/images/frames/idle_frame_017.png",
+      "sourceGitBlobSha": "7d52469b0233c6b8970d67c571e7c9a17cb06554",
+      "sourceBytes": 554051,
+      "masterFile": "masters/017_source.png",
+      "originalMaster": "assets/masters/generation-only/frames/idle_frame_017.png",
+      "masterGitBlobSha": "8d653b713405827f8d6660c0726609d0522d29eb",
+      "masterBytes": 1419100,
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorIsNominal": true,
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
+      },
+      "reusedFrom": "groups/idle/images/frames/idle_frame_017.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/018.png",
+      "sourceFrame": 18,
+      "durationMs": 83.333333,
+      "assetId": "idle_frame_018_v2",
+      "sourceFile": "groups/idle/images/frames/idle_frame_018_v2.png",
+      "sourceGitBlobSha": "31d5248755b5afd9ad6b189fb75d5950be4aeb1f",
+      "sourceBytes": 552903,
+      "masterFile": "masters/018_source.png",
+      "originalMaster": "assets/masters/generation-only/frames/idle_frame_018_v2.png",
+      "masterGitBlobSha": "087f8ad2c574cbf6b1a98505674d10d9ea5cb04a",
+      "masterBytes": 1413549,
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorIsNominal": true,
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
+      },
+      "reusedFrom": "groups/idle/images/frames/idle_frame_018_v2.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/019.png",
+      "sourceFrame": 19,
+      "durationMs": 83.333333,
+      "assetId": "idle_frame_019",
+      "sourceFile": "groups/idle/images/frames/idle_frame_019.png",
+      "sourceGitBlobSha": "6e4d15f9a9d8b17e1814d5c2f666608f186cf611",
+      "sourceBytes": 553559,
+      "masterFile": "masters/019_source.png",
+      "originalMaster": "assets/masters/generation-only/frames/idle_frame_019.png",
+      "masterGitBlobSha": "3a42760144e05513d992e4f968a1e3eddf955705",
+      "masterBytes": 1418139,
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "exportHeaderVerified": "PNG_RGBA8_noninterlaced",
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorIsNominal": true,
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null,
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null
+      },
+      "reusedFrom": "groups/idle/images/frames/idle_frame_019.png",
       "scaleTranslationRecord": null
     }
   ],
@@ -169,8 +679,9 @@
     "speed100ThreeRuns": "not_checked",
     "speed050ThreeRuns": "not_checked",
     "speed025ThreeRuns": "not_checked",
-    "alpha": "not_checked",
-    "identityAndCodexEmblem": "partially_viewed_keyposes_no_acceptance",
+    "alpha": "not_checked_pixels",
+    "header": "checked_20_of_20_RGBA8",
+    "identityAndCodexEmblem": "partial_keypose_view_5_of_20_no_acceptance",
     "contactAndScale": "not_checked",
     "loopAndTransitions": "not_checked",
     "report": "qa/web-report.md"

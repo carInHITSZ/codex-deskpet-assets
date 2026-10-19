@@ -1,26 +1,28 @@
-# idle r01 – 网页检查记录（阶段性）
+# idle r01 网页端生产检查报告
 
-- 记录时间 UTC：2026-10-19T09:26:46.739Z
-- 来源：GitHub 授权连接器读取 main 最新时间线与真实候选PNG；原图按Git blob SHA无损引用到本PR。
-- 当前只暂存关键帧：000、004、008、012、016。合格完成帧：**0**；不按暂存计验收。
-- 已实际查看5张关键姿态：保持白紫配色、两角/双翼/单尾和头侧交织饰物的基本外观；这不代表已审核完所有帧、边缘或序列。
-- 历史 qa/browser-playback-records.json 含 idle 三档各三轮记录，但 visualAccepted=false；是历史运行记录，不是本次新的美术验收。
-- 本次曾调用图像生成得到一张1254×1254 RGBA候选（SHA256 7e1b0c1692d7698290f04fb6f45fcb73681f896246e34b85dfea1ab797e4c272）；该候选因角色比例/服饰/翼幅与主基准显著漂移被**拒收且未写入本PR的成品目录**。
-- 已知源图存在可疑亮色边缘点的视觉迹象，需要在黑白紫背景逐张复核；不能据此伪称通过或已完成返修。
+更新时间 UTC：2026-10-19T09:36:10.568Z
 
-## 实际检查状态
+## 实际成果
 
-| 项目 | 本次结果 | 依据 |
-|---|---|---|
-| 授权账号、可读main | checked | 认证 carInHITSZ；main eba7dd6478744b1e3820963b024c0302e2d05da8 |
-| PNG二进制写入API | checked | create_blob(base64) 返回与原样本相同的 Git blob SHA 7e8b5e5a3f15bd83a5c5dd5da476dff0e073e611 |
-| 关键姿态可视检查 | partial | 已看 000/004/008/012/016，未验收 |
-| 原始母版尺寸/真Alpha像素统计 | not_checked | 尚未有独立像素解码测量 |
-| 100% 三轮实际播放 | not_checked | 本次没有执行 |
-| 50% 三轮实际播放 | not_checked | 本次没有执行 |
-| 25% 三轮实际播放 | not_checked | 本次没有执行 |
-| 循环首尾及衔接 | not_checked | 需真实动画检查 |
-| 家族衔接 | not_checked | 需要另行验证 |
-| 本地播放器与DPI/多屏 | not_checked | 无本地项目运行证据 |
+- 已远端暂存20/20张现有候选PNG、20/20份对应原始母版；均为Git blob字节级原样引用，没有把复制文件记成新绘。
+- 实际通过GitHub读取全部20张PNG的base64并解析文件IHDR：20/20拥有PNG签名、1024×1024、8bit RGBA(color type 6)、non-interlaced。**仅验证文件头，尚未逐像素解码Alpha/边界**。
+- 本次实际查看静态关键帧000、004、008、012、016，对基本白紫身份、双翼两角尾巴和交织饰物进行了部分观察；其余15帧未独立视觉复核。
+- 单独使用生成工具得到1254×1254 RGBA新尝试，SHA256 `7e1b0c1692d7698290f04fb6f45fcb73681f896246e34b85dfea1ab797e4c272`，因脸型/头身、服饰和翼展偏离主基准，**拒收并未添加到提交**。
+- qa/browser-playback-records.json是仓库旧记录（其中idle visualAccepted=false），不是本会话实际完成的三速美术检查。
 
-后续先暂存其余15帧并机器检查，再按帧逐个视觉复核、修复，执行实际播放。不可把当前阶段性副本作为新的独立生图，也不可标记web_sequence_checked。
+| 检查 | 结果 |
+|---|---|
+| 已授权GitHub访问/创建二进制blob/远端提交 | checked |
+| 20张候选PNG签名、尺寸、RGBA8、非交错 | checked |
+| 像素级Alpha范围/占比/实际边距与色边 | not_checked |
+| 全20张角色身份/挂饰/肢体 | partial (only 000,004,008,012,016 viewed) |
+| 真实双脚接触偏差≤2px与骨架比例≤1% | not_checked |
+| 100%播放3轮并观察 | not_checked |
+| 50%播放3轮并观察 | not_checked |
+| 25%播放3轮并观察 | not_checked |
+| 循环缝/进入退出/家族衔接 | not_checked |
+| 本地桌宠运行/DPI多屏 | not_checked |
+
+**当前状态：candidate_uploaded_needs_validation；完成验收帧数0。** 不满足web_sequence_checked门槛，不得视为local_accepted/runtime_ready。
+
+下一步：Run pixel-level PNG alpha/margin/halo QA for idle 000–019; visually inspect all frames against reference; repair rejected poses with locked character identity; actually play each of 100%,50%,25% for 3 full loops, inspect seam/contact and family exits; document measured outcomes before state advance.
