@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-18",
+  "clip": "failed",
+  "reason": "原始 spritesheet 第5行第4–6格包含抱膝缩坐，V2阶段只写低头而漏掉该动作。恢复原动作，保持37帧制作预算。",
+  "reference": "reference/original_actions_reference.png",
+  "keypose": "assets/normalized/images/poses/failed_curled_seated_v2.png",
+  "stages": [
+    "自然站立",
+    "目光下移并低头",
+    "屈膝重心下沉",
+    "臀部接近地面并收拢双膝",
+    "坐下抱膝并低头停顿",
+    "松开抱膝手臂准备起身",
+    "双脚建立支撑身体前移",
+    "双膝伸展站起头仍轻低",
+    "头肩回正双手恢复",
+    "自然站立"
+  ],
+  "constraints": "恢复原抱膝形态；衣服覆盖与人体结构不变，尾巴不穿腿。坐下和起身真实改变髋膝角度，不缩放站姿。脚底或坐骨接触需逐帧测量，恢复站姿后对齐主基准。Codex挂饰不是花朵。",
+  "status": "requirements_corrected_keypose_generated_inbetweens_pending"
+}
