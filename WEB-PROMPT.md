@@ -1,5 +1,7 @@
 # 可复制到网页端的提示词
 
+跨新会话自动续接全部动作请改用 [SESSION-PROMPT.md](SESSION-PROMPT.md) 与 [CONTINUE.md](CONTINUE.md)。以下保留为单组手动任务模式；指定idle不是自动队列的固定起点。
+
 将下面的 `idle` 改成目标动作组标识；第一次建议使用idle。若网页工具无法联网读图，GitHub公开并不能绕过这个能力限制，请改为只上传主基准和相邻关键帧。
 
 ```text

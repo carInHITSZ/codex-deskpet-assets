@@ -1,5 +1,9 @@
 # 霜序高清桌宠：网页生图资料
 
+## 新会话自动续接
+
+每次新网页会话复制同一份 [SESSION-PROMPT.md](SESSION-PROMPT.md)。会话按[持续制作协议](CONTINUE.md)读取[进度](progress/state.json)、[队列](progress/QUEUE.json)及未合并生产PR，自动选择下一项。实际图片逐小段提交到web/分支，不等待整套完成；网页检查与本地验收分开，main由复核后合并。
+
 本仓库用于角色高清素材的分组制作、返修和验证。图片可通过GitHub或raw链接公开读取；不代表网页模型必然能够联网浏览或下载图片。
 
 - [动作组索引](GROUPS.md)
