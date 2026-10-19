@@ -1,0 +1,69 @@
+{
+  "reviewedUtc": "2026-10-19T03:31:23.465531+00:00",
+  "candidateSlots": 54,
+  "generatedInbetweenSlots": 39,
+  "accepted": false,
+  "reports": {
+    "waiting_enter": {
+      "status": "technical_trial_geometry_review_only",
+      "frames": 17,
+      "maximumEstimatedFootShiftPx": 32.91760362898774,
+      "footTargetPx": 2,
+      "headOuterWidthVariationRatio": 0.3797216699801193,
+      "headTargetRatio": 0.01,
+      "maximumBodyMeanAbsoluteDifferenceOnWhite": 34.29512027247931,
+      "allTransparent": true,
+      "allExportedSize1024": true,
+      "accepted": false,
+      "notes": [
+        "Same fixed scale/translation for all frames; no per-frame bounding-box fitting.",
+        "Foot contacts and head width are silhouette proxies, not full anatomical certification.",
+        "Waiting head tilt, torso lean, gaze order, breathing and settling, costume continuity, colors, horn heights, alpha edges and loop playback still require review."
+      ],
+      "geometryProxyMetricsPassed": false
+    },
+    "waiting_loop": {
+      "status": "technical_trial_geometry_review_only",
+      "frames": 20,
+      "maximumEstimatedFootShiftPx": 1.392515230635335,
+      "footTargetPx": 2,
+      "headOuterWidthVariationRatio": 0.02462121212121212,
+      "headTargetRatio": 0.01,
+      "maximumBodyMeanAbsoluteDifferenceOnWhite": 36.87154503098815,
+      "allTransparent": true,
+      "allExportedSize1024": true,
+      "accepted": false,
+      "notes": [
+        "Same fixed scale/translation for all frames; no per-frame bounding-box fitting.",
+        "Foot contacts and head width are silhouette proxies, not full anatomical certification.",
+        "Waiting head tilt, torso lean, gaze order, breathing and settling, costume continuity, colors, horn heights, alpha edges and loop playback still require review."
+      ],
+      "geometryProxyMetricsPassed": false
+    },
+    "waiting_exit": {
+      "status": "technical_trial_geometry_review_only",
+      "frames": 17,
+      "maximumEstimatedFootShiftPx": 45.37976158696661,
+      "footTargetPx": 2,
+      "headOuterWidthVariationRatio": 0.36174242424242425,
+      "headTargetRatio": 0.01,
+      "maximumBodyMeanAbsoluteDifferenceOnWhite": 33.92626682936145,
+      "allTransparent": true,
+      "allExportedSize1024": true,
+      "accepted": false,
+      "notes": [
+        "Same fixed scale/translation for all frames; no per-frame bounding-box fitting.",
+        "Foot contacts and head width are silhouette proxies, not full anatomical certification.",
+        "Waiting head tilt, torso lean, gaze order, breathing and settling, costume continuity, colors, horn heights, alpha edges and loop playback still require review."
+      ],
+      "geometryProxyMetricsPassed": false
+    }
+  },
+  "notes": [
+    "Five exaggerated initial tilt drawings were excluded and regenerated using actual pose-pair references.",
+    "Native framing differences remain. Fixed-transform trials do not certify final body registration.",
+    "Waiting-loop foot proxy is below 2px; head-width proxy exceeds 1%. Neither result certifies anatomy.",
+    "Eye-return ordering, subtle head tilt progression, costume continuity and three-speed playback still need review.",
+    "QA playback pages and 1024px trial frames are not final delivery assets."
+  ]
+}

@@ -29,3 +29,7 @@
 返回 gaze_enter_090_r01.zip（后续r02递增）。内部必须有manifest.json、frames/gaze_enter_090/000.png等独立透明PNG、masters/原始母版、qa/检查报告和预览、prompts.md。
 manifest逐帧记录file、sourceFrame、durationMs、实际尺寸、anchorPx、rootOffset、motionOwner、contactPoints、复用来源；无法测量用null。记录修稿及生成工具实际输出，不把提示词尺寸当实测。
 网页通过只标记web_sequence_checked，runtime_ready由本地复核决定。
+
+## 补充权威资料
+
+全组制作前读取[规范](../../STANDARD.md)、[资产索引](../../assets/catalog.json)、[辅助参考](../../reference/auxiliary-coverage.json)、[质量记录](../../qa/)与[交付模板](../../templates/submission-manifest.json)。资产索引路径均相对仓库根目录。

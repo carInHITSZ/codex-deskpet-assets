@@ -8,7 +8,7 @@
 公开资料仓库：
 https://github.com/carInHITSZ/codex-deskpet-assets
 
-请先实际访问以下资料，不要只根据链接名称推测内容：
+请先实际访问以下资料，不要只根据链接名称推测内容。规范优先级：CORRECTIONS及具体更正记录 > STANDARD V3 > 本组指令 > 历史计划。
 规范：https://raw.githubusercontent.com/carInHITSZ/codex-deskpet-assets/main/STANDARD.md
 动作索引：https://raw.githubusercontent.com/carInHITSZ/codex-deskpet-assets/main/GROUPS.md
 本组指令：https://raw.githubusercontent.com/carInHITSZ/codex-deskpet-assets/main/groups/idle/PROMPT.md
@@ -16,9 +16,17 @@ https://github.com/carInHITSZ/codex-deskpet-assets
 本组时间线：https://raw.githubusercontent.com/carInHITSZ/codex-deskpet-assets/main/groups/idle/current-timeline.json
 角色主基准：https://raw.githubusercontent.com/carInHITSZ/codex-deskpet-assets/main/reference/master_front_1024.png
 生成母版：https://raw.githubusercontent.com/carInHITSZ/codex-deskpet-assets/main/reference/master_front_original.png
+完整性核对：https://raw.githubusercontent.com/carInHITSZ/codex-deskpet-assets/main/AUDIT.json
+更正规则：https://raw.githubusercontent.com/carInHITSZ/codex-deskpet-assets/main/CORRECTIONS.md
+选定资产与母版索引：https://raw.githubusercontent.com/carInHITSZ/codex-deskpet-assets/main/assets/catalog.json
+辅助参考：https://raw.githubusercontent.com/carInHITSZ/codex-deskpet-assets/main/reference/auxiliary-coverage.json
+质量与缺口记录：https://github.com/carInHITSZ/codex-deskpet-assets/tree/main/qa
+交付要求：https://raw.githubusercontent.com/carInHITSZ/codex-deskpet-assets/main/RETURN-CHECKLIST.md
+交付模板：https://raw.githubusercontent.com/carInHITSZ/codex-deskpet-assets/main/templates/submission-manifest.json
+失落抱膝更正：https://raw.githubusercontent.com/carInHITSZ/codex-deskpet-assets/main/corrections/failed-motion-correction.json
 
 先报告实际读取结果、本组已有候选数量、缺帧号和需返修项。
-时间线中的file相对于groups/idle/目录。按该路径读取真实PNG，联系表不能代替逐帧参考。
+时间线中的file相对于groups/idle/目录。按该路径读取真实PNG，联系表不能代替逐帧参考。资产索引路径相对仓库根目录，按本组需要读取多视图、手部、表情、道具或翼结构，不一次下载全库。计划目标路径不代表已交付文件；3项程序校准图仍无来源。先读取对应qa记录，针对已知问题返修。
 如果不能联网访问图片、不能将下载图片用作生图参考，立即说明并列出需要我手动上传的最少文件，不能声称已经看过。
 
 V3规范优先。全部输出高清重绘，保持唯一角色基准：白发紫瞳、两角两翼一尾、原白紫服饰；头侧挂饰必须是Codex交织图标，绝不是花朵。

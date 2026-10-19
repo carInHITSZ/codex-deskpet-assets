@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "clip": "idle",
+  "revision": "r01",
+  "status": "generated_candidate",
+  "standard": "shuangxu-v3",
+  "loop": true,
+  "motionOwner": "none",
+  "generator": {"tool": null, "model": null, "date": null},
+  "frames": [
+    {
+      "file": "frames/idle/000.png",
+      "sourceFrame": 0,
+      "durationMs": 83.333333,
+      "masterFile": null,
+      "actualMasterSize": null,
+      "actualExportSize": null,
+      "anchorPx": null,
+      "rootOffset": null,
+      "contactPoints": {"anatomicalLeftFoot": null, "anatomicalRightFoot": null, "anatomicalLeftHand": null, "anatomicalRightHand": null},
+      "reusedFrom": null,
+      "scaleTranslationRecord": null
+    }
+  ],
+  "webChecks": {
+    "actualPlayback": "not_checked",
+    "speed100ThreeRuns": "not_checked",
+    "speed050ThreeRuns": "not_checked",
+    "speed025ThreeRuns": "not_checked",
+    "alpha": "not_checked",
+    "identityAndCodexEmblem": "not_checked",
+    "contactAndScale": "not_checked",
+    "loopAndTransitions": "not_checked",
+    "report": "qa/web-report.md"
+  }
+}

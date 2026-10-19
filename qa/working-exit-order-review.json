@@ -1,0 +1,18 @@
+{
+  "records": [
+    {
+      "source": "working_exit_frame_013.png",
+      "originalFrame": 13,
+      "assignedFrame": 14
+    },
+    {
+      "source": "working_exit_frame_014.png",
+      "originalFrame": 14,
+      "assignedFrame": 13
+    }
+  ],
+  "pixelsChanged": false,
+  "newDrawingsCreatedByRemapping": 0,
+  "accepted": false,
+  "notes": "Actual upper-abdomen -> lower-abdomen hand trajectory; final body registration and sequence QA required."
+}

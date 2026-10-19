@@ -7,6 +7,14 @@
 - [网页沟通提示词](WEB-PROMPT.md)
 - [高清主基准（标准画布）](reference/master_front_1024.png)
 - [高清主基准母版](reference/master_front_original.png)
+- [全部471份选定母版与标准图索引](assets/catalog.json)
+- [辅助素材对应表：33项有来源，3项校准图待制作](reference/auxiliary-coverage.json)
+- [完整1512项制作计划](plans/full-plan-v3.jsonl)
+- [更正与接触校正规则](CORRECTIONS.md)
+- [网页交付与本地检查](RETURN-CHECKLIST.md)
+- [完整性复核记录](AUDIT.json)
+
+复核补充：全部471份选定母版与对应标准图已收录，哈希与本地导出记录逐项一致；54组时间线中的文件均存在。增加461份选定新增来源的原提示词、质量检查记录、缺口统计与交付模板。首批10张的基准要求使用STANDARD及组内指令，未伪造缺失的原始提示词。废稿与私人生产日志不属于公开参考。
 
 ## 当前状态
 

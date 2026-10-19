@@ -1,0 +1,21 @@
+{
+  "reason": "V2 wave frames 016->020 go from the selected outward wrist peak to the inward peak; frames 020->024 return between exactly the same selected poses, with the same four-frame spacing.",
+  "mappings": [
+    {
+      "target": 21,
+      "sourceFrame": 19
+    },
+    {
+      "target": 22,
+      "sourceFrame": 18
+    },
+    {
+      "target": 23,
+      "sourceFrame": 17
+    }
+  ],
+  "newDrawings": 0,
+  "generationMethod": "Explicit source reuse of genuine generated drawings; no interpolation, mirroring or new pixels.",
+  "accepted": false,
+  "limitations": "Return direction reuses the real wrist/forearm poses. Sleeve/hair lag, easing at the peaks, finger consistency and sequence playback remain to be checked; use independent return drawings if review fails."
+}

@@ -1,0 +1,479 @@
+{
+  "allRetainedRawImages": 549,
+  "selectedUniqueSourceImages": 471,
+  "selectedNewSources": 461,
+  "initialSources": 10,
+  "excludedOrSupersededRawSources": 78,
+  "excludedOrSuperseded": [
+    {
+      "id": "detail_hands",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "detail_hands_v2"
+    },
+    {
+      "id": "gaze_enter_045_frame_000",
+      "status": "withheld_needs_repair",
+      "issue": "Head yaw appears too early in the initial eyes-leading phase; regenerate with a frontal head.",
+      "supersededBy": "gaze_enter_045_frame_000_v2"
+    },
+    {
+      "id": "gaze_enter_045_frame_002_v2",
+      "status": "withheld_needs_repair",
+      "issue": "Full endpoint head turn appears too early; v3 requests a small numeric yaw from the master alone.",
+      "supersededBy": "gaze_enter_045_frame_002_v3"
+    },
+    {
+      "id": "idle_frame_007",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "idle_frame_007_v2"
+    },
+    {
+      "id": "idle_frame_015",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "idle_frame_015_v2"
+    },
+    {
+      "id": "idle_frame_018",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "idle_frame_018_v2"
+    },
+    {
+      "id": "nod_frame_025",
+      "status": "withheld_needs_repair",
+      "issue": "Horn and shoe silhouettes approach native canvas edges (alpha>8 bbox y=5..1245) with visibly enlarged framing. Tip completeness is uncertain; retake for review.",
+      "supersededBy": "nod_frame_025_v2"
+    },
+    {
+      "id": "waiting_enter_frame_009",
+      "status": "withheld_needs_repair",
+      "issue": "Head tilt visibly overshoots the selected subtle waiting endpoint; regenerate from the small-tilt pose reference.",
+      "supersededBy": "waiting_enter_frame_009_v2"
+    },
+    {
+      "id": "waiting_enter_frame_010",
+      "status": "withheld_needs_repair",
+      "issue": "Head tilt visibly overshoots the selected subtle waiting endpoint; regenerate from the small-tilt pose reference.",
+      "supersededBy": "waiting_enter_frame_010_v2"
+    },
+    {
+      "id": "waiting_enter_frame_011",
+      "status": "withheld_needs_repair",
+      "issue": "Head tilt visibly overshoots the selected subtle waiting endpoint; regenerate from the small-tilt pose reference.",
+      "supersededBy": "waiting_enter_frame_011_v2"
+    },
+    {
+      "id": "waiting_enter_frame_013",
+      "status": "withheld_needs_repair",
+      "issue": "Head tilt visibly overshoots the selected subtle waiting endpoint; regenerate from the small-tilt pose reference.",
+      "supersededBy": "waiting_enter_frame_013_v2"
+    },
+    {
+      "id": "waiting_enter_frame_014",
+      "status": "withheld_needs_repair",
+      "issue": "Head tilt visibly overshoots the selected subtle waiting endpoint; regenerate from the small-tilt pose reference.",
+      "supersededBy": "waiting_enter_frame_014_v2"
+    },
+    {
+      "id": "wave_frame_001",
+      "status": "withheld_needs_repair",
+      "issue": "Waving hand is higher than the low elbow-preparation endpoint; overshoots this early phase.",
+      "supersededBy": "wave_frame_001_v2"
+    },
+    {
+      "id": "wave_frame_002_v2",
+      "status": "withheld_needs_repair",
+      "issue": "Waving hand is higher than the low elbow-preparation endpoint; overshoots this early phase.",
+      "supersededBy": "wave_frame_002_v3"
+    },
+    {
+      "id": "wave_frame_005",
+      "status": "withheld_needs_repair",
+      "issue": "Hand reaches approximately the chest endpoint too early; insufficient intermediate lift for the planned phase.",
+      "supersededBy": null
+    },
+    {
+      "id": "wave_frame_006",
+      "status": "withheld_needs_repair",
+      "issue": "Hand reaches approximately the chest endpoint too early; insufficient intermediate lift for the planned phase.",
+      "supersededBy": null
+    },
+    {
+      "id": "working_enter_frame_010_v2",
+      "status": "withheld_needs_repair",
+      "issue": "Hands overshoot the intended low-abdomen-to-waist phase and rise to the chest; use a corrected intermediate instead.",
+      "supersededBy": "working_enter_frame_010_v3"
+    },
+    {
+      "id": "gaze_033p75_deg",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "gaze_033p75_deg_v3"
+    },
+    {
+      "id": "gaze_033p75_deg_v2",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "gaze_033p75_deg_v3"
+    },
+    {
+      "id": "gaze_078p75_deg",
+      "status": "withheld_needs_repair",
+      "issue": "Known fixed-body violation: dress and arm drift; requires repair.",
+      "supersededBy": "gaze_078p75_deg_v2"
+    },
+    {
+      "id": "climb_left_enter_foot_seek",
+      "status": "withheld_needs_repair",
+      "issue": "Native right-edge tail/hair clipping; use v2.",
+      "supersededBy": "climb_left_enter_foot_seek_v2"
+    },
+    {
+      "id": "climb_left_enter_near_hand_contact",
+      "status": "withheld_needs_repair",
+      "issue": "Native right-edge tail clipping; use v2.",
+      "supersededBy": "climb_left_enter_near_hand_contact_v2"
+    },
+    {
+      "id": "climb_left_loop_opposite_knee_lift",
+      "status": "withheld_needs_repair",
+      "issue": "Stationary supporting leg/shoe missing; use v2.",
+      "supersededBy": "climb_left_loop_opposite_knee_lift_v2"
+    },
+    {
+      "id": "climb_left_loop_other_foot_contact",
+      "status": "withheld_needs_repair",
+      "issue": "Extra third shoe near head; use v2.",
+      "supersededBy": "climb_left_loop_other_foot_contact_v2"
+    },
+    {
+      "id": "climb_left_loop_torso_complete",
+      "status": "withheld_needs_repair",
+      "issue": "Native picture-right tail/hair clipping; use v2.",
+      "supersededBy": "climb_left_loop_torso_complete_v2"
+    },
+    {
+      "id": "climb_left_support_a",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "climb_left_support_a_v5"
+    },
+    {
+      "id": "climb_left_support_a_v2",
+      "status": "withheld_needs_repair",
+      "issue": "Toe contacts overshoot left of the palm support plane; preserve provisional v1 until contact alignment is corrected.",
+      "supersededBy": "climb_left_support_a_v5"
+    },
+    {
+      "id": "climb_left_support_a_v3",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "climb_left_support_a_v5"
+    },
+    {
+      "id": "climb_left_support_a_v4",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "climb_left_support_a_v5"
+    },
+    {
+      "id": "climb_right_enter_foot_seek",
+      "status": "withheld_needs_repair",
+      "issue": "Native right-edge hem clipping; use v2.",
+      "supersededBy": "climb_right_enter_foot_seek_v2"
+    },
+    {
+      "id": "climb_right_enter_toe_contact",
+      "status": "withheld_needs_repair",
+      "issue": "Native right-edge toe clipping; use v2.",
+      "supersededBy": "climb_right_enter_toe_contact_v2"
+    },
+    {
+      "id": "climb_right_loop_other_foot_contact",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "climb_right_loop_other_foot_contact_v3"
+    },
+    {
+      "id": "climb_right_loop_other_foot_contact_v2",
+      "status": "withheld_needs_repair",
+      "issue": "Enlarged framing clips the rightmost shoe toe at the native right edge; not a valid replacement.",
+      "supersededBy": "climb_right_loop_other_foot_contact_v3"
+    },
+    {
+      "id": "drag_dangling_base",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "drag_dangling_base_v2"
+    },
+    {
+      "id": "drag_loop_left_start",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "drag_loop_left_start_v2"
+    },
+    {
+      "id": "eat_exit_gaze_storage_v2",
+      "status": "withheld_needs_repair",
+      "issue": "Left horn tip is clipped at the top of the native canvas.",
+      "supersededBy": "eat_exit_gaze_storage_v3"
+    },
+    {
+      "id": "eat_exit_lower_bread",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "eat_exit_lower_bread_v3"
+    },
+    {
+      "id": "eat_exit_lower_bread_v2",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "eat_exit_lower_bread_v3"
+    },
+    {
+      "id": "failed_curled_seated",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "failed_curled_seated_v2"
+    },
+    {
+      "id": "jump_heel_lift",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "jump_heel_lift_v2"
+    },
+    {
+      "id": "jump_rising_mid",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "jump_rising_mid_v2"
+    },
+    {
+      "id": "land_compression",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "land_compression_v4"
+    },
+    {
+      "id": "land_compression_v2",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "land_compression_v4"
+    },
+    {
+      "id": "land_compression_v3",
+      "status": "withheld_needs_repair",
+      "issue": "Right-side tail/hem clipping and substantial warm metal color drift; v2 stays the provisional candidate until a valid replacement exists.",
+      "supersededBy": "land_compression_v4"
+    },
+    {
+      "id": "land_knees_cushion",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "land_knees_cushion_v2"
+    },
+    {
+      "id": "nod_head_rising",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "nod_head_rising_v2"
+    },
+    {
+      "id": "nod_lowest",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "nod_lowest_v2"
+    },
+    {
+      "id": "petting_content_peak",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "petting_content_peak_v2"
+    },
+    {
+      "id": "petting_head_yield",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "petting_head_yield_v2"
+    },
+    {
+      "id": "review_inspect_base",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "review_inspect_base_v2"
+    },
+    {
+      "id": "sit_awake_base",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "sit_awake_base_v2"
+    },
+    {
+      "id": "sit_exit_hands_support",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "sit_exit_hands_support_v2"
+    },
+    {
+      "id": "sit_exit_legs_ready",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "sit_exit_legs_ready_v2"
+    },
+    {
+      "id": "sit_hips_near_floor",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "sit_hips_near_floor_v4"
+    },
+    {
+      "id": "sit_hips_near_floor_v2",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "sit_hips_near_floor_v4"
+    },
+    {
+      "id": "sit_hips_near_floor_v3",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "sit_hips_near_floor_v4"
+    },
+    {
+      "id": "sit_inhale_peak",
+      "status": "withheld_needs_repair",
+      "issue": "Unwanted enlargement clips both outer hair edges; replacement required before source coverage.",
+      "supersededBy": "sit_inhale_peak_v2"
+    },
+    {
+      "id": "sleep_head_bowed_awake",
+      "status": "withheld_needs_repair",
+      "issue": "Larger raw framing and less consistent shape; use sleep_eyes_open_bowed family instead.",
+      "supersededBy": null
+    },
+    {
+      "id": "sleep_inhale_start",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "sleep_inhale_start_v2"
+    },
+    {
+      "id": "sleep_seated_base",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "sleep_seated_base_v2"
+    },
+    {
+      "id": "sleep_seated_fold_wings",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "sleep_seated_fold_wings_v2"
+    },
+    {
+      "id": "waiting_tilt_begin",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "waiting_tilt_begin_v3"
+    },
+    {
+      "id": "walk_left_contact_b",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "walk_left_contact_b_v2"
+    },
+    {
+      "id": "walk_left_up_a",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "walk_left_up_a_v2"
+    },
+    {
+      "id": "walk_right_down_b",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "walk_right_down_b_v2"
+    },
+    {
+      "id": "walk_right_up_b",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "walk_right_up_b_v2"
+    },
+    {
+      "id": "wing_exit_inner_fold",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "wing_exit_inner_fold_v2"
+    },
+    {
+      "id": "wing_loop_down_root",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "wing_loop_down_root_v3"
+    },
+    {
+      "id": "wing_loop_down_root_v2",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "wing_loop_down_root_v3"
+    },
+    {
+      "id": "wing_loop_return_tip",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "wing_loop_return_tip_v3"
+    },
+    {
+      "id": "wing_loop_return_tip_v2",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "wing_loop_return_tip_v3"
+    },
+    {
+      "id": "working_focused_base",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "working_focused_base_v2"
+    },
+    {
+      "id": "working_hands_rising",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "working_hands_rising_v2"
+    },
+    {
+      "id": "yawn_mouth_closed",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "yawn_mouth_closed_v2"
+    },
+    {
+      "id": "yawn_peak",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "yawn_peak_v2"
+    },
+    {
+      "id": "bread_half",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "bread_half_v2"
+    },
+    {
+      "id": "model_back",
+      "status": "superseded",
+      "issue": null,
+      "supersededBy": "model_back_v2"
+    },
+    {
+      "id": "wave_frame_002",
+      "status": "withheld_needs_repair",
+      "issue": "Intended midpoint hand height overshoots its endpoint.",
+      "supersededBy": "wave_frame_002_v3"
+    }
+  ],
+  "selectionMeaning": "Selected for technical export and review, not certified for continuous animation.",
+  "newGenerationThisPhase": 0
+}

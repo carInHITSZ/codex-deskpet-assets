@@ -1,0 +1,24 @@
+{
+  "reviewedUtc": "2026-10-19T01:56:10.096426+00:00",
+  "records": [
+    {
+      "source": "working_enter_frame_013.png",
+      "originalFrame": 13,
+      "assignedFrame": 15
+    },
+    {
+      "source": "working_enter_frame_014.png",
+      "originalFrame": 14,
+      "assignedFrame": 13
+    },
+    {
+      "source": "working_enter_frame_015.png",
+      "originalFrame": 15,
+      "assignedFrame": 14
+    }
+  ],
+  "pixelsChanged": false,
+  "newDrawingsCreatedByRemapping": 0,
+  "accepted": false,
+  "notes": "Low flat overlap -> slightly higher clasp -> steepled fingers -> final focused clasp. Final body registration and motion review remain required."
+}

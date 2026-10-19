@@ -46,7 +46,7 @@
 
 导出仅做透明画布放置和等比缩小；记录每张母版的缩放与平移。原始母版不覆盖。禁止逐帧自动紧裁切、用拉伸或透明叠加伪造动作。头部/躯干比例或挂饰漂移需要返修，不能靠对齐掩盖。
 
-2026-10-19 用户补充授权：“允许，只校正接触点和统一导出”。因此可在保留原稿的情况下，对导出副本的局部接触位置做有限校正并记录参数和实测误差；不涉及角色重画或程序补间。范围及当前实施状态见 [接触点校正授权补充](production-v3/generation-only/接触点校正授权补充.md) 和 `contact-correction-authorization.json`。其余约束继续有效。
+2026-10-19 用户补充授权：“允许，只校正接触点和统一导出”。因此可在保留原稿的情况下，对导出副本的局部接触位置做有限校正并记录参数和实测误差；不涉及角色重画或程序补间。范围及当前实施状态见 [接触点校正范围](CORRECTIONS.md) 和 `contact-correction-authorization.json`。其余约束继续有效。
 
 世界坐标换算：`worldPoint = windowOriginDip + (pixelPoint - anchorPx) / pixelsPerDip`。切换片段时保持同一 worldAnchor。rootOffset 是根部相对该锚点的位移，不和窗口位移重复累计。
 

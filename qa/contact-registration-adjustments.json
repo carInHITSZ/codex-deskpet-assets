@@ -1,0 +1,237 @@
+{
+  "purpose": "Small whole-image contact registration for idle only; retain all source art. Scale is unchanged. No local warping or redrawing.",
+  "baselineSource": "masters/master_front.png",
+  "baselineIsShoeSilhouetteProxy": true,
+  "anatomicalContactsCertified": false,
+  "adjustments": [
+    {
+      "source": "generation-only/frames/idle_frame_001.png",
+      "wholeImageTranslationDeltaPx": [
+        -0.2697487697487304,
+        -1.0
+      ],
+      "beforeExportSha256": "f2a0f99a49ac9eae7e408a883b2e7134c62efa10e75433d6e89c5496409e99da",
+      "beforeTranslation": [
+        158.3011313895,
+        230.3777197015
+      ]
+    },
+    {
+      "source": "generation-only/frames/idle_frame_002.png",
+      "wholeImageTranslationDeltaPx": [
+        -0.5509806285667764,
+        -1.0
+      ],
+      "beforeExportSha256": "a99bc28748cb2462cc3719f181b7e6a059e711802e27bfb99b7c1bfa64bef0d0",
+      "beforeTranslation": [
+        158.3011313895,
+        230.3777197015
+      ]
+    },
+    {
+      "source": "generation-only/frames/idle_frame_003_v2.png",
+      "wholeImageTranslationDeltaPx": [
+        -0.8674970862471127,
+        -1.5
+      ],
+      "beforeExportSha256": "362dfc9692a53c9389b78564802b8d44c1746a879681b98c449ba2230990bb71",
+      "beforeTranslation": [
+        158.3011313895,
+        230.3777197015
+      ]
+    },
+    {
+      "source": "generation-only/poses/idle_inhale_start.png",
+      "wholeImageTranslationDeltaPx": [
+        -0.4343952343951969,
+        -1.0
+      ],
+      "beforeExportSha256": "ff2beb1157b23db7fcebdcd5bcfa4d990d5ca3f00f7ef88b5c6eb6a0f10dda5e",
+      "beforeTranslation": [
+        158.3011313895,
+        230.3777197015
+      ]
+    },
+    {
+      "source": "generation-only/frames/idle_frame_005.png",
+      "wholeImageTranslationDeltaPx": [
+        -0.9389256576756679,
+        -0.5
+      ],
+      "beforeExportSha256": "d0bebe8599a439bdc3add1b59e3359e5029a9a9723f8931443785a5494f3faec",
+      "beforeTranslation": [
+        158.3011313895,
+        230.3777197015
+      ]
+    },
+    {
+      "source": "generation-only/frames/idle_frame_006.png",
+      "wholeImageTranslationDeltaPx": [
+        -0.7163546131288285,
+        -1.0
+      ],
+      "beforeExportSha256": "7109da387e9a9d3209c5beec14856c94b75aebba5a085c11d0d872c24391ddf4",
+      "beforeTranslation": [
+        158.3011313895,
+        230.3777197015
+      ]
+    },
+    {
+      "source": "generation-only/frames/idle_frame_007_v2.png",
+      "wholeImageTranslationDeltaPx": [
+        -0.8292228206021264,
+        -1.0
+      ],
+      "beforeExportSha256": "5faf0ce56aecbb825030c82165c75a371cf18c71de143a24df2fb20aa0e55d80",
+      "beforeTranslation": [
+        158.3011313895,
+        230.3777197015
+      ]
+    },
+    {
+      "source": "generation-only/poses/idle_inhale_mid.png",
+      "wholeImageTranslationDeltaPx": [
+        -0.7717309572149134,
+        -0.5
+      ],
+      "beforeExportSha256": "36d0e9d26727e5aedfa7d9f232f7b8168fe9eb59b01bb6781d697aeb2620ed48",
+      "beforeTranslation": [
+        158.3011313895,
+        230.3777197015
+      ]
+    },
+    {
+      "source": "generation-only/frames/idle_frame_009.png",
+      "wholeImageTranslationDeltaPx": [
+        -0.4767232767233054,
+        -1.0
+      ],
+      "beforeExportSha256": "1205db5a5b9ba54d0b8e62ebefaaa45812267822f7d7add558659e95da82aa54",
+      "beforeTranslation": [
+        158.3011313895,
+        230.3777197015
+      ]
+    },
+    {
+      "source": "generation-only/frames/idle_frame_010.png",
+      "wholeImageTranslationDeltaPx": [
+        -0.36958041958041576,
+        -1.0
+      ],
+      "beforeExportSha256": "8b8d0b78b88cf665398a4ba8c987aca8ac9bdc960e7d29f35dce05330ccb4dc0",
+      "beforeTranslation": [
+        158.3011313895,
+        230.3777197015
+      ]
+    },
+    {
+      "source": "generation-only/frames/idle_frame_011.png",
+      "wholeImageTranslationDeltaPx": [
+        -0.33624708624711275,
+        -1.5
+      ],
+      "beforeExportSha256": "c974ea27c89b069c0321b91c290d32980ca283f79358d096fb806309b3769148",
+      "beforeTranslation": [
+        158.3011313895,
+        230.3777197015
+      ]
+    },
+    {
+      "source": "masters/idle_breath_peak.png",
+      "wholeImageTranslationDeltaPx": [
+        -0.6509022586608353,
+        -0.5
+      ],
+      "beforeExportSha256": "47a253c17b03d72703ce4228591c1d8b56adb2a5c143644a14544a8cfe8ba0e9",
+      "beforeTranslation": [
+        158.30113138950003,
+        229.82071360920008
+      ]
+    },
+    {
+      "source": "generation-only/frames/idle_frame_013.png",
+      "wholeImageTranslationDeltaPx": [
+        -0.4962470862471946,
+        -1.0
+      ],
+      "beforeExportSha256": "2c3a28ed2422dd8254732d9d827159e1e3132bebe0977d364bcf507f1831b2e9",
+      "beforeTranslation": [
+        158.3011313895,
+        230.3777197015
+      ]
+    },
+    {
+      "source": "generation-only/frames/idle_frame_014.png",
+      "wholeImageTranslationDeltaPx": [
+        -0.877791563275423,
+        -1.0
+      ],
+      "beforeExportSha256": "f4d744ef49c0b65486fb982b112cf5707ccd4b9463d7cb915c5f4c310735e7b2",
+      "beforeTranslation": [
+        158.3011313895,
+        230.3777197015
+      ]
+    },
+    {
+      "source": "generation-only/frames/idle_frame_015_v2.png",
+      "wholeImageTranslationDeltaPx": [
+        -0.7357036079862382,
+        -0.5
+      ],
+      "beforeExportSha256": "72e3e0a1a8634ff394f962fcb00fef2dcdf41715cc0182a057dd5d472995b15f",
+      "beforeTranslation": [
+        158.3011313895,
+        230.3777197015
+      ]
+    },
+    {
+      "source": "generation-only/poses/idle_exhale_mid.png",
+      "wholeImageTranslationDeltaPx": [
+        -0.9923076923076906,
+        -1.0
+      ],
+      "beforeExportSha256": "4b5278f2bc829aa4f90f05a81b1d1be6090b32dc7ca09bc10f9b04814f848ab2",
+      "beforeTranslation": [
+        158.3011313895,
+        230.3777197015
+      ]
+    },
+    {
+      "source": "generation-only/frames/idle_frame_017.png",
+      "wholeImageTranslationDeltaPx": [
+        -0.6398185148185576,
+        -1.0
+      ],
+      "beforeExportSha256": "09a4fcafd95b324c63255172aaa5e624eecdf881344d8b41be94491f55d9c8f9",
+      "beforeTranslation": [
+        158.3011313895,
+        230.3777197015
+      ]
+    },
+    {
+      "source": "generation-only/frames/idle_frame_018_v2.png",
+      "wholeImageTranslationDeltaPx": [
+        -0.33624708624711275,
+        -1.0
+      ],
+      "beforeExportSha256": "5155890561d0450fff7cebb1e31fa5be3111cba3151fa28c0b5c3e79881bfb77",
+      "beforeTranslation": [
+        158.3011313895,
+        230.3777197015
+      ]
+    },
+    {
+      "source": "generation-only/frames/idle_frame_019.png",
+      "wholeImageTranslationDeltaPx": [
+        -1.0706220862471127,
+        -1.0
+      ],
+      "beforeExportSha256": "ce903ee52d6647362683202ee00f75ac60e8c3a9253788987a6b685522abe6b4",
+      "beforeTranslation": [
+        158.3011313895,
+        230.3777197015
+      ]
+    }
+  ],
+  "maximumTranslationMagnitudePx": 1.7327871175211427
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "master_front",
+    "type": "master",
+    "plannedFile": "assets/master_front.png",
+    "status": "generated_reference_available",
+    "source": "assets/masters/masters/master_front.png",
+    "derivation": "existing_HD_source_reference",
+    "publicMaster": "assets/masters/masters/master_front.png",
+    "publicNormalized": "assets/normalized/images/initial/master_front.png"
+  },
+  {
+    "id": "model_threequarter_left",
+    "type": "reference",
+    "plannedFile": "assets/model_threequarter_left.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/views/model_threequarter_left.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/views/model_threequarter_left.png",
+    "publicNormalized": "assets/normalized/images/views/model_threequarter_left.png"
+  },
+  {
+    "id": "model_threequarter_right",
+    "type": "reference",
+    "plannedFile": "assets/model_threequarter_right.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/views/model_threequarter_right.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/views/model_threequarter_right.png",
+    "publicNormalized": "assets/normalized/images/views/model_threequarter_right.png"
+  },
+  {
+    "id": "model_side_left",
+    "type": "reference",
+    "plannedFile": "assets/model_side_left.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/views/model_side_left.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/views/model_side_left.png",
+    "publicNormalized": "assets/normalized/images/views/model_side_left.png"
+  },
+  {
+    "id": "model_side_right",
+    "type": "reference",
+    "plannedFile": "assets/model_side_right.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/views/model_side_right.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/views/model_side_right.png",
+    "publicNormalized": "assets/normalized/images/views/model_side_right.png"
+  },
+  {
+    "id": "model_back",
+    "type": "reference",
+    "plannedFile": "assets/model_back.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/views/model_back_v2.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/views/model_back_v2.png",
+    "publicNormalized": "assets/normalized/images/views/model_back_v2.png"
+  },
+  {
+    "id": "detail_face",
+    "type": "reference",
+    "plannedFile": "assets/detail_face.png",
+    "status": "generated_reference_available",
+    "source": "assets/masters/generation-only/expressions/expression_neutral.png",
+    "derivation": "shared_source_reference_no_extra_generation",
+    "publicMaster": "assets/masters/generation-only/expressions/expression_neutral.png",
+    "publicNormalized": "assets/normalized/images/expressions/expression_neutral.png"
+  },
+  {
+    "id": "detail_hands",
+    "type": "reference",
+    "plannedFile": "assets/detail_hands.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/details/detail_hands_v2.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/details/detail_hands_v2.png",
+    "publicNormalized": "assets/normalized/images/details/detail_hands_v2.png"
+  },
+  {
+    "id": "detail_costume",
+    "type": "reference",
+    "plannedFile": "assets/detail_costume.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/details/detail_costume.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/details/detail_costume.png",
+    "publicNormalized": "assets/normalized/images/details/detail_costume.png"
+  },
+  {
+    "id": "detail_horns",
+    "type": "reference",
+    "plannedFile": "assets/detail_horns.png",
+    "status": "generated_reference_available",
+    "source": "assets/masters/generation-only/expressions/expression_neutral.png",
+    "derivation": "shared_source_reference_no_extra_generation",
+    "publicMaster": "assets/masters/generation-only/expressions/expression_neutral.png",
+    "publicNormalized": "assets/normalized/images/expressions/expression_neutral.png"
+  },
+  {
+    "id": "detail_tail",
+    "type": "reference",
+    "plannedFile": "assets/detail_tail.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/details/detail_tail.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/details/detail_tail.png",
+    "publicNormalized": "assets/normalized/images/details/detail_tail.png"
+  },
+  {
+    "id": "detail_wings",
+    "type": "reference",
+    "plannedFile": "assets/detail_wings.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/details/detail_wings.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/details/detail_wings.png",
+    "publicNormalized": "assets/normalized/images/details/detail_wings.png"
+  },
+  {
+    "id": "expression_neutral",
+    "type": "reference",
+    "plannedFile": "assets/expression_neutral.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/expressions/expression_neutral.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/expressions/expression_neutral.png",
+    "publicNormalized": "assets/normalized/images/expressions/expression_neutral.png"
+  },
+  {
+    "id": "expression_smile",
+    "type": "reference",
+    "plannedFile": "assets/expression_smile.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/expressions/expression_smile.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/expressions/expression_smile.png",
+    "publicNormalized": "assets/normalized/images/expressions/expression_smile.png"
+  },
+  {
+    "id": "expression_focused",
+    "type": "reference",
+    "plannedFile": "assets/expression_focused.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/expressions/expression_focused.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/expressions/expression_focused.png",
+    "publicNormalized": "assets/normalized/images/expressions/expression_focused.png"
+  },
+  {
+    "id": "expression_expectant",
+    "type": "reference",
+    "plannedFile": "assets/expression_expectant.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/expressions/expression_expectant.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/expressions/expression_expectant.png",
+    "publicNormalized": "assets/normalized/images/expressions/expression_expectant.png"
+  },
+  {
+    "id": "expression_sad",
+    "type": "reference",
+    "plannedFile": "assets/expression_sad.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/expressions/expression_sad.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/expressions/expression_sad.png",
+    "publicNormalized": "assets/normalized/images/expressions/expression_sad.png"
+  },
+  {
+    "id": "expression_drowsy",
+    "type": "reference",
+    "plannedFile": "assets/expression_drowsy.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/expressions/expression_drowsy.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/expressions/expression_drowsy.png",
+    "publicNormalized": "assets/normalized/images/expressions/expression_drowsy.png"
+  },
+  {
+    "id": "expression_sleeping",
+    "type": "reference",
+    "plannedFile": "assets/expression_sleeping.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/expressions/expression_sleeping.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/expressions/expression_sleeping.png",
+    "publicNormalized": "assets/normalized/images/expressions/expression_sleeping.png"
+  },
+  {
+    "id": "expression_surprised",
+    "type": "reference",
+    "plannedFile": "assets/expression_surprised.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/expressions/expression_surprised.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/expressions/expression_surprised.png",
+    "publicNormalized": "assets/normalized/images/expressions/expression_surprised.png"
+  },
+  {
+    "id": "bread_whole",
+    "type": "prop",
+    "plannedFile": "assets/bread_whole.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/props/bread_whole.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/props/bread_whole.png",
+    "publicNormalized": "assets/normalized/images/props/bread_whole.png"
+  },
+  {
+    "id": "bread_grip_whole",
+    "type": "reference",
+    "plannedFile": "assets/bread_grip_whole.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/poses/bread_grip_whole.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/poses/bread_grip_whole.png",
+    "publicNormalized": "assets/normalized/images/poses/bread_grip_whole.png"
+  },
+  {
+    "id": "bread_bitten",
+    "type": "prop",
+    "plannedFile": "assets/bread_bitten.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/props/bread_bitten.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/props/bread_bitten.png",
+    "publicNormalized": "assets/normalized/images/props/bread_bitten.png"
+  },
+  {
+    "id": "bread_grip_bitten",
+    "type": "reference",
+    "plannedFile": "assets/bread_grip_bitten.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/poses/bread_grip_bitten.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/poses/bread_grip_bitten.png",
+    "publicNormalized": "assets/normalized/images/poses/bread_grip_bitten.png"
+  },
+  {
+    "id": "bread_half",
+    "type": "prop",
+    "plannedFile": "assets/bread_half.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/props/bread_half_v2.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/props/bread_half_v2.png",
+    "publicNormalized": "assets/normalized/images/props/bread_half_v2.png"
+  },
+  {
+    "id": "bread_grip_half",
+    "type": "reference",
+    "plannedFile": "assets/bread_grip_half.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/poses/bread_grip_half.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/poses/bread_grip_half.png",
+    "publicNormalized": "assets/normalized/images/poses/bread_grip_half.png"
+  },
+  {
+    "id": "bread_last",
+    "type": "prop",
+    "plannedFile": "assets/bread_last.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/props/bread_last.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/props/bread_last.png",
+    "publicNormalized": "assets/normalized/images/props/bread_last.png"
+  },
+  {
+    "id": "bread_grip_last",
+    "type": "reference",
+    "plannedFile": "assets/bread_grip_last.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/poses/bread_grip_last.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/poses/bread_grip_last.png",
+    "publicNormalized": "assets/normalized/images/poses/bread_grip_last.png"
+  },
+  {
+    "id": "wing_structure_folded",
+    "type": "reference",
+    "plannedFile": "assets/wing_structure_folded.png",
+    "status": "generated_candidate",
+    "source": "assets/masters/generation-only/poses/wing_structure_folded.png",
+    "derivation": "direct_generation",
+    "publicMaster": "assets/masters/generation-only/poses/wing_structure_folded.png",
+    "publicNormalized": "assets/normalized/images/poses/wing_structure_folded.png"
+  },
+  {
+    "id": "wing_structure_half",
+    "type": "reference",
+    "plannedFile": "assets/wing_structure_half.png",
+    "status": "generated_reference_available",
+    "source": "assets/masters/generation-only/details/detail_wings.png",
+    "derivation": "shared_source_reference_no_extra_generation",
+    "publicMaster": "assets/masters/generation-only/details/detail_wings.png",
+    "publicNormalized": "assets/normalized/images/details/detail_wings.png"
+  },
+  {
+    "id": "wing_structure_open",
+    "type": "reference",
+    "plannedFile": "assets/wing_structure_open.png",
+    "status": "generated_reference_available",
+    "source": "assets/masters/masters/wing_open.png",
+    "derivation": "existing_HD_source_reference",
+    "publicMaster": "assets/masters/masters/wing_open.png",
+    "publicNormalized": "assets/normalized/images/initial/wing_open.png"
+  },
+  {
+    "id": "wing_structure_top",
+    "type": "reference",
+    "plannedFile": "assets/wing_structure_top.png",
+    "status": "generated_reference_available",
+    "source": "assets/masters/masters/wing_up.png",
+    "derivation": "existing_HD_source_reference",
+    "publicMaster": "assets/masters/masters/wing_up.png",
+    "publicNormalized": "assets/normalized/images/initial/wing_up.png"
+  },
+  {
+    "id": "wing_structure_bottom",
+    "type": "reference",
+    "plannedFile": "assets/wing_structure_bottom.png",
+    "status": "generated_reference_available",
+    "source": "assets/masters/masters/wing_down.png",
+    "derivation": "existing_HD_source_reference",
+    "publicMaster": "assets/masters/masters/wing_down.png",
+    "publicNormalized": "assets/normalized/images/initial/wing_down.png"
+  },
+  {
+    "id": "guide_ground",
+    "type": "guide",
+    "plannedFile": "assets/guide_ground.png",
+    "status": "planned_not_generated",
+    "source": null,
+    "note": "Calibration is deterministic authoring, not an image-generation task.",
+    "publicMaster": null,
+    "publicNormalized": null
+  },
+  {
+    "id": "guide_wall_left",
+    "type": "guide",
+    "plannedFile": "assets/guide_wall_left.png",
+    "status": "planned_not_generated",
+    "source": null,
+    "note": "Calibration is deterministic authoring, not an image-generation task.",
+    "publicMaster": null,
+    "publicNormalized": null
+  },
+  {
+    "id": "guide_wall_right",
+    "type": "guide",
+    "plannedFile": "assets/guide_wall_right.png",
+    "status": "planned_not_generated",
+    "source": null,
+    "note": "Calibration is deterministic authoring, not an image-generation task.",
+    "publicMaster": null,
+    "publicNormalized": null
+  }
+]

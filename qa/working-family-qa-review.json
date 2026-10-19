@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-19",
+  "candidateSlots": 54,
+  "generatedInbetweensThisRun": 39,
+  "accepted": false,
+  "alphaAndTrialSize": "All 54 fixed-transform QA exports have transparency and are 1024x1024; this is not final export approval.",
+  "fixedTransformEstimatedFootShiftPx": {
+    "working_enter": 37.9909699287,
+    "working_loop": 9.1625453053,
+    "working_exit": 41.5552406857
+  },
+  "failedTargetPx": 2,
+  "limitations": [
+    "Old foot/head silhouette probes have bounded search windows; the full-height diagnostics are retained separately.",
+    "Raw camera scale, foot registration, anatomy, costume continuity and frame-to-frame hand positions require further review and retakes.",
+    "Foot-span-based possible scales in the diagnostic reports were neither applied nor accepted.",
+    "Local playback pages are prepared; no claim of visually watching three runs at all speeds is made.",
+    "Raw generation filenames retain original request labels. plannedTask metadata is authoritative for the provisional hand-pose ordering.",
+    "Do not use trial-fixed-transform images as accepted delivery frames."
+  ]
+}
