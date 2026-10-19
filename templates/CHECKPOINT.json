@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "clip": "REPLACE",
+  "revision": "r01",
+  "branch": "web/REPLACE-r01",
+  "sessionId": null,
+  "updatedUtc": null,
+  "status": "in_progress",
+  "baseCommit": null,
+  "completedFrames": [],
+  "missingFrames": [],
+  "revisionNeededFrames": [],
+  "manifest": "manifest.json",
+  "files": [],
+  "checks": {
+    "technical": "not_checked",
+    "visualIdentity": "not_checked",
+    "playback100": "not_checked",
+    "playback050": "not_checked",
+    "playback025": "not_checked",
+    "loopOrEndpoints": "not_checked",
+    "familyTransitions": "not_checked"
+  },
+  "dependencyCommits": [],
+  "blockers": [],
+  "nextExactAction": null,
+  "report": "qa/web-report.md"
+}
