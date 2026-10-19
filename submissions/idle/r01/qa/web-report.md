@@ -64,3 +64,7 @@ Visually review all 20 candidate frames on black/white/lilac backdrops and compa
 - 下一项：在完整1024分辨率逐项比对挂饰拓扑、脸/服饰/翼与关键帧，标出真实双足解剖点并复测；将20帧以真实连续动画观看3速x3后评价首尾/呼吸。仅对确认失败帧进行身份锁定重绘，引用主基准及相邻**已验收**关键帧。
 
 状态仍为 `mechanical_playback_pass_visual_review_pending`，不是 `web_sequence_checked`；`local_accepted/runtime_ready` 均 false。
+
+### 2026-10-19 补充：双角、Codex交织挂饰与眼部逐帧固定尺度审阅
+
+从原始20张1024² RGBA帧中裁切 x365:655、y240:485；裁切尺寸290×245，空间不缩放并逐帧与前后帧相邻摆放。通过 [GitHub Actions #39237945143](https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39237945143) 实际生成并远端存储[黑底](diagnostic/face-codex-native-black-review.jpg)、[白底](diagnostic/face-codex-native-white-review.jpg)、[淡紫底](diagnostic/face-codex-native-lilac-review.jpg)审阅图；已人工打开黑白两种图。可观察到两角、紫色双瞳及左右盘绕交织结饰在全部20张都存在，**没有从静态图中确认明显的挂饰变花或整张脸身份漂移**；细微线结关系、头发边缘与动画中尺度闪变仍需验收。为减少网页下载大小而使用JPEG的审阅副本不是无损原生产PNG，不计新绘、不决定验收。

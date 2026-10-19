@@ -16,3 +16,7 @@
 - 脚下疑似品红噪点：实际最大Alpha≤2，黑底合成最大通道≤1；暂不删图。优先原生分辨率复核帧005、008、013、014、016、017，**尚无确认需替换的帧**。
 - 双鞋轮廓ROI X范围左2.23px、右2.02px（Y各1px）仅为代理，接触点正式验收not_checked；首尾像素差9.4961/相邻中位数1.092，仅是诊断。
 - 本会话没有可靠连续视觉观察、没有合格新绘、没有进行家族拼接；保持现有状态与原20图。下一步详见CHECKPOINT.json的nextExactAction。
+
+### 2026-10-19T10:32:33.068Z: 原生尺度面部/Codex双角复核
+
+[GitHub Actions #39237945143](https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39237945143) 从全部20张RGBA原图不缩放裁出 x365:655、y240:485（290×245）面部、左右交织结饰和双角区域，实际生成三背景[黑](qa/diagnostic/face-codex-native-black-review.jpg)/[白](qa/diagnostic/face-codex-native-white-review.jpg)/[淡紫](qa/diagnostic/face-codex-native-lilac-review.jpg)空间1:1审阅图。人工查看黑、白审阅图，未发现大范围变成花朵的明显身份漂移；两侧交织拓扑在图上基本延续。JPEG压缩不等于完全无损原生细节验收，整体造型与动画仍未接受。

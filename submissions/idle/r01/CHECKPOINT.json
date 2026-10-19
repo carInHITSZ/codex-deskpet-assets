@@ -4,7 +4,7 @@
   "revision": "r01",
   "branch": "web/idle-r01",
   "sessionId": "chatgpt-github-20261019-forensic-continuation",
-  "updatedUtc": "2026-10-19T10:26:18.550Z",
+  "updatedUtc": "2026-10-19T10:32:33.068Z",
   "status": "mechanical_playback_pass_visual_review_pending",
   "baseCommit": "eba7dd6478744b1e3820963b024c0302e2d05da8",
   "completedFrames": [],
@@ -99,20 +99,21 @@
     "shoeBottomROIProxies": "actual_measured_image_left_range_x_2.23_y_1_and_image_right_range_x_2.02_y_1; NOT_anatomical_contact_2px_acceptance",
     "loopPixelSeam": "actual_fixed_viewport_premul_RGB_MAE_9.4961_ratio_to_median_adjacent_1.092; artistic_loop_not_checked",
     "visualCompositing": "static_review_only_at_reduced_resolution_not_full_1024_edge_art_acceptance",
-    "referenceLockedRedraw": "not_performed_no_confirmed_failure_for_safe_repaint"
+    "referenceLockedRedraw": "not_performed_no_confirmed_failure_for_safe_repaint",
+    "nativeOrnamentFaceHorns": "reviewed_all_20_at_unscaled_spatial_sampling_in_JPEG_black_white_lilac_contact_sheets; two_horns_and_both_interwoven_knot_shapes_and_eyes_persist; no_obvious_gross_identity_drift; pixel_lossless_microtopology_not_formally_accepted"
   },
   "dependencyCommits": [],
   "blockers": [
     "No formally art-accepted frames; 20 originals retained without modification and 0 newly generated or repaired frames accepted",
     "Raw-viewer bright magenta speck suspicion under feet is caused by near-transparent residual alpha: below y896 max alpha 2/255, actual black composite channel max 1/255; do not destructively clean without visible evidence",
-    "Native-resolution head/face/Codex knot/wing and right-hair fringe review remains to be performed per frame; downsampled 3-background contact sheets reviewed only",
+    "Unscaled face/Codex/horns cropped previews reviewed for all 20 and no gross identity drift found; formal pixel-perfect ornament topology, full native 1024 edge and wing/clothes review still pending",
     "Foot image-ROI proxy horizontal ranges 2.23px left/2.02px right and vertical <=1px are not anatomical ground-contact measurement; true <=2px gate not checked",
     "Loop 019->000 normalized RGB error 9.4961 (~1.092x median internal adjacent difference) is diagnostic only; true motion/respiration seam and 3-speed artist observation not checked",
     "Idle to blink/waiting family transitions unverified; those clips lack local artistic acceptance",
     "No identity-locked generation plus verified master-to-export-to-remote repair in this session; original image assets deliberately preserved",
     "Local runtime/DPI/multiple monitors not checked"
   ],
-  "nextExactAction": "At native resolution, inspect head/horns/Codex knot, right hair/wing-edge and shoe contacts in frame 005,008,013,014,016,017 against 000/012/019 and the full-res primary master. Annotate anatomical left/right shoe landmarks per frame and compare <=2px; watch actual complete breathing loop at 100/50/25% x3 for seam and deformation, then redraw only confirmed failures with master + adjacent accepted pose. Keep idle/blink/waiting transition NOT_CHECKED until both clips art-accepted.",
+  "nextExactAction": "Complete anatomical left/right shoe/sole landmark annotation at native size on idle frames 000–019; verify <=2px for both across same support phase (ROI proxy is insufficient). Directly observe true cyclic animation 100/50/25% each x3 including seam and body deformation. Inspect native wing/hair edges 005/008/013/014/016/017 and judge whether any material image fix needed; redraw only if actual art failure and safe identity-locked reference exists. Family idle/blink/waiting joins remain NOT_CHECKED.",
   "report": "qa/web-report.md",
   "technicalEvidence": {
     "runUrl": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39231855426",
@@ -175,6 +176,17 @@
     },
     "seamPremultipliedRGBMAE": 9.4961,
     "seamRatioToMedianAdjacent": 1.092,
-    "role": "quantitative and downsampled visual diagnostic, not formal art or loop acceptance"
+    "role": "quantitative and downsampled visual diagnostic, not formal art or loop acceptance",
+    "nativeFaceReview": {
+      "run": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39237945143",
+      "sourceCommit": "47f6e78440b51142ca9b657a9389d8589652c5ab",
+      "artifactCommit": "5b14f849cf261a40aa120943c0ffe97cb54f42b2",
+      "previews": [
+        "submissions/idle/r01/qa/diagnostic/face-codex-native-black-review.jpg",
+        "submissions/idle/r01/qa/diagnostic/face-codex-native-white-review.jpg",
+        "submissions/idle/r01/qa/diagnostic/face-codex-native-lilac-review.jpg"
+      ],
+      "note": "Extracted 290x245 source-pixel crops without spatial rescale from all 20 PNG files; review images saved as lossy JPEG for remote inspection, not pixel-perfect lossless examination or art acceptance."
+    }
   }
 }
