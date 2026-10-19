@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "clip": "idle",
+  "revision": "r01",
+  "status": "candidate_staging_not_accepted",
+  "standard": "shuangxu-v3",
+  "loop": true,
+  "motionOwner": "none",
+  "generator": {
+    "tool": null,
+    "model": null,
+    "date": null
+  },
+  "note": "All listed PNGs are exact, byte-preserving Git blob copies of existing selected candidates; no newly generated art is claimed. They are staged for inspection and not accepted.",
+  "frames": [
+    {
+      "file": "frames/idle/000.png",
+      "sourceFrame": 0,
+      "durationMs": 83.333333,
+      "assetId": "master_front",
+      "sourceCandidate": "groups/idle/images/initial/master_front.png",
+      "sourceGitBlobSha": "7e8b5e5a3f15bd83a5c5dd5da476dff0e073e611",
+      "masterFile": "masters/000_source.png",
+      "masterSource": "assets/masters/masters/master_front.png",
+      "masterGitBlobSha": "0222b97258034e3283d40fcfa90517cc46f46324",
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorKind": "nominal_v3_not_measured",
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null,
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null
+      },
+      "reusedFrom": "groups/idle/images/initial/master_front.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/004.png",
+      "sourceFrame": 4,
+      "durationMs": 83.333333,
+      "assetId": "idle_inhale_start",
+      "sourceCandidate": "groups/idle/images/poses/idle_inhale_start.png",
+      "sourceGitBlobSha": "e86326bc208bff2e92942a4220bfd9e43604e2f8",
+      "masterFile": "masters/004_source.png",
+      "masterSource": "assets/masters/generation-only/poses/idle_inhale_start.png",
+      "masterGitBlobSha": "5932cfa7d12b07da6a41326560d3da39fd35cc2f",
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorKind": "nominal_v3_not_measured",
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null,
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null
+      },
+      "reusedFrom": "groups/idle/images/poses/idle_inhale_start.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/008.png",
+      "sourceFrame": 8,
+      "durationMs": 83.333333,
+      "assetId": "idle_inhale_mid",
+      "sourceCandidate": "groups/idle/images/poses/idle_inhale_mid.png",
+      "sourceGitBlobSha": "7ad6740c315b342aa7295c47841c66da572378fa",
+      "masterFile": "masters/008_source.png",
+      "masterSource": "assets/masters/generation-only/poses/idle_inhale_mid.png",
+      "masterGitBlobSha": "03966ebdcf09fe64ec0863f0bbaf77f74e6c6854",
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorKind": "nominal_v3_not_measured",
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null,
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null
+      },
+      "reusedFrom": "groups/idle/images/poses/idle_inhale_mid.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/012.png",
+      "sourceFrame": 12,
+      "durationMs": 83.333333,
+      "assetId": "idle_breath_peak",
+      "sourceCandidate": "groups/idle/images/initial/idle_breath_peak.png",
+      "sourceGitBlobSha": "5f57e3b726edc1bae97f6b64536acc45aa9f3dba",
+      "masterFile": "masters/012_source.png",
+      "masterSource": "assets/masters/masters/idle_breath_peak.png",
+      "masterGitBlobSha": "25aa725b763963780385e597bdb57d5c18e856b2",
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorKind": "nominal_v3_not_measured",
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null,
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null
+      },
+      "reusedFrom": "groups/idle/images/initial/idle_breath_peak.png",
+      "scaleTranslationRecord": null
+    },
+    {
+      "file": "frames/idle/016.png",
+      "sourceFrame": 16,
+      "durationMs": 83.333333,
+      "assetId": "idle_exhale_mid",
+      "sourceCandidate": "groups/idle/images/poses/idle_exhale_mid.png",
+      "sourceGitBlobSha": "303c52149a703f1cd10ca3a9d4532f66a7ee15ab",
+      "masterFile": "masters/016_source.png",
+      "masterSource": "assets/masters/generation-only/poses/idle_exhale_mid.png",
+      "masterGitBlobSha": "753c6af24f4354dea549d3aea360540dad1be5c8",
+      "actualMasterSize": null,
+      "actualExportSize": [
+        1024,
+        1024
+      ],
+      "anchorPx": [
+        512,
+        896
+      ],
+      "anchorKind": "nominal_v3_not_measured",
+      "rootOffset": null,
+      "contactPoints": {
+        "anatomicalLeftFoot": null,
+        "anatomicalRightFoot": null,
+        "anatomicalLeftHand": null,
+        "anatomicalRightHand": null
+      },
+      "reusedFrom": "groups/idle/images/poses/idle_exhale_mid.png",
+      "scaleTranslationRecord": null
+    }
+  ],
+  "webChecks": {
+    "actualPlayback": "not_checked",
+    "speed100ThreeRuns": "not_checked",
+    "speed050ThreeRuns": "not_checked",
+    "speed025ThreeRuns": "not_checked",
+    "alpha": "not_checked",
+    "identityAndCodexEmblem": "partially_viewed_keyposes_no_acceptance",
+    "contactAndScale": "not_checked",
+    "loopAndTransitions": "not_checked",
+    "report": "qa/web-report.md"
+  }
+}

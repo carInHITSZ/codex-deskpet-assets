@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "clip": "idle",
+  "revision": "r01",
+  "branch": "web/idle-r01",
+  "sessionId": "chatgpt-github-20261019-01",
+  "updatedUtc": "2026-10-19T09:26:46.739Z",
+  "status": "candidate_staging_in_progress",
+  "baseCommit": "eba7dd6478744b1e3820963b024c0302e2d05da8",
+  "completedFrames": [],
+  "candidateFramesStaged": [
+    0,
+    4,
+    8,
+    12,
+    16
+  ],
+  "missingFrames": [],
+  "candidateFramesNotYetStaged": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19
+  ],
+  "revisionNeededFrames": [],
+  "manifest": "manifest.json",
+  "files": [
+    "submissions/idle/r01/frames/idle/000.png",
+    "submissions/idle/r01/masters/000_source.png",
+    "submissions/idle/r01/frames/idle/004.png",
+    "submissions/idle/r01/masters/004_source.png",
+    "submissions/idle/r01/frames/idle/008.png",
+    "submissions/idle/r01/masters/008_source.png",
+    "submissions/idle/r01/frames/idle/012.png",
+    "submissions/idle/r01/masters/012_source.png",
+    "submissions/idle/r01/frames/idle/016.png",
+    "submissions/idle/r01/masters/016_source.png",
+    "submissions/idle/r01/manifest.json",
+    "submissions/idle/r01/prompts.md",
+    "submissions/idle/r01/qa/web-report.md",
+    "submissions/idle/r01/CHECKPOINT.json",
+    "submissions/idle/r01/CHECKPOINT.md"
+  ],
+  "checks": {
+    "technical": "source_header_and_previous_catalog_only",
+    "visualIdentity": "partial_keyposes_no_acceptance",
+    "playback100": "not_checked",
+    "playback050": "not_checked",
+    "playback025": "not_checked",
+    "loopOrEndpoints": "not_checked",
+    "familyTransitions": "not_checked"
+  },
+  "dependencyCommits": [],
+  "blockers": [
+    "Full independent frame-by-frame visual QA not complete",
+    "Current session has not performed actual three-speed playback",
+    "Native master pixel dimensions have not been directly measured",
+    "Newly generated identity-drifted candidate was rejected"
+  ],
+  "nextExactAction": "Stage the remaining 15 selected existing idle candidate PNGs and corresponding original masters with their exact source Git blob SHAs; run byte/header/alpha/margin validation, inspect all frames at three actual playback speeds, repair any verified defects before marking web_sequence_checked.",
+  "report": "qa/web-report.md"
+}
