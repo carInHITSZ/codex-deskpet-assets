@@ -1,0 +1,154 @@
+{
+  "id": "blink",
+  "label": "自然眨眼",
+  "drawingStatus": "候选帧已齐·待验收",
+  "plannedFrames": 17,
+  "availableFrames": 17,
+  "missingFrames": [],
+  "allSourcesAvailable": true,
+  "isDirectionLibrary": false,
+  "loop": false,
+  "fps": 24,
+  "motionOwner": "none",
+  "rootOffset": null,
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "assetId": "master_front",
+      "file": "images/initial/master_front.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_reuse_blink_timeline",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 1,
+      "assetId": "blink_open_0875",
+      "file": "images/blink/blink_open_0875.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_reuse_blink_timeline",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 2,
+      "assetId": "blink_open_075",
+      "file": "images/blink/blink_open_075.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_reuse_blink_timeline",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 3,
+      "assetId": "blink_open_0625",
+      "file": "images/blink/blink_open_0625.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_reuse_blink_timeline",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 4,
+      "assetId": "blink_open_050",
+      "file": "images/blink/blink_open_050.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_reuse_blink_timeline",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 5,
+      "assetId": "blink_open_0375",
+      "file": "images/blink/blink_open_0375.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_reuse_blink_timeline",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 6,
+      "assetId": "blink_open_025",
+      "file": "images/blink/blink_open_025.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_reuse_blink_timeline",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 7,
+      "assetId": "blink_open_0125",
+      "file": "images/blink/blink_open_0125.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_reuse_blink_timeline",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 8,
+      "assetId": "blink_open_000",
+      "file": "images/blink/blink_open_000.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_reuse_blink_timeline",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 9,
+      "assetId": "blink_open_0125",
+      "file": "images/blink/blink_open_0125.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_reuse_blink_timeline",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 10,
+      "assetId": "blink_open_025",
+      "file": "images/blink/blink_open_025.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_reuse_blink_timeline",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 11,
+      "assetId": "blink_open_0375",
+      "file": "images/blink/blink_open_0375.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_reuse_blink_timeline",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 12,
+      "assetId": "blink_open_050",
+      "file": "images/blink/blink_open_050.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_reuse_blink_timeline",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 13,
+      "assetId": "blink_open_0625",
+      "file": "images/blink/blink_open_0625.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_reuse_blink_timeline",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 14,
+      "assetId": "blink_open_075",
+      "file": "images/blink/blink_open_075.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_reuse_blink_timeline",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 15,
+      "assetId": "blink_open_0875",
+      "file": "images/blink/blink_open_0875.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_reuse_blink_timeline",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 16,
+      "assetId": "master_front",
+      "file": "images/initial/master_front.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_reuse_blink_timeline",
+      "durationIsPreviewOnly": false
+    }
+  ],
+  "sequenceReady": false,
+  "previewMode": "complete_candidate_timeline"
+}

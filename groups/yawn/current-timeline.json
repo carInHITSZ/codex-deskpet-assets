@@ -1,0 +1,169 @@
+{
+  "id": "yawn",
+  "label": "打哈欠",
+  "drawingStatus": "部分关键姿态",
+  "plannedFrames": 45,
+  "availableFrames": 15,
+  "missingFrames": [
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    29,
+    30,
+    31,
+    33,
+    34,
+    35,
+    37,
+    38,
+    39,
+    41,
+    42,
+    43
+  ],
+  "allSourcesAvailable": false,
+  "isDirectionLibrary": false,
+  "loop": false,
+  "fps": 24,
+  "motionOwner": "none",
+  "rootOffset": null,
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "assetId": "master_front",
+      "file": "images/initial/master_front.png",
+      "durationMs": 41.666667,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 1,
+      "assetId": "blink_open_0875",
+      "file": "images/blink/blink_open_0875.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_blink_closing_reuse_yawn_leadin_unverified",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 2,
+      "assetId": "blink_open_075",
+      "file": "images/blink/blink_open_075.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_blink_closing_reuse_yawn_leadin_unverified",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 3,
+      "assetId": "blink_open_0625",
+      "file": "images/blink/blink_open_0625.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_blink_closing_reuse_yawn_leadin_unverified",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 4,
+      "assetId": "blink_open_050",
+      "file": "images/blink/blink_open_050.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 8,
+      "assetId": "yawn_arm_start",
+      "file": "images/poses/yawn_arm_start.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 12,
+      "assetId": "yawn_hand_near_mouth",
+      "file": "images/poses/yawn_hand_near_mouth.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 16,
+      "assetId": "yawn_mouth_opening",
+      "file": "images/poses/yawn_mouth_opening.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 20,
+      "assetId": "yawn_peak_v2",
+      "file": "images/poses/yawn_peak_v2.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 24,
+      "assetId": "yawn_ending",
+      "file": "images/poses/yawn_ending.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 28,
+      "assetId": "yawn_mouth_closed_v2",
+      "file": "images/poses/yawn_mouth_closed_v2.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 32,
+      "assetId": "yawn_hand_leaving_face",
+      "file": "images/poses/yawn_hand_leaving_face.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 36,
+      "assetId": "yawn_arm_lowering",
+      "file": "images/poses/yawn_arm_lowering.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 40,
+      "assetId": "master_front",
+      "file": "images/initial/master_front.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 44,
+      "assetId": "master_front",
+      "file": "images/initial/master_front.png",
+      "durationMs": 41.666667,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    }
+  ],
+  "sequenceReady": false,
+  "previewMode": "existing_keyposes_with_explicit_holds_not_interpolation"
+}

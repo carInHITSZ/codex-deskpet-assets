@@ -1,0 +1,129 @@
+{
+  "id": "walk_left",
+  "label": "向左行走",
+  "drawingStatus": "部分关键姿态",
+  "plannedFrames": 40,
+  "availableFrames": 10,
+  "missingFrames": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    29,
+    30,
+    31,
+    33,
+    34,
+    35,
+    37,
+    38,
+    39
+  ],
+  "allSourcesAvailable": false,
+  "isDirectionLibrary": false,
+  "loop": true,
+  "fps": 24,
+  "motionOwner": "renderer",
+  "rootOffset": null,
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "assetId": "walk_left_contact",
+      "file": "images/initial/walk_left_contact.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 4,
+      "assetId": "walk_left_down_a",
+      "file": "images/poses/walk_left_down_a.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 8,
+      "assetId": "walk_left_lift_a",
+      "file": "images/poses/walk_left_lift_a.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 12,
+      "assetId": "walk_left_pass_a",
+      "file": "images/poses/walk_left_pass_a.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 16,
+      "assetId": "walk_left_up_a_v2",
+      "file": "images/poses/walk_left_up_a_v2.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 20,
+      "assetId": "walk_left_contact_b_v2",
+      "file": "images/poses/walk_left_contact_b_v2.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 24,
+      "assetId": "walk_left_down_b",
+      "file": "images/poses/walk_left_down_b.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 28,
+      "assetId": "walk_left_lift_b",
+      "file": "images/poses/walk_left_lift_b.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 32,
+      "assetId": "walk_left_pass_b",
+      "file": "images/poses/walk_left_pass_b.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 36,
+      "assetId": "walk_left_up_b",
+      "file": "images/poses/walk_left_up_b.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    }
+  ],
+  "sequenceReady": false,
+  "previewMode": "existing_keyposes_with_explicit_holds_not_interpolation"
+}

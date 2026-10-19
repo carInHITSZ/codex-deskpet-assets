@@ -1,0 +1,178 @@
+{
+  "id": "idle",
+  "label": "待机呼吸",
+  "drawingStatus": "候选帧已齐·待验收",
+  "plannedFrames": 20,
+  "availableFrames": 20,
+  "missingFrames": [],
+  "allSourcesAvailable": true,
+  "isDirectionLibrary": false,
+  "loop": true,
+  "fps": 12,
+  "motionOwner": "none",
+  "rootOffset": null,
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "assetId": "master_front",
+      "file": "images/initial/master_front.png",
+      "durationMs": 83.333333,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 1,
+      "assetId": "idle_frame_001",
+      "file": "images/frames/idle_frame_001.png",
+      "durationMs": 83.333333,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 2,
+      "assetId": "idle_frame_002",
+      "file": "images/frames/idle_frame_002.png",
+      "durationMs": 83.333333,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 3,
+      "assetId": "idle_frame_003_v2",
+      "file": "images/frames/idle_frame_003_v2.png",
+      "durationMs": 83.333333,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 4,
+      "assetId": "idle_inhale_start",
+      "file": "images/poses/idle_inhale_start.png",
+      "durationMs": 83.333333,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 5,
+      "assetId": "idle_frame_005",
+      "file": "images/frames/idle_frame_005.png",
+      "durationMs": 83.333333,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 6,
+      "assetId": "idle_frame_006",
+      "file": "images/frames/idle_frame_006.png",
+      "durationMs": 83.333333,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 7,
+      "assetId": "idle_frame_007_v2",
+      "file": "images/frames/idle_frame_007_v2.png",
+      "durationMs": 83.333333,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 8,
+      "assetId": "idle_inhale_mid",
+      "file": "images/poses/idle_inhale_mid.png",
+      "durationMs": 83.333333,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 9,
+      "assetId": "idle_frame_009",
+      "file": "images/frames/idle_frame_009.png",
+      "durationMs": 83.333333,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 10,
+      "assetId": "idle_frame_010",
+      "file": "images/frames/idle_frame_010.png",
+      "durationMs": 83.333333,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 11,
+      "assetId": "idle_frame_011",
+      "file": "images/frames/idle_frame_011.png",
+      "durationMs": 83.333333,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 12,
+      "assetId": "idle_breath_peak",
+      "file": "images/initial/idle_breath_peak.png",
+      "durationMs": 83.333333,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 13,
+      "assetId": "idle_frame_013",
+      "file": "images/frames/idle_frame_013.png",
+      "durationMs": 83.333333,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 14,
+      "assetId": "idle_frame_014",
+      "file": "images/frames/idle_frame_014.png",
+      "durationMs": 83.333333,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 15,
+      "assetId": "idle_frame_015_v2",
+      "file": "images/frames/idle_frame_015_v2.png",
+      "durationMs": 83.333333,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 16,
+      "assetId": "idle_exhale_mid",
+      "file": "images/poses/idle_exhale_mid.png",
+      "durationMs": 83.333333,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 17,
+      "assetId": "idle_frame_017",
+      "file": "images/frames/idle_frame_017.png",
+      "durationMs": 83.333333,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 18,
+      "assetId": "idle_frame_018_v2",
+      "file": "images/frames/idle_frame_018_v2.png",
+      "durationMs": 83.333333,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 19,
+      "assetId": "idle_frame_019",
+      "file": "images/frames/idle_frame_019.png",
+      "durationMs": 83.333333,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    }
+  ],
+  "sequenceReady": false,
+  "previewMode": "complete_candidate_timeline"
+}

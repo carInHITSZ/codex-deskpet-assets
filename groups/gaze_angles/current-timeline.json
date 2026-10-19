@@ -1,0 +1,530 @@
+{
+  "id": "gaze_angles",
+  "label": "64方向视线图库",
+  "drawingStatus": "方向候选图已齐·待验收",
+  "plannedFrames": 64,
+  "availableFrames": 64,
+  "missingFrames": [],
+  "allSourcesAvailable": true,
+  "isDirectionLibrary": true,
+  "loop": false,
+  "fps": null,
+  "motionOwner": "none",
+  "rootOffset": null,
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "assetId": "gaze_000_deg",
+      "file": "images/gaze/gaze_000_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 1,
+      "assetId": "gaze_005p625_deg",
+      "file": "images/gaze/gaze_005p625_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 2,
+      "assetId": "gaze_011p25_deg",
+      "file": "images/gaze/gaze_011p25_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 3,
+      "assetId": "gaze_016p875_deg",
+      "file": "images/gaze/gaze_016p875_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 4,
+      "assetId": "gaze_022p5_deg",
+      "file": "images/gaze/gaze_022p5_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 5,
+      "assetId": "gaze_028p125_deg",
+      "file": "images/gaze/gaze_028p125_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 6,
+      "assetId": "gaze_033p75_deg_v3",
+      "file": "images/gaze/gaze_033p75_deg_v3.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 7,
+      "assetId": "gaze_039p375_deg",
+      "file": "images/gaze/gaze_039p375_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 8,
+      "assetId": "gaze_045_deg",
+      "file": "images/gaze/gaze_045_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 9,
+      "assetId": "gaze_050p625_deg",
+      "file": "images/gaze/gaze_050p625_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 10,
+      "assetId": "gaze_056p25_deg",
+      "file": "images/gaze/gaze_056p25_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 11,
+      "assetId": "gaze_061p875_deg",
+      "file": "images/gaze/gaze_061p875_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 12,
+      "assetId": "gaze_067p5_deg",
+      "file": "images/gaze/gaze_067p5_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 13,
+      "assetId": "gaze_073p125_deg",
+      "file": "images/gaze/gaze_073p125_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 14,
+      "assetId": "gaze_078p75_deg_v2",
+      "file": "images/gaze/gaze_078p75_deg_v2.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 15,
+      "assetId": "gaze_084p375_deg",
+      "file": "images/gaze/gaze_084p375_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 16,
+      "assetId": "gaze_090_deg",
+      "file": "images/gaze/gaze_090_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 17,
+      "assetId": "gaze_095p625_deg",
+      "file": "images/gaze/gaze_095p625_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 18,
+      "assetId": "gaze_101p25_deg",
+      "file": "images/gaze/gaze_101p25_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 19,
+      "assetId": "gaze_106p875_deg",
+      "file": "images/gaze/gaze_106p875_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 20,
+      "assetId": "gaze_112p5_deg",
+      "file": "images/gaze/gaze_112p5_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 21,
+      "assetId": "gaze_118p125_deg",
+      "file": "images/gaze/gaze_118p125_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 22,
+      "assetId": "gaze_123p75_deg",
+      "file": "images/gaze/gaze_123p75_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 23,
+      "assetId": "gaze_129p375_deg",
+      "file": "images/gaze/gaze_129p375_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 24,
+      "assetId": "gaze_135_deg",
+      "file": "images/gaze/gaze_135_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 25,
+      "assetId": "gaze_140p625_deg",
+      "file": "images/gaze/gaze_140p625_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 26,
+      "assetId": "gaze_146p25_deg",
+      "file": "images/gaze/gaze_146p25_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 27,
+      "assetId": "gaze_151p875_deg",
+      "file": "images/gaze/gaze_151p875_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 28,
+      "assetId": "gaze_157p5_deg",
+      "file": "images/gaze/gaze_157p5_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 29,
+      "assetId": "gaze_163p125_deg",
+      "file": "images/gaze/gaze_163p125_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 30,
+      "assetId": "gaze_168p75_deg",
+      "file": "images/gaze/gaze_168p75_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 31,
+      "assetId": "gaze_174p375_deg",
+      "file": "images/gaze/gaze_174p375_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 32,
+      "assetId": "gaze_180_deg",
+      "file": "images/gaze/gaze_180_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 33,
+      "assetId": "gaze_185p625_deg",
+      "file": "images/gaze/gaze_185p625_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 34,
+      "assetId": "gaze_191p25_deg",
+      "file": "images/gaze/gaze_191p25_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 35,
+      "assetId": "gaze_196p875_deg",
+      "file": "images/gaze/gaze_196p875_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 36,
+      "assetId": "gaze_202p5_deg",
+      "file": "images/gaze/gaze_202p5_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 37,
+      "assetId": "gaze_208p125_deg",
+      "file": "images/gaze/gaze_208p125_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 38,
+      "assetId": "gaze_213p75_deg",
+      "file": "images/gaze/gaze_213p75_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 39,
+      "assetId": "gaze_219p375_deg",
+      "file": "images/gaze/gaze_219p375_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 40,
+      "assetId": "gaze_225_deg",
+      "file": "images/gaze/gaze_225_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 41,
+      "assetId": "gaze_230p625_deg",
+      "file": "images/gaze/gaze_230p625_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 42,
+      "assetId": "gaze_236p25_deg",
+      "file": "images/gaze/gaze_236p25_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 43,
+      "assetId": "gaze_241p875_deg",
+      "file": "images/gaze/gaze_241p875_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 44,
+      "assetId": "gaze_247p5_deg",
+      "file": "images/gaze/gaze_247p5_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 45,
+      "assetId": "gaze_253p125_deg",
+      "file": "images/gaze/gaze_253p125_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 46,
+      "assetId": "gaze_258p75_deg",
+      "file": "images/gaze/gaze_258p75_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 47,
+      "assetId": "gaze_264p375_deg",
+      "file": "images/gaze/gaze_264p375_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 48,
+      "assetId": "gaze_270_deg",
+      "file": "images/gaze/gaze_270_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 49,
+      "assetId": "gaze_275p625_deg",
+      "file": "images/gaze/gaze_275p625_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 50,
+      "assetId": "gaze_281p25_deg",
+      "file": "images/gaze/gaze_281p25_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 51,
+      "assetId": "gaze_286p875_deg",
+      "file": "images/gaze/gaze_286p875_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 52,
+      "assetId": "gaze_292p5_deg",
+      "file": "images/gaze/gaze_292p5_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 53,
+      "assetId": "gaze_298p125_deg",
+      "file": "images/gaze/gaze_298p125_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 54,
+      "assetId": "gaze_303p75_deg",
+      "file": "images/gaze/gaze_303p75_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 55,
+      "assetId": "gaze_309p375_deg",
+      "file": "images/gaze/gaze_309p375_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 56,
+      "assetId": "gaze_315_deg",
+      "file": "images/gaze/gaze_315_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 57,
+      "assetId": "gaze_320p625_deg",
+      "file": "images/gaze/gaze_320p625_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 58,
+      "assetId": "gaze_326p25_deg",
+      "file": "images/gaze/gaze_326p25_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 59,
+      "assetId": "gaze_331p875_deg",
+      "file": "images/gaze/gaze_331p875_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 60,
+      "assetId": "gaze_337p5_deg",
+      "file": "images/gaze/gaze_337p5_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 61,
+      "assetId": "gaze_343p125_deg",
+      "file": "images/gaze/gaze_343p125_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 62,
+      "assetId": "gaze_348p75_deg",
+      "file": "images/gaze/gaze_348p75_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    },
+    {
+      "sourceFrame": 63,
+      "assetId": "gaze_354p375_deg",
+      "file": "images/gaze/gaze_354p375_deg.png",
+      "durationMs": 41.666667,
+      "mapping": "direction_sample_candidate_angle_unverified",
+      "durationIsPreviewOnly": true
+    }
+  ],
+  "sequenceReady": false,
+  "previewMode": "complete_candidate_timeline"
+}

@@ -1,0 +1,126 @@
+{
+  "id": "climb_left_enter",
+  "label": "左侧攀爬进入",
+  "drawingStatus": "部分关键姿态",
+  "plannedFrames": 37,
+  "availableFrames": 10,
+  "missingFrames": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    29,
+    30,
+    31,
+    33,
+    34,
+    35
+  ],
+  "allSourcesAvailable": false,
+  "isDirectionLibrary": false,
+  "loop": false,
+  "fps": 24,
+  "motionOwner": "renderer",
+  "rootOffset": null,
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "assetId": "master_front",
+      "file": "images/initial/master_front.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 4,
+      "assetId": "climb_left_enter_gaze_edge",
+      "file": "images/poses/climb_left_enter_gaze_edge.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 8,
+      "assetId": "climb_left_enter_torso_turn",
+      "file": "images/poses/climb_left_enter_torso_turn.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 12,
+      "assetId": "climb_left_enter_near_hand_lift",
+      "file": "images/poses/climb_left_enter_near_hand_lift.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 16,
+      "assetId": "climb_left_enter_near_hand_contact_v2",
+      "file": "images/poses/climb_left_enter_near_hand_contact_v2.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 20,
+      "assetId": "climb_left_enter_far_hand_contact",
+      "file": "images/poses/climb_left_enter_far_hand_contact.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 24,
+      "assetId": "climb_left_enter_weight_near_plane",
+      "file": "images/poses/climb_left_enter_weight_near_plane.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 28,
+      "assetId": "climb_left_enter_foot_seek_v2",
+      "file": "images/poses/climb_left_enter_foot_seek_v2.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 32,
+      "assetId": "climb_left_enter_toe_contact",
+      "file": "images/poses/climb_left_enter_toe_contact.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 36,
+      "assetId": "climb_left_support_a_v5",
+      "file": "images/poses/climb_left_support_a_v5.png",
+      "durationMs": 41.666667,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    }
+  ],
+  "sequenceReady": false,
+  "previewMode": "existing_keyposes_with_explicit_holds_not_interpolation"
+}

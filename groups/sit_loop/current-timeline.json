@@ -1,0 +1,74 @@
+{
+  "id": "sit_loop",
+  "label": "坐姿循环",
+  "drawingStatus": "部分关键姿态",
+  "plannedFrames": 20,
+  "availableFrames": 5,
+  "missingFrames": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19
+  ],
+  "allSourcesAvailable": false,
+  "isDirectionLibrary": false,
+  "loop": true,
+  "fps": 12,
+  "motionOwner": "none",
+  "rootOffset": null,
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "assetId": "sit_awake_base_v2",
+      "file": "images/poses/sit_awake_base_v2.png",
+      "durationMs": 333.333332,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 4,
+      "assetId": "sit_inhale_start",
+      "file": "images/poses/sit_inhale_start.png",
+      "durationMs": 333.333332,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 8,
+      "assetId": "sit_inhale_mid",
+      "file": "images/poses/sit_inhale_mid.png",
+      "durationMs": 333.333332,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 12,
+      "assetId": "sit_inhale_peak_v2",
+      "file": "images/poses/sit_inhale_peak_v2.png",
+      "durationMs": 333.333332,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 16,
+      "assetId": "sit_exhale_mid",
+      "file": "images/poses/sit_exhale_mid.png",
+      "durationMs": 333.333332,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    }
+  ],
+  "sequenceReady": false,
+  "previewMode": "existing_keyposes_with_explicit_holds_not_interpolation"
+}

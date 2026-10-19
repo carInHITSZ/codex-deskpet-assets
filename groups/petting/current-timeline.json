@@ -1,0 +1,137 @@
+{
+  "id": "petting",
+  "label": "被抚摸",
+  "drawingStatus": "部分关键姿态",
+  "plannedFrames": 41,
+  "availableFrames": 11,
+  "missingFrames": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    29,
+    30,
+    31,
+    33,
+    34,
+    35,
+    37,
+    38,
+    39
+  ],
+  "allSourcesAvailable": false,
+  "isDirectionLibrary": false,
+  "loop": false,
+  "fps": 24,
+  "motionOwner": "none",
+  "rootOffset": null,
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "assetId": "master_front",
+      "file": "images/initial/master_front.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 4,
+      "assetId": "gaze_000_deg",
+      "file": "images/gaze/gaze_000_deg.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 8,
+      "assetId": "petting_head_yield_v2",
+      "file": "images/poses/petting_head_yield_v2.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 12,
+      "assetId": "petting_eyes_half_closed",
+      "file": "images/poses/petting_eyes_half_closed.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 16,
+      "assetId": "petting_content_peak_v2",
+      "file": "images/poses/petting_content_peak_v2.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 20,
+      "assetId": "petting_shoulders_relaxed",
+      "file": "images/poses/petting_shoulders_relaxed.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 24,
+      "assetId": "petting_small_nod",
+      "file": "images/poses/petting_small_nod.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 28,
+      "assetId": "petting_head_return",
+      "file": "images/poses/petting_head_return.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 32,
+      "assetId": "petting_eyes_half_open",
+      "file": "images/poses/petting_eyes_half_open.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 36,
+      "assetId": "nod_smile_start_v2",
+      "file": "images/poses/nod_smile_start_v2.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 40,
+      "assetId": "master_front",
+      "file": "images/initial/master_front.png",
+      "durationMs": 41.666667,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    }
+  ],
+  "sequenceReady": false,
+  "previewMode": "existing_keyposes_with_explicit_holds_not_interpolation"
+}

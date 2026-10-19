@@ -1,0 +1,137 @@
+{
+  "id": "review",
+  "label": "检查/审阅",
+  "drawingStatus": "部分关键姿态",
+  "plannedFrames": 41,
+  "availableFrames": 11,
+  "missingFrames": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    29,
+    30,
+    31,
+    33,
+    34,
+    35,
+    37,
+    38,
+    39
+  ],
+  "allSourcesAvailable": false,
+  "isDirectionLibrary": false,
+  "loop": false,
+  "fps": 20,
+  "motionOwner": "none",
+  "rootOffset": null,
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "assetId": "master_front",
+      "file": "images/initial/master_front.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 4,
+      "assetId": "review_gaze_to_focus",
+      "file": "images/poses/review_gaze_to_focus.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 8,
+      "assetId": "review_head_lowering",
+      "file": "images/poses/review_head_lowering.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 12,
+      "assetId": "review_inspect_base_v2",
+      "file": "images/poses/review_inspect_base_v2.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 16,
+      "assetId": "review_scan",
+      "file": "images/poses/review_scan.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 20,
+      "assetId": "review_scan",
+      "file": "images/poses/review_scan.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 24,
+      "assetId": "review_head_lowering",
+      "file": "images/poses/review_head_lowering.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 28,
+      "assetId": "nod_lowest_v2",
+      "file": "images/poses/nod_lowest_v2.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 32,
+      "assetId": "waiting_attention_forward",
+      "file": "images/poses/waiting_attention_forward.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 36,
+      "assetId": "master_front",
+      "file": "images/initial/master_front.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 40,
+      "assetId": "master_front",
+      "file": "images/initial/master_front.png",
+      "durationMs": 50.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    }
+  ],
+  "sequenceReady": false,
+  "previewMode": "existing_keyposes_with_explicit_holds_not_interpolation"
+}

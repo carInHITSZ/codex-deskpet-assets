@@ -1,0 +1,104 @@
+{
+  "id": "wing_enter",
+  "label": "展开翅膀",
+  "drawingStatus": "部分关键姿态",
+  "plannedFrames": 29,
+  "availableFrames": 8,
+  "missingFrames": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27
+  ],
+  "allSourcesAvailable": false,
+  "isDirectionLibrary": false,
+  "loop": false,
+  "fps": 24,
+  "motionOwner": "none",
+  "rootOffset": null,
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "assetId": "wing_structure_folded",
+      "file": "images/poses/wing_structure_folded.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 4,
+      "assetId": "wing_enter_root_lift",
+      "file": "images/poses/wing_enter_root_lift.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 8,
+      "assetId": "wing_enter_root_rotate",
+      "file": "images/poses/wing_enter_root_rotate.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 12,
+      "assetId": "wing_enter_inner_extend",
+      "file": "images/poses/wing_enter_inner_extend.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 16,
+      "assetId": "wing_enter_outer_extend",
+      "file": "images/poses/wing_enter_outer_extend.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 20,
+      "assetId": "wing_enter_membrane_open",
+      "file": "images/poses/wing_enter_membrane_open.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 24,
+      "assetId": "wing_enter_near_full",
+      "file": "images/poses/wing_enter_near_full.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 28,
+      "assetId": "wing_open",
+      "file": "images/initial/wing_open.png",
+      "durationMs": 41.666667,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    }
+  ],
+  "sequenceReady": false,
+  "previewMode": "existing_keyposes_with_explicit_holds_not_interpolation"
+}

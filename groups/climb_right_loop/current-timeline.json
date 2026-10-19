@@ -1,0 +1,151 @@
+{
+  "id": "climb_right_loop",
+  "label": "右侧攀爬循环",
+  "drawingStatus": "部分关键姿态",
+  "plannedFrames": 48,
+  "availableFrames": 12,
+  "missingFrames": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    29,
+    30,
+    31,
+    33,
+    34,
+    35,
+    37,
+    38,
+    39,
+    41,
+    42,
+    43,
+    45,
+    46,
+    47
+  ],
+  "allSourcesAvailable": false,
+  "isDirectionLibrary": false,
+  "loop": true,
+  "fps": 24,
+  "motionOwner": "renderer",
+  "rootOffset": null,
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "assetId": "climb_right_support_a",
+      "file": "images/poses/climb_right_support_a.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 4,
+      "assetId": "climb_right_loop_upper_hand_unload",
+      "file": "images/poses/climb_right_loop_upper_hand_unload.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 8,
+      "assetId": "climb_right_loop_upper_hand_lift",
+      "file": "images/poses/climb_right_loop_upper_hand_lift.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 12,
+      "assetId": "climb_right_loop_upper_hand_contact",
+      "file": "images/poses/climb_right_loop_upper_hand_contact.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 16,
+      "assetId": "climb_right_loop_opposite_knee_lift",
+      "file": "images/poses/climb_right_loop_opposite_knee_lift.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 20,
+      "assetId": "climb_right_loop_opposite_foot_contact",
+      "file": "images/poses/climb_right_loop_opposite_foot_contact.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 24,
+      "assetId": "climb_right_loop_torso_transfer",
+      "file": "images/poses/climb_right_loop_torso_transfer.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 28,
+      "assetId": "climb_right_loop_other_hand_lift",
+      "file": "images/poses/climb_right_loop_other_hand_lift.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 32,
+      "assetId": "climb_right_loop_other_hand_contact",
+      "file": "images/poses/climb_right_loop_other_hand_contact.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 36,
+      "assetId": "climb_right_loop_other_foot_lift",
+      "file": "images/poses/climb_right_loop_other_foot_lift.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 40,
+      "assetId": "climb_right_loop_other_foot_contact_v3",
+      "file": "images/poses/climb_right_loop_other_foot_contact_v3.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 44,
+      "assetId": "climb_right_loop_torso_complete",
+      "file": "images/poses/climb_right_loop_torso_complete.png",
+      "durationMs": 166.666668,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    }
+  ],
+  "sequenceReady": false,
+  "previewMode": "existing_keyposes_with_explicit_holds_not_interpolation"
+}

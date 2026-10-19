@@ -1,0 +1,85 @@
+{
+  "id": "drag_loop",
+  "label": "拖动悬垂",
+  "drawingStatus": "部分关键姿态",
+  "plannedFrames": 24,
+  "availableFrames": 6,
+  "missingFrames": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    21,
+    22,
+    23
+  ],
+  "allSourcesAvailable": false,
+  "isDirectionLibrary": false,
+  "loop": true,
+  "fps": 16,
+  "motionOwner": "renderer",
+  "rootOffset": null,
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "assetId": "drag_dangling_base_v2",
+      "file": "images/poses/drag_dangling_base_v2.png",
+      "durationMs": 250.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 4,
+      "assetId": "drag_loop_left_start_v2",
+      "file": "images/poses/drag_loop_left_start_v2.png",
+      "durationMs": 250.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 8,
+      "assetId": "drag_loop_left_peak",
+      "file": "images/poses/drag_loop_left_peak.png",
+      "durationMs": 250.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 12,
+      "assetId": "drag_loop_mid_return",
+      "file": "images/poses/drag_loop_mid_return.png",
+      "durationMs": 250.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 16,
+      "assetId": "drag_loop_right_start",
+      "file": "images/poses/drag_loop_right_start.png",
+      "durationMs": 250.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 20,
+      "assetId": "drag_loop_right_peak",
+      "file": "images/poses/drag_loop_right_peak.png",
+      "durationMs": 250.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    }
+  ],
+  "sequenceReady": false,
+  "previewMode": "existing_keyposes_with_explicit_holds_not_interpolation"
+}

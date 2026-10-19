@@ -1,0 +1,57 @@
+{
+  "id": "turn_left_to_front",
+  "label": "向左转身回正",
+  "drawingStatus": "部分关键姿态",
+  "plannedFrames": 17,
+  "availableFrames": 3,
+  "missingFrames": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "allSourcesAvailable": false,
+  "isDirectionLibrary": false,
+  "loop": false,
+  "fps": 24,
+  "motionOwner": "none",
+  "rootOffset": null,
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "assetId": "model_side_left",
+      "file": "images/views/model_side_left.png",
+      "durationMs": 333.333336,
+      "mapping": "explicit_static_turn_endpoint_reuse_motion_unverified",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 8,
+      "assetId": "model_threequarter_left",
+      "file": "images/views/model_threequarter_left.png",
+      "durationMs": 333.333336,
+      "mapping": "explicit_static_turn_endpoint_reuse_motion_unverified",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 16,
+      "assetId": "master_front",
+      "file": "images/initial/master_front.png",
+      "durationMs": 41.666667,
+      "mapping": "explicit_static_turn_endpoint_reuse_motion_unverified",
+      "durationIsPreviewOnly": false
+    }
+  ],
+  "sequenceReady": false,
+  "previewMode": "existing_keyposes_with_explicit_holds_not_interpolation"
+}

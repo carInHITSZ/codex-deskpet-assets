@@ -1,0 +1,178 @@
+{
+  "id": "working_loop",
+  "label": "专注循环",
+  "drawingStatus": "候选帧已齐·待验收",
+  "plannedFrames": 20,
+  "availableFrames": 20,
+  "missingFrames": [],
+  "allSourcesAvailable": true,
+  "isDirectionLibrary": false,
+  "loop": true,
+  "fps": 16,
+  "motionOwner": "none",
+  "rootOffset": null,
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "assetId": "working_focused_base_v2",
+      "file": "images/poses/working_focused_base_v2.png",
+      "durationMs": 62.5,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 1,
+      "assetId": "working_loop_frame_001",
+      "file": "images/frames/working_loop_frame_001.png",
+      "durationMs": 62.5,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 2,
+      "assetId": "working_loop_frame_002_v2",
+      "file": "images/frames/working_loop_frame_002_v2.png",
+      "durationMs": 62.5,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 3,
+      "assetId": "working_loop_frame_003",
+      "file": "images/frames/working_loop_frame_003.png",
+      "durationMs": 62.5,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 4,
+      "assetId": "working_inhale",
+      "file": "images/poses/working_inhale.png",
+      "durationMs": 62.5,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 5,
+      "assetId": "working_loop_frame_005",
+      "file": "images/frames/working_loop_frame_005.png",
+      "durationMs": 62.5,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 6,
+      "assetId": "working_loop_frame_006",
+      "file": "images/frames/working_loop_frame_006.png",
+      "durationMs": 62.5,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 7,
+      "assetId": "working_loop_frame_007",
+      "file": "images/frames/working_loop_frame_007.png",
+      "durationMs": 62.5,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 8,
+      "assetId": "working_gaze_scan",
+      "file": "images/poses/working_gaze_scan.png",
+      "durationMs": 62.5,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 9,
+      "assetId": "working_loop_frame_009",
+      "file": "images/frames/working_loop_frame_009.png",
+      "durationMs": 62.5,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 10,
+      "assetId": "working_loop_frame_010",
+      "file": "images/frames/working_loop_frame_010.png",
+      "durationMs": 62.5,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 11,
+      "assetId": "working_loop_frame_011",
+      "file": "images/frames/working_loop_frame_011.png",
+      "durationMs": 62.5,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 12,
+      "assetId": "working_small_nod",
+      "file": "images/poses/working_small_nod.png",
+      "durationMs": 62.5,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 13,
+      "assetId": "working_loop_frame_013",
+      "file": "images/frames/working_loop_frame_013.png",
+      "durationMs": 62.5,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 14,
+      "assetId": "working_loop_frame_014",
+      "file": "images/frames/working_loop_frame_014.png",
+      "durationMs": 62.5,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 15,
+      "assetId": "working_loop_frame_015",
+      "file": "images/frames/working_loop_frame_015.png",
+      "durationMs": 62.5,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 16,
+      "assetId": "working_focused_base_v2",
+      "file": "images/poses/working_focused_base_v2.png",
+      "durationMs": 62.5,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 17,
+      "assetId": "working_loop_frame_017",
+      "file": "images/frames/working_loop_frame_017.png",
+      "durationMs": 62.5,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 18,
+      "assetId": "working_loop_frame_018",
+      "file": "images/frames/working_loop_frame_018.png",
+      "durationMs": 62.5,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 19,
+      "assetId": "working_loop_frame_019",
+      "file": "images/frames/working_loop_frame_019.png",
+      "durationMs": 62.5,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    }
+  ],
+  "sequenceReady": false,
+  "previewMode": "complete_candidate_timeline"
+}

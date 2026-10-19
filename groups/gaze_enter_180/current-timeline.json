@@ -1,0 +1,58 @@
+{
+  "id": "gaze_enter_180",
+  "label": "视线进入 180°",
+  "drawingStatus": "候选帧已齐·待验收",
+  "plannedFrames": 5,
+  "availableFrames": 5,
+  "missingFrames": [],
+  "allSourcesAvailable": true,
+  "isDirectionLibrary": false,
+  "loop": false,
+  "fps": 24,
+  "motionOwner": "none",
+  "rootOffset": null,
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "assetId": "gaze_enter_180_frame_000",
+      "file": "images/frames/gaze_enter_180_frame_000.png",
+      "durationMs": 41.666667,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 1,
+      "assetId": "gaze_enter_180_frame_001",
+      "file": "images/frames/gaze_enter_180_frame_001.png",
+      "durationMs": 41.666667,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 2,
+      "assetId": "gaze_enter_180_frame_002",
+      "file": "images/frames/gaze_enter_180_frame_002.png",
+      "durationMs": 41.666667,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 3,
+      "assetId": "gaze_enter_180_frame_003",
+      "file": "images/frames/gaze_enter_180_frame_003.png",
+      "durationMs": 41.666667,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 4,
+      "assetId": "gaze_enter_180_frame_004",
+      "file": "images/frames/gaze_enter_180_frame_004.png",
+      "durationMs": 41.666667,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    }
+  ],
+  "sequenceReady": false,
+  "previewMode": "complete_candidate_timeline"
+}

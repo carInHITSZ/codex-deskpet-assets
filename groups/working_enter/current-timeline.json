@@ -1,0 +1,154 @@
+{
+  "id": "working_enter",
+  "label": "进入专注",
+  "drawingStatus": "候选帧已齐·待验收",
+  "plannedFrames": 17,
+  "availableFrames": 17,
+  "missingFrames": [],
+  "allSourcesAvailable": true,
+  "isDirectionLibrary": false,
+  "loop": false,
+  "fps": 20,
+  "motionOwner": "none",
+  "rootOffset": null,
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "assetId": "master_front",
+      "file": "images/initial/master_front.png",
+      "durationMs": 50.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 1,
+      "assetId": "working_enter_frame_001",
+      "file": "images/frames/working_enter_frame_001.png",
+      "durationMs": 50.0,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 2,
+      "assetId": "working_enter_frame_002",
+      "file": "images/frames/working_enter_frame_002.png",
+      "durationMs": 50.0,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 3,
+      "assetId": "working_enter_frame_003",
+      "file": "images/frames/working_enter_frame_003.png",
+      "durationMs": 50.0,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 4,
+      "assetId": "stand_gaze_down_v2",
+      "file": "images/poses/stand_gaze_down_v2.png",
+      "durationMs": 50.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 5,
+      "assetId": "working_enter_frame_005",
+      "file": "images/frames/working_enter_frame_005.png",
+      "durationMs": 50.0,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 6,
+      "assetId": "working_enter_frame_006",
+      "file": "images/frames/working_enter_frame_006.png",
+      "durationMs": 50.0,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 7,
+      "assetId": "working_enter_frame_007",
+      "file": "images/frames/working_enter_frame_007.png",
+      "durationMs": 50.0,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 8,
+      "assetId": "stand_head_bowed",
+      "file": "images/poses/stand_head_bowed.png",
+      "durationMs": 50.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 9,
+      "assetId": "working_enter_frame_009",
+      "file": "images/frames/working_enter_frame_009.png",
+      "durationMs": 50.0,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 10,
+      "assetId": "working_enter_frame_010_v3",
+      "file": "images/frames/working_enter_frame_010_v3.png",
+      "durationMs": 50.0,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 11,
+      "assetId": "working_enter_frame_011",
+      "file": "images/frames/working_enter_frame_011.png",
+      "durationMs": 50.0,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 12,
+      "assetId": "working_hands_rising_v2",
+      "file": "images/poses/working_hands_rising_v2.png",
+      "durationMs": 50.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 13,
+      "assetId": "working_enter_frame_014",
+      "file": "images/frames/working_enter_frame_014.png",
+      "durationMs": 50.0,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 14,
+      "assetId": "working_enter_frame_015",
+      "file": "images/frames/working_enter_frame_015.png",
+      "durationMs": 50.0,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 15,
+      "assetId": "working_enter_frame_013",
+      "file": "images/frames/working_enter_frame_013.png",
+      "durationMs": 50.0,
+      "mapping": "independently_generated_inbetween_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 16,
+      "assetId": "working_focused_base_v2",
+      "file": "images/poses/working_focused_base_v2.png",
+      "durationMs": 50.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    }
+  ],
+  "sequenceReady": false,
+  "previewMode": "complete_candidate_timeline"
+}

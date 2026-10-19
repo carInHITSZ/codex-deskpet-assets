@@ -1,0 +1,126 @@
+{
+  "id": "failed",
+  "label": "失落反应",
+  "drawingStatus": "部分关键姿态",
+  "plannedFrames": 37,
+  "availableFrames": 10,
+  "missingFrames": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    29,
+    30,
+    31,
+    33,
+    34,
+    35
+  ],
+  "allSourcesAvailable": false,
+  "isDirectionLibrary": false,
+  "loop": false,
+  "fps": 20,
+  "motionOwner": "none",
+  "rootOffset": null,
+  "frames": [
+    {
+      "sourceFrame": 0,
+      "assetId": "master_front",
+      "file": "images/initial/master_front.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 4,
+      "assetId": "stand_head_bowed",
+      "file": "images/poses/stand_head_bowed.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 8,
+      "assetId": "sleep_enter_deep_knee_bend",
+      "file": "images/poses/sleep_enter_deep_knee_bend.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 12,
+      "assetId": "failed_near_floor",
+      "file": "images/poses/failed_near_floor.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 16,
+      "assetId": "failed_curled_seated_v2",
+      "file": "images/poses/failed_curled_seated_v2.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 20,
+      "assetId": "failed_release_hug",
+      "file": "images/poses/failed_release_hug.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 24,
+      "assetId": "failed_feet_support",
+      "file": "images/poses/failed_feet_support.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 28,
+      "assetId": "failed_rising_head_low",
+      "file": "images/poses/failed_rising_head_low.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 32,
+      "assetId": "master_front",
+      "file": "images/initial/master_front.png",
+      "durationMs": 200.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    },
+    {
+      "sourceFrame": 36,
+      "assetId": "master_front",
+      "file": "images/initial/master_front.png",
+      "durationMs": 50.0,
+      "mapping": "stage_endpoint_candidate",
+      "durationIsPreviewOnly": false
+    }
+  ],
+  "sequenceReady": false,
+  "previewMode": "existing_keyposes_with_explicit_holds_not_interpolation"
+}
