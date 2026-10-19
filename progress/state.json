@@ -31,16 +31,17 @@
     },
     {
       "clip": "waiting_enter",
-      "status": "candidate_complete_needs_review",
+      "status": "blocked_source_images_not_bound_to_image_generator;two_existing_candidate_draws_pending_acceptance",
       "plannedFrames": 17,
       "candidateSlots": 17,
       "missingFrames": [],
       "webChecks": "not_accepted",
       "localAcceptance": false,
       "runtimeAcceptance": false,
-      "branch": null,
-      "pr": null,
-      "checkpoint": null
+      "branch": "web/waiting-enter-r01",
+      "pr": "https://github.com/carInHITSZ/codex-deskpet-assets/pull/3",
+      "checkpoint": "submissions/waiting_enter/r01/CHECKPOINT.json",
+      "note": "Remote branch keeps 004/008 only (2 candidates+2 masters), 0 accepted. 005 generated output in current session REJECTED because source GitHub images did not bind to generator; NOT committed. Minimum 4 explicit PNG uploads needed, see checkpoint. Other groups untouched."
     },
     {
       "clip": "waiting_loop",

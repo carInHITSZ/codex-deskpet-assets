@@ -1,0 +1,229 @@
+{
+  "technicalChecks": {
+    "original_master_PNG_RGBA": "passed",
+    "candidate_1024_RGBA": "passed",
+    "alpha_transparency": "passed",
+    "canvas_margin_GT24": "passed",
+    "reference_sha256_match": "passed",
+    "candidate_anchor_bbox_foot_proxy": "passed_proxy_only",
+    "candidate_identity_ornament": "needs_human_review",
+    "candidate_anatomical_landmarks": "not_checked",
+    "candidate_continuity_003_004_005": "visual_review_required",
+    "candidate_smooth_playback": "not_checked",
+    "candidate_runtime": "not_checked",
+    "character_exact_fidelity": "not_accepted",
+    "githubBinaryBlobSHA1Readback": "passed",
+    "githubRemoteSha256": "not_checked",
+    "multipleBackgroundCompositing": "rendered_for_visual_inspection",
+    "anatomicalFootContact": "not_checked",
+    "candidateFootCentroidProxyAgainstMain": "passed_delta_0.55px_not_anatomical",
+    "githubCandidateB64LengthReadback": "passed"
+  },
+  "provenance": {
+    "userProvidedRefs": [
+      {
+        "path": "reference-input/master_front_1024.png",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 534966,
+        "sha256": "f2505e9eb7bf3240659c639717a76830aeaf991690c799109702111d34621f2a",
+        "format": "PNG",
+        "pixelMode": "RGBA",
+        "alphaMin": 0,
+        "alphaMax": 255,
+        "alphaZeroPixels": 857398,
+        "alphaZeroRatio": 0.81768,
+        "alphaBboxGT8": [
+          293,
+          256,
+          753,
+          896
+        ]
+      },
+      {
+        "path": "reference-input/waiting_attention_forward.png",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 364753,
+        "sha256": "24e6888e71bd6154f8991ad2fd651acb3e4ea8400f759cf7e1f2130b248f7716",
+        "format": "PNG",
+        "pixelMode": "RGBA",
+        "alphaMin": 0,
+        "alphaMax": 255,
+        "alphaZeroPixels": 918161,
+        "alphaZeroRatio": 0.87563,
+        "alphaBboxGT8": [
+          333,
+          373,
+          717,
+          897
+        ]
+      },
+      {
+        "path": "reference-input/waiting_enter_frame_003.png",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 554106,
+        "sha256": "0d6c4ab39853152d74167e756f7411219201722d5fea99c77b671b0ecdabb1dc",
+        "format": "PNG",
+        "pixelMode": "RGBA",
+        "alphaMin": 0,
+        "alphaMax": 255,
+        "alphaZeroPixels": 854159,
+        "alphaZeroRatio": 0.81459,
+        "alphaBboxGT8": [
+          291,
+          256,
+          754,
+          897
+        ]
+      },
+      {
+        "path": "reference-input/waiting_enter_frame_005_v2.png",
+        "size": [
+          1024,
+          1024
+        ],
+        "bytes": 607658,
+        "sha256": "e01f0a5c22533dd7ca548acbc6fe05515c85528d274929c23b47eb4f5e54c8dd",
+        "format": "PNG",
+        "pixelMode": "RGBA",
+        "alphaMin": 0,
+        "alphaMax": 255,
+        "alphaZeroPixels": 829502,
+        "alphaZeroRatio": 0.79107,
+        "alphaBboxGT8": [
+          290,
+          221,
+          772,
+          897
+        ]
+      }
+    ],
+    "generator": "OpenAI image_gen",
+    "generatorId": "e98a080b-8254-48e4-b050-b8e69e73b3bc",
+    "generatorReportedPrompt": "",
+    "toolOutputActualSize": [
+      1254,
+      1254
+    ],
+    "userSpecRequested": [
+      1024,
+      1024
+    ],
+    "exportScale": 0.6361829025844931,
+    "resample": "Pillow LANCZOS downscale of freshly generated master (not old source)",
+    "pasteOffset": [
+      115,
+      161
+    ],
+    "targetAnchor": [
+      512,
+      896
+    ],
+    "targetHeightProxyPx": 640
+  },
+  "artifacts": {
+    "master": {
+      "path": "masters/waiting_enter_004_gen_e98a080b_original.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "bytes": 1091399,
+      "sha256": "5565187a4ab158dcd00fc3f3272c0a7cabe2458cd1150e5894c281254abef34a",
+      "format": "PNG",
+      "pixelMode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "alphaZeroPixels": 1094432,
+      "alphaZeroRatio": 0.69598,
+      "alphaBboxGT8": [
+        297,
+        149,
+        1008,
+        1155
+      ]
+    },
+    "candidate": {
+      "path": "candidates/waiting_enter_004_ref_repaint_candidate.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 485228,
+      "sha256": "4185144ab9c0da503cd798e9208a93750979e405014717315c1d1eb4aa931d5c",
+      "format": "PNG",
+      "pixelMode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "alphaZeroPixels": 855543,
+      "alphaZeroRatio": 0.81591,
+      "alphaBboxGT8": [
+        304,
+        256,
+        757,
+        896
+      ]
+    }
+  },
+  "status": "generated_candidate_remote_uploaded_pending_visual_acceptance",
+  "frame": 4,
+  "durationMs": 50,
+  "motionOwner": "none",
+  "rootOffset": null,
+  "anatomicalContactPoints": null,
+  "reference0Main": "reference/master_front_1024.png",
+  "original004": "groups/waiting_enter/images/poses/waiting_attention_forward.png",
+  "adjacent003and005AreUnacceptedCandidates": true,
+  "sourceCopyCount": 0,
+  "acceptedFrameCount": 0,
+  "generatedCandidateCount": 1,
+  "mainModified": false,
+  "remote": {
+    "branch": "web/waiting-enter-r01",
+    "pr": 3,
+    "imageCommit": "7f543a8d504810043e30dc41749eac16f51d6429",
+    "candidatePath": "submissions/waiting_enter/r01/candidates/waiting_enter_004_ref_repaint_candidate.png",
+    "masterPath": "submissions/waiting_enter/r01/masters/waiting_enter_004_gen_e98a080b_original.png",
+    "candidateGitBlobSha1": "59c2f669bd48c1ed65e862465eeaa1970402d231",
+    "masterGitBlobSha1": "0015f7955c60832c5959b796fc848c9f351547e1",
+    "branchRemoteReadback": "passed_sha1_both_pngs_and_candidate_base64_len",
+    "remoteSha256Recalculated": "not_checked",
+    "mainUntouched": true,
+    "prStillDraft": true
+  },
+  "footRegionProxyNotAnatomical": {
+    "master_front_1024": {
+      "pixelsInFootRegion": 890,
+      "footRegionXmean": 510.63,
+      "ymaxInRegion": 895
+    },
+    "waiting_enter_frame_003": {
+      "pixelsInFootRegion": 1035,
+      "footRegionXmean": 510.98,
+      "ymaxInRegion": 896
+    },
+    "waiting_attention_forward": {
+      "pixelsInFootRegion": 919,
+      "footRegionXmean": 516.76,
+      "ymaxInRegion": 896
+    },
+    "waiting_enter_004_ref_repaint_candidate": {
+      "pixelsInFootRegion": 915,
+      "footRegionXmean": 511.18,
+      "ymaxInRegion": 895
+    },
+    "waiting_enter_frame_005_v2": {
+      "pixelsInFootRegion": 1082,
+      "footRegionXmean": 512.11,
+      "ymaxInRegion": 896
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "clip": "waiting_enter",
+  "revision": "r01",
+  "frame": 8,
+  "durationMs": 50,
+  "motionOwner": "none",
+  "anchorPx": [
+    512,
+    896
+  ],
+  "status": "generated_candidate_remote_uploaded_pending_visual_acceptance",
+  "accepted": false,
+  "intent": "Body gentle forward lean complete (<=4 degrees), head tilt not yet begun; retain feet ground contact.",
+  "actualOutputs": {
+    "candidate": {
+      "file": "submissions/waiting_enter/r01/candidates/waiting_enter_008_ref_repaint_candidate.png",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 505279,
+      "pngBitDepth": 8,
+      "pngColorType": "RGBA",
+      "gitBlobSHA1": "e9add97024813e7a2b93398b96f5c2cff3ac90b6",
+      "sha256": "unknown"
+    },
+    "master": {
+      "file": "submissions/waiting_enter/r01/masters/waiting_enter_008_gen_6adcd1e8_original.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 949693,
+      "pngBitDepth": 8,
+      "pngColorType": "RGBA",
+      "gitBlobSHA1": "43536e7a3ca374b2cb7298eb06d0c172f210b841",
+      "sha256": "unknown"
+    }
+  },
+  "generation": {
+    "status": "historical_new_draw_candidate_not_created_in_reconciliation",
+    "generator": "reported_image_generation_previous_session_exact_engine_not_independently_audited",
+    "generatorId": "unknown_full_id",
+    "prompt": "unknown",
+    "referenceFilesActuallySentToGenerator": "unknown",
+    "referenceFilesUsedForCurrentVisualReview": [
+      "reference/master_front_1024.png",
+      "groups/waiting_enter/images/frames/waiting_enter_frame_003.png",
+      "groups/waiting_enter/images/frames/waiting_enter_frame_005_v2.png",
+      "groups/waiting_enter/images/frames/waiting_enter_frame_006.png",
+      "groups/waiting_enter/images/frames/waiting_enter_frame_007.png",
+      "groups/waiting_enter/images/frames/waiting_enter_frame_009_v2.png"
+    ],
+    "originalMasterUnmodified": true
+  },
+  "export": {
+    "scale": "unknown",
+    "pasteOffset": "unknown",
+    "footAnchorProxyMeasured": false,
+    "anatomicalContactPoints": null
+  },
+  "technicalChecks": {
+    "PNGSignature_IHDR_RGBA8": "passed_read_remote_bytes",
+    "remoteGitBlobSHA1": "passed",
+    "decodeAndAlphaPixels": "not_checked_in_current_session",
+    "sRGB": "not_checked",
+    "transparencyPixelRatio": "not_checked",
+    "canvasMargin24Px": "not_checked",
+    "anatomicalContact2Px": "not_checked",
+    "headBodyRatio1Percent": "not_checked",
+    "correctCodexTopology": "pending_art_review",
+    "headTiltNotStarted": "visually_plausible_not_measured",
+    "forwardLeanAngle": "not_checked",
+    "playback3Speeds3Rounds": "not_checked",
+    "familyTransition": "not_checked",
+    "runtime": "not_checked"
+  },
+  "history": {
+    "remoteCommitAtReconciliation": "907393386dad335fe07dbcaf01b00f4235ebc8b1",
+    "sourceCopyCount": 0,
+    "acceptedNewFrames": 0
+  },
+  "reconciliationUtc": "2026-10-19T12:27:42.911Z"
+}
