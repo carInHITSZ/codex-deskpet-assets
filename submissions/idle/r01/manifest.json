@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "clip": "idle",
   "revision": "r01",
-  "status": "candidate_uploaded_needs_validation",
+  "status": "technical_checked_visual_pending",
   "standard": "shuangxu-v3",
   "loop": true,
   "motionOwner": "none",
@@ -25,7 +25,10 @@
       "originalMaster": "assets/masters/masters/master_front.png",
       "masterGitBlobSha": "0222b97258034e3283d40fcfa90517cc46f46324",
       "masterBytes": 1408485,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -44,7 +47,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/initial/master_front.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "f2505e9eb7bf3240659c639717a76830aeaf991690c799109702111d34621f2a",
+      "masterSha256": "f488ab44961c83dff65fe7bf7c5950dbe7b7d6ae75619c6379765fc5b4b20377",
+      "alphaMeasurements": {
+        "zero": 857398,
+        "partial": 188363,
+        "opaque": 2815,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          293,
+          256,
+          753,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 293,
+          "top": 256,
+          "right": 271,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/001.png",
@@ -58,7 +83,10 @@
       "originalMaster": "assets/masters/generation-only/frames/idle_frame_001.png",
       "masterGitBlobSha": "ba0677f2e6a3a8ceebbcfcb7a627ee4fdf43615c",
       "masterBytes": 1408873,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -77,7 +105,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/frames/idle_frame_001.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "eebe7072f5eceed2518b0e2c538c3173318b2ce760b27d4675d15486cfa39aa6",
+      "masterSha256": "49ec43dee8f5fdf0c49142de1aadb1a5a998d5d274caf234555c740829840796",
+      "alphaMeasurements": {
+        "zero": 854359,
+        "partial": 192132,
+        "opaque": 2085,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          293,
+          254,
+          754,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 293,
+          "top": 254,
+          "right": 270,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/002.png",
@@ -91,7 +141,10 @@
       "originalMaster": "assets/masters/generation-only/frames/idle_frame_002.png",
       "masterGitBlobSha": "aa6a22881fb290cfe21d9b32691b72be0a39d546",
       "masterBytes": 1435455,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -110,7 +163,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/frames/idle_frame_002.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "5d4afd1e6e42bb165a29cf20e46e785e235f23ee0dd6b3a2bf656e2ea5be0776",
+      "masterSha256": "eb65c08f3c0d484a3750f7983f2bdffacc76e43f45350e0420cb4c8eaf440c35",
+      "alphaMeasurements": {
+        "zero": 852989,
+        "partial": 193497,
+        "opaque": 2090,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          293,
+          254,
+          755,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 293,
+          "top": 254,
+          "right": 269,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/003.png",
@@ -124,7 +199,10 @@
       "originalMaster": "assets/masters/generation-only/frames/idle_frame_003_v2.png",
       "masterGitBlobSha": "ab63a5fc4ad381a332429a276d4b523448158d57",
       "masterBytes": 1419186,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -143,7 +221,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/frames/idle_frame_003_v2.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "bbe151ee44b633ad7f319cee8f0c9c2462d0a03539c9f2815bdbef891da14fba",
+      "masterSha256": "7de5a4676afe57bcfd36fb68c07c42256ccff2d09ea0719f12b85e0644d90549",
+      "alphaMeasurements": {
+        "zero": 853236,
+        "partial": 192909,
+        "opaque": 2431,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          291,
+          252,
+          754,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 291,
+          "top": 252,
+          "right": 270,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/004.png",
@@ -157,7 +257,10 @@
       "originalMaster": "assets/masters/generation-only/poses/idle_inhale_start.png",
       "masterGitBlobSha": "5932cfa7d12b07da6a41326560d3da39fd35cc2f",
       "masterBytes": 1427105,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -176,7 +279,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/poses/idle_inhale_start.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "88769828018dff3c6b44198bc22cd0e979e5ab32b008342bd52d139e3c1ff118",
+      "masterSha256": "7d82d0a91c4feb8c27ad8e9bd636b8d7e638db559b50784dbb93ece4631a2552",
+      "alphaMeasurements": {
+        "zero": 853642,
+        "partial": 192809,
+        "opaque": 2125,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          294,
+          254,
+          754,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 294,
+          "top": 254,
+          "right": 270,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/005.png",
@@ -190,7 +315,10 @@
       "originalMaster": "assets/masters/generation-only/frames/idle_frame_005.png",
       "masterGitBlobSha": "70e43e194fe0a3e9eba675c7790dba1395335f52",
       "masterBytes": 1414671,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -209,7 +337,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/frames/idle_frame_005.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "4d123569e9dab4d7ce7d49dcdc71b2667c8edcffb8ece232afc1dcfda699f9db",
+      "masterSha256": "8b6e218123e92c3cb598f0e986f71cb6395f4443468c3da200f857a71692b59b",
+      "alphaMeasurements": {
+        "zero": 849846,
+        "partial": 196829,
+        "opaque": 1901,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          291,
+          255,
+          754,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 291,
+          "top": 255,
+          "right": 270,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/006.png",
@@ -223,7 +373,10 @@
       "originalMaster": "assets/masters/generation-only/frames/idle_frame_006.png",
       "masterGitBlobSha": "023a4fb9fd87cede50dc32bc0eade49b561a8321",
       "masterBytes": 1413184,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -242,7 +395,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/frames/idle_frame_006.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "f9ac20eb2d1ff019f6423bbe3346b4b77e20a4a0e5f2c342cb827c6fe254bedf",
+      "masterSha256": "f752ea4cf100cecdeeb1cb44f39433a008515c2456648642f560e17124cbe483",
+      "alphaMeasurements": {
+        "zero": 854499,
+        "partial": 191878,
+        "opaque": 2199,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          294,
+          254,
+          755,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 294,
+          "top": 254,
+          "right": 269,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/007.png",
@@ -256,7 +431,10 @@
       "originalMaster": "assets/masters/generation-only/frames/idle_frame_007_v2.png",
       "masterGitBlobSha": "28c7d812d26e35462befdb68a55c05f708fde61d",
       "masterBytes": 1448772,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -275,7 +453,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/frames/idle_frame_007_v2.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "76d8a359a7ae384a6ba3de9edb8b593651f7baa858f5f2d9d055645f01007933",
+      "masterSha256": "27c8544914b94cad64b1981f3dc99027311de681df40c45500eaca158bf21c96",
+      "alphaMeasurements": {
+        "zero": 849216,
+        "partial": 197392,
+        "opaque": 1968,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          293,
+          254,
+          754,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 293,
+          "top": 254,
+          "right": 270,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/008.png",
@@ -289,7 +489,10 @@
       "originalMaster": "assets/masters/generation-only/poses/idle_inhale_mid.png",
       "masterGitBlobSha": "03966ebdcf09fe64ec0863f0bbaf77f74e6c6854",
       "masterBytes": 1399702,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -308,7 +511,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/poses/idle_inhale_mid.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "098ee5e10de44b0bde103dd68f48905940425260fcaec90027e944cf15afb1c7",
+      "masterSha256": "2b07262004302150bc88b9a049e7aa8f979f31c217b2f73f87ee4fa86f73ee34",
+      "alphaMeasurements": {
+        "zero": 853481,
+        "partial": 192920,
+        "opaque": 2175,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          293,
+          255,
+          753,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 293,
+          "top": 255,
+          "right": 271,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/009.png",
@@ -322,7 +547,10 @@
       "originalMaster": "assets/masters/generation-only/frames/idle_frame_009.png",
       "masterGitBlobSha": "5bb8de00c2fc506c567d21650043b85ccd535e3c",
       "masterBytes": 1403236,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -341,7 +569,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/frames/idle_frame_009.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "95c5dd1930ffde913b851c8600c066e38c663896e53bce1705b470500018619c",
+      "masterSha256": "d504c764e5e2d051f2efacc3616cd596bc9ca33f76b316d713870ec5056acfce",
+      "alphaMeasurements": {
+        "zero": 853473,
+        "partial": 192831,
+        "opaque": 2272,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          293,
+          254,
+          754,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 293,
+          "top": 254,
+          "right": 270,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/010.png",
@@ -355,7 +605,10 @@
       "originalMaster": "assets/masters/generation-only/frames/idle_frame_010.png",
       "masterGitBlobSha": "3713dae40f6be9ce76f0c94a18ff06bacd5b4810",
       "masterBytes": 1415056,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -374,7 +627,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/frames/idle_frame_010.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "ff35f4a92d1db35b925647dbe43fc085d525078799a237e6a6ad9c8ec1679f33",
+      "masterSha256": "951013c98f48f1a91174997929a8060f83d990970878e5651e61a48e6ca59380",
+      "alphaMeasurements": {
+        "zero": 853860,
+        "partial": 192566,
+        "opaque": 2150,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          293,
+          254,
+          755,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 293,
+          "top": 254,
+          "right": 269,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/011.png",
@@ -388,7 +663,10 @@
       "originalMaster": "assets/masters/generation-only/frames/idle_frame_011.png",
       "masterGitBlobSha": "422c25acb76a4d48e0740453be528685d01938e7",
       "masterBytes": 1403282,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -407,7 +685,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/frames/idle_frame_011.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "bd8a433234b70d426b665cd212ef6ef1959f5f5fd9496f2a12c387eed94dfc0f",
+      "masterSha256": "0b1935e73464a351dde694cbdb6d33e5dd39322f7713e0e8b4b11699025e3327",
+      "alphaMeasurements": {
+        "zero": 855004,
+        "partial": 191425,
+        "opaque": 2147,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          292,
+          253,
+          755,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 292,
+          "top": 253,
+          "right": 269,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/012.png",
@@ -421,7 +721,10 @@
       "originalMaster": "assets/masters/masters/idle_breath_peak.png",
       "masterGitBlobSha": "25aa725b763963780385e597bdb57d5c18e856b2",
       "masterBytes": 1402551,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -440,7 +743,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/initial/idle_breath_peak.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "21f8348dd3b1dae6de1e3053910bbaedc31b922096f76b9e347c40aa7a59da2b",
+      "masterSha256": "2f87fa0584450427b202ddda6da03f386c18154f421fad700a98b881bbaeb418",
+      "alphaMeasurements": {
+        "zero": 855368,
+        "partial": 190667,
+        "opaque": 2541,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          293,
+          254,
+          754,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 293,
+          "top": 254,
+          "right": 270,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/013.png",
@@ -454,7 +779,10 @@
       "originalMaster": "assets/masters/generation-only/frames/idle_frame_013.png",
       "masterGitBlobSha": "76b0dd2143d53a47f664b9351dede48dc7dd8eb3",
       "masterBytes": 1432546,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -473,7 +801,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/frames/idle_frame_013.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "daae84af5a1dd2d503d75118391fcc896488fc4fe12d65118c6acf8a02a1008e",
+      "masterSha256": "3a25d219b395b22a2c31a97ba30b2d6e54d69243ab0880ea81433228d047dfb8",
+      "alphaMeasurements": {
+        "zero": 847349,
+        "partial": 199316,
+        "opaque": 1911,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          292,
+          254,
+          756,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 292,
+          "top": 254,
+          "right": 268,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/014.png",
@@ -487,7 +837,10 @@
       "originalMaster": "assets/masters/generation-only/frames/idle_frame_014.png",
       "masterGitBlobSha": "b29917d2f07f856bacabea9dbc5e68e127225d5d",
       "masterBytes": 1421152,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -506,7 +859,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/frames/idle_frame_014.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "192811453e95747e946ad71675545308fd35791876485e8141fb6d46b13219af",
+      "masterSha256": "69bcf02caa06b5dd90742e35409734d9d7abc8360f090c49acad27554dfb698c",
+      "alphaMeasurements": {
+        "zero": 850657,
+        "partial": 195951,
+        "opaque": 1968,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          290,
+          254,
+          754,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 290,
+          "top": 254,
+          "right": 270,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/015.png",
@@ -520,7 +895,10 @@
       "originalMaster": "assets/masters/generation-only/frames/idle_frame_015_v2.png",
       "masterGitBlobSha": "e4521a8486900282efcd7d1ee6cc51c7f943c556",
       "masterBytes": 1409864,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -539,7 +917,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/frames/idle_frame_015_v2.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "ad43ef951404dfc5a6a4ea42b81a3b28fd5b1014ce15139e6d8ec7f70c0e5ec0",
+      "masterSha256": "e0c7124ae735a42eae18cc488b2e11847f9a86485e347b475e88429cffc25026",
+      "alphaMeasurements": {
+        "zero": 853173,
+        "partial": 193391,
+        "opaque": 2012,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          293,
+          255,
+          755,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 293,
+          "top": 255,
+          "right": 269,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/016.png",
@@ -553,7 +953,10 @@
       "originalMaster": "assets/masters/generation-only/poses/idle_exhale_mid.png",
       "masterGitBlobSha": "753c6af24f4354dea549d3aea360540dad1be5c8",
       "masterBytes": 1398014,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -572,7 +975,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/poses/idle_exhale_mid.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "3c966ef0e8bc53e83a864caf913cd235561fb743c3051a9d1c34830d23307627",
+      "masterSha256": "b93a5f2f0e514dbfca3a620a2de1625edbca6749de4d6fd62dd4bf3dc46c8cad",
+      "alphaMeasurements": {
+        "zero": 853181,
+        "partial": 193317,
+        "opaque": 2078,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          287,
+          255,
+          756,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 287,
+          "top": 255,
+          "right": 268,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/017.png",
@@ -586,7 +1011,10 @@
       "originalMaster": "assets/masters/generation-only/frames/idle_frame_017.png",
       "masterGitBlobSha": "8d653b713405827f8d6660c0726609d0522d29eb",
       "masterBytes": 1419100,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -605,7 +1033,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/frames/idle_frame_017.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "7732ddddc0737a390ea3007da3c6ee9c43393842255056782d755eab941f8002",
+      "masterSha256": "eb49bed802985ae6a09726fa9a26720fe583d66ba562df3575388837d298ebf4",
+      "alphaMeasurements": {
+        "zero": 849975,
+        "partial": 196624,
+        "opaque": 1977,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          292,
+          254,
+          756,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 292,
+          "top": 254,
+          "right": 268,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/018.png",
@@ -619,7 +1069,10 @@
       "originalMaster": "assets/masters/generation-only/frames/idle_frame_018_v2.png",
       "masterGitBlobSha": "087f8ad2c574cbf6b1a98505674d10d9ea5cb04a",
       "masterBytes": 1413549,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -638,7 +1091,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/frames/idle_frame_018_v2.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "90819c82e7ffbba5a259dae40597c93e4480d4db12310c964b63a0b72579accc",
+      "masterSha256": "6be8e2367773f9efbf8065934a44187806bee3cf03b69e5bd20f8f437ed92d45",
+      "alphaMeasurements": {
+        "zero": 854135,
+        "partial": 192258,
+        "opaque": 2183,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          292,
+          253,
+          755,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 292,
+          "top": 253,
+          "right": 269,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     },
     {
       "file": "frames/idle/019.png",
@@ -652,7 +1127,10 @@
       "originalMaster": "assets/masters/generation-only/frames/idle_frame_019.png",
       "masterGitBlobSha": "3a42760144e05513d992e4f968a1e3eddf955705",
       "masterBytes": 1418139,
-      "actualMasterSize": null,
+      "actualMasterSize": [
+        1254,
+        1254
+      ],
       "actualExportSize": [
         1024,
         1024
@@ -671,7 +1149,29 @@
         "anatomicalRightFoot": null
       },
       "reusedFrom": "groups/idle/images/frames/idle_frame_019.png",
-      "scaleTranslationRecord": null
+      "scaleTranslationRecord": null,
+      "fileSha256": "0e361e1f0c0cc87c682e2a0ea5a53f4881cf6692abf7b74b0adc6a5f97218a2b",
+      "masterSha256": "8f56364bef6c8366a2aa37b3ab5e0ecade8cccb8f239c985c476781a30d5b8fc",
+      "alphaMeasurements": {
+        "zero": 855769,
+        "partial": 190345,
+        "opaque": 2462,
+        "min": 0,
+        "max": 255,
+        "bboxAlphaGt8Exclusive": [
+          291,
+          254,
+          754,
+          896
+        ],
+        "marginsAlphaGt8": {
+          "left": 291,
+          "top": 254,
+          "right": 270,
+          "bottom": 128
+        }
+      },
+      "pixelScanEvidence": "GitHub Actions run 39231855426"
     }
   ],
   "webChecks": {
@@ -679,11 +1179,20 @@
     "speed100ThreeRuns": "not_checked",
     "speed050ThreeRuns": "not_checked",
     "speed025ThreeRuns": "not_checked",
-    "alpha": "not_checked_pixels",
+    "alpha": "checked_ci_20_of_20",
     "header": "checked_20_of_20_RGBA8",
     "identityAndCodexEmblem": "partial_keypose_view_5_of_20_no_acceptance",
     "contactAndScale": "not_checked",
     "loopAndTransitions": "not_checked",
-    "report": "qa/web-report.md"
+    "report": "qa/web-report.md",
+    "margins": "checked_ci_20_of_20_min_128px"
+  },
+  "technicalEvidence": {
+    "runUrl": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39231855426",
+    "jobId": 117991450962,
+    "runner": "GitHub Actions Ubuntu 24.04/Python 3.12/Pillow",
+    "allTechnicalOk": true,
+    "tested": 20,
+    "notVisualAcceptance": true
   }
 }

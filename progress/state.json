@@ -5,7 +5,7 @@
   "groups": [
     {
       "clip": "idle",
-      "status": "candidate_uploaded_needs_validation",
+      "status": "technical_checked_visual_pending",
       "plannedFrames": 20,
       "candidateSlots": 20,
       "missingFrames": [],
@@ -15,7 +15,12 @@
       "branch": "web/idle-r01",
       "pr": "https://github.com/carInHITSZ/codex-deskpet-assets/pull/1",
       "checkpoint": "submissions/idle/r01/CHECKPOINT.json",
-      "note": "20 existing selected candidate PNGs staged with matching original masters. Technical header valid; no web visual/runtime acceptance."
+      "note": "Candidate frames copied from main; successful independent CI PNG/alpha/margin technical preflight, not 20 newly generated or visually accepted frames.",
+      "technicalEvidence": {
+        "run": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39231855426",
+        "passed": 20,
+        "failed": 0
+      }
     },
     {
       "clip": "blink",

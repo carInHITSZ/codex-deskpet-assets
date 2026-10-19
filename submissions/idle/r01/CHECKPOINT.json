@@ -4,8 +4,8 @@
   "revision": "r01",
   "branch": "web/idle-r01",
   "sessionId": "chatgpt-github-20261019-01",
-  "updatedUtc": "2026-10-19T09:36:10.568Z",
-  "status": "candidate_uploaded_needs_validation",
+  "updatedUtc": "2026-10-19T09:43:52.084Z",
+  "status": "technical_checked_visual_pending",
   "baseCommit": "eba7dd6478744b1e3820963b024c0302e2d05da8",
   "completedFrames": [],
   "candidateFramesStaged": [
@@ -80,11 +80,13 @@
     "submissions/idle/r01/qa/web-report.md",
     "submissions/idle/r01/qa/header-audit.json",
     "submissions/idle/r01/CHECKPOINT.json",
-    "submissions/idle/r01/CHECKPOINT.md"
+    "submissions/idle/r01/CHECKPOINT.md",
+    "submissions/idle/r01/qa/pixel-audit.json",
+    "submissions/idle/r01/qa/check_pngs.py"
   ],
   "checks": {
-    "technical": "header_20_of_20_checked__pixel_alpha_not_checked",
-    "visualIdentity": "partial_five_keyposes_not_accepted",
+    "technical": "ci_pass_20_of_20_png_pixel_alpha_bbox_margin_and_masters",
+    "visualIdentity": "partial_5_of_20_not_accepted",
     "playback100": "not_checked",
     "playback050": "not_checked",
     "playback025": "not_checked",
@@ -93,11 +95,20 @@
   },
   "dependencyCommits": [],
   "blockers": [
-    "20 staged source copies are not newly generated/accepted frames",
-    "Pixel-level alpha/margins/visual-colored-edge checks not performed",
-    "15 intermediate frames not visually checked",
-    "Current session did not perform actual three-speed playback or family transition QA"
+    "Only 5 keyposes visually viewed; visual QA still pending for intermediate frames",
+    "No 100%/50%/25% three-cycle actual visual playback in current session",
+    "No anatomical contact ≤2px or 1% keypoint-scale measurement",
+    "No idle loop seam/family transitions completed",
+    "New redraw attempt had identity drift and was rejected"
   ],
-  "nextExactAction": "Run pixel-level PNG alpha/margin/halo QA for idle 000–019; visually inspect all frames against reference; repair rejected poses with locked character identity; actually play each of 100%,50%,25% for 3 full loops, inspect seam/contact and family exits; document measured outcomes before state advance.",
-  "report": "qa/web-report.md"
+  "nextExactAction": "Visually review all 20 candidate frames on black/white/lilac backdrops and compare against the master, particularly Codex knot/horn/wing/root/head scale. Fix any failed frames with reference-locked redraw, then actually play three complete cycles at 100%,50%,25% and verify seam/contact; keep this Draft PR unmerged until then.",
+  "report": "qa/web-report.md",
+  "technicalEvidence": {
+    "runUrl": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39231855426",
+    "jobId": 117991450962,
+    "checkedFrames": 20,
+    "failedFrames": [],
+    "minMargin": 128,
+    "allBaselineY": 896
+  }
 }

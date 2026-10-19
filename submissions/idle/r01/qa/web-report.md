@@ -1,28 +1,35 @@
-# idle r01 网页端生产检查报告
+# idle r01 — 真实技术检查与待做美术验收
 
-更新时间 UTC：2026-10-19T09:36:10.568Z
+更新时间 UTC：2026-10-19T09:43:52.084Z
 
-## 实际成果
+## 已经完成
 
-- 已远端暂存20/20张现有候选PNG、20/20份对应原始母版；均为Git blob字节级原样引用，没有把复制文件记成新绘。
-- 实际通过GitHub读取全部20张PNG的base64并解析文件IHDR：20/20拥有PNG签名、1024×1024、8bit RGBA(color type 6)、non-interlaced。**仅验证文件头，尚未逐像素解码Alpha/边界**。
-- 本次实际查看静态关键帧000、004、008、012、016，对基本白紫身份、双翼两角尾巴和交织饰物进行了部分观察；其余15帧未独立视觉复核。
-- 单独使用生成工具得到1254×1254 RGBA新尝试，SHA256 `7e1b0c1692d7698290f04fb6f45fcb73681f896246e34b85dfea1ab797e4c272`，因脸型/头身、服饰和翼展偏离主基准，**拒收并未添加到提交**。
-- qa/browser-playback-records.json是仓库旧记录（其中idle visualAccepted=false），不是本会话实际完成的三速美术检查。
+- 实际暂存 main 已有20张候选PNG和20张原始母版；所有文件为字节级原样复制，**本次合格新绘0张**。
+- 通过GitHub Actions [运行#39231855426](https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39231855426) 在Ubuntu/Python/Pillow上**实际打开并解码全部20张独立PNG与原始母版**，任务返回success。详见 `qa/pixel-audit.json`。
+- **20/20技术通过、0失败**：每张PNG为1024×1024 RGBA、Alpha最小0最大255，兼有透明/半透明/不透明像素，alpha>8区域与边缘至少128像素，20张bbox下边界均为y=896，原始母版实际尺寸全部1254×1254、模式RGBA；相邻帧没有完全相同的像素帧。
+- 静态视觉仅实际查看000、004、008、012、016；可确认身份主要元素基本存在但不构成全部逐帧美术验收。
+- 另生成过一张1254×1254样图（SHA256 `7e1b0c1692d7698290f04fb6f45fcb73681f896246e34b85dfea1ab797e4c272`），身份/服饰/翼幅偏离主基准，拒收且未进生产帧。
 
-| 检查 | 结果 |
-|---|---|
-| 已授权GitHub访问/创建二进制blob/远端提交 | checked |
-| 20张候选PNG签名、尺寸、RGBA8、非交错 | checked |
-| 像素级Alpha范围/占比/实际边距与色边 | not_checked |
-| 全20张角色身份/挂饰/肢体 | partial (only 000,004,008,012,016 viewed) |
-| 真实双脚接触偏差≤2px与骨架比例≤1% | not_checked |
-| 100%播放3轮并观察 | not_checked |
-| 50%播放3轮并观察 | not_checked |
-| 25%播放3轮并观察 | not_checked |
-| 循环缝/进入退出/家族衔接 | not_checked |
-| 本地桌宠运行/DPI多屏 | not_checked |
+## 检查矩阵
 
-**当前状态：candidate_uploaded_needs_validation；完成验收帧数0。** 不满足web_sequence_checked门槛，不得视为local_accepted/runtime_ready。
+| 项目 | 结果 | 证据 |
+|---|---|---|
+| GitHub二进制写入及远端再次读取 | checked | 已存在PR及各帧Git blobs |
+| 标准PNG RGBA8、透明像素、Alpha bbox、安全边距、原母版尺寸 | checked_pass (20/20) | GitHub Actions #39231855426 |
+| 逐帧20张角色身份/挂饰/四肢的视觉检查 | partial (5/20) | 只看过五张静态帧 |
+| 黑白紫三背景下异常色边 | not_checked | 需要背景切换人工查看 |
+| 同姿态关键点比例误差≤1% | not_checked | 尚无人体解剖关键点测量 |
+| 足底接触漂移≤2px | not_checked | 全帧bbox y=896不是双足支撑点证据 |
+| 100%三轮实际播放 | not_checked | 没有执行本次真正的视觉播放 |
+| 50%三轮实际播放 | not_checked | 同上 |
+| 25%三轮实际播放 | not_checked | 同上 |
+| 循环/家族进出场串联 | not_checked | 不能单凭独立静帧判断 |
+| 本地DPI/多屏/完整桌宠 | not_checked | 非本次执行范围 |
 
-下一步：Run pixel-level PNG alpha/margin/halo QA for idle 000–019; visually inspect all frames against reference; repair rejected poses with locked character identity; actually play each of 100%,50%,25% for 3 full loops, inspect seam/contact and family exits; document measured outcomes before state advance.
+技术检查的主体边距最小值为 **128 px**，但该指标只测框定Alpha边缘；不能作为角色动作质量合格的依据。
+
+## 当前状态与下一步
+
+`technical_checked_visual_pending`（20个候选来源已封装，20/20像素技术预检通过，0个新绘成品被验收）。**没有达到web_sequence_checked。**
+
+Visually review all 20 candidate frames on black/white/lilac backdrops and compare against the master, particularly Codex knot/horn/wing/root/head scale. Fix any failed frames with reference-locked redraw, then actually play three complete cycles at 100%,50%,25% and verify seam/contact; keep this Draft PR unmerged until then.
