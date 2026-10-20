@@ -5,16 +5,43 @@
   "groups": [
     {
       "clip": "idle",
-      "status": "candidate_complete_needs_review",
+      "status": "pending_local_review",
       "plannedFrames": 20,
       "candidateSlots": 20,
       "missingFrames": [],
       "webChecks": "not_accepted",
       "localAcceptance": false,
       "runtimeAcceptance": false,
-      "branch": null,
-      "pr": null,
-      "checkpoint": null
+      "branch": "web/idle-r01",
+      "pr": "https://github.com/carInHITSZ/codex-deskpet-assets/pull/1",
+      "checkpoint": "submissions/idle/r01/CHECKPOINT.json",
+      "note": "No confirmed failed frames or safe redraw this session. Local review handoff created; no new PNG. Keep Draft and not web_sequence_checked.",
+      "technicalEvidence": {
+        "run": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39231855426",
+        "passed": 20,
+        "failed": 0
+      },
+      "browserEvidence": {
+        "run": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39232840986",
+        "mechanicalPass": true,
+        "threeSpeeds": [
+          1,
+          0.5,
+          0.25
+        ],
+        "threeCyclesEach": true,
+        "visualAccepted": false
+      },
+      "forensicEvidence": {
+        "report": "submissions/idle/r01/qa/diagnostic/forensics.json",
+        "sourceCommit": "dfd61f70bb434b9515317da9a9e450d96008ca55",
+        "framesSourceUnchanged": true,
+        "acceptedRedrawCount": 0,
+        "fullArtAccepted": false,
+        "contactLandmarksVerified": false,
+        "loopArtistReviewed": false
+      },
+      "localReviewHandoff": "submissions/idle/r01/qa/local-review-handoff-20261019.md"
     },
     {
       "clip": "blink",

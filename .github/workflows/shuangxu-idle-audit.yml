@@ -1,0 +1,57 @@
+name: Shuangxu idle PNG and browser technical preflight
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'submissions/idle/r01/**'
+      - '.github/workflows/shuangxu-idle-audit.yml'
+permissions:
+  contents: read
+jobs:
+  verify-pixels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install PNG decoder
+        run: python -m pip install 'Pillow==11.3.0'
+      - name: Inspect all 20 PNG candidates and masters
+        shell: bash
+        run: |
+          set +e
+          python submissions/idle/r01/qa/check_pngs.py --root submissions/idle/r01 --output qa/pixel-audit.json > /tmp/idle_pixel_audit.json
+          code=$?
+          cat /tmp/idle_pixel_audit.json
+          exit "$code"
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: idle-r01-pixel-audit
+          path: submissions/idle/r01/qa/pixel-audit.json
+          if-no-files-found: warn
+  verify-browser-playback:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser driver
+        run: npm install --no-save --no-audit --no-fund puppeteer-core@24.23.0
+      - name: Run 100 50 25 percent playback, 3 cycles each
+        shell: bash
+        run: |
+          which google-chrome
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/shuangxu_http.log 2>&1 &
+          sleep 2
+          node submissions/idle/r01/qa/browser_playback.js
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: idle-r01-browser-playback
+          path: |
+            submissions/idle/r01/qa/browser-playback-current.json
+            submissions/idle/r01/qa/browser-captures/*.png
+          if-no-files-found: warn

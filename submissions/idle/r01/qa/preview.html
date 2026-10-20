@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>霜序 idle r01 — 候选播放预览（非验收）</title>
+<style>
+:root {color-scheme:dark}
+body {margin:20px; font:14px/1.5 system-ui; background:#151522; color:#f6f5ff}
+main {max-width:780px;margin:auto}
+canvas {width:min(80vw,600px);height:auto;border-radius:10px;border:1px solid #68617a}
+.controls {display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:15px 0}
+select,button {padding:8px 12px;font:inherit}
+.note {color:#bcb4d2}
+</style>
+</head>
+<body><main>
+<h1>霜序 idle / r01 — 真实PNG序列预览</h1>
+<p class="note">这是候选播放工具，非web_sequence_checked。每帧1024×1024 RGBA，原计划12fps，20帧循环。请逐帧检查身份、Codex挂饰、接触滑动、色边、循环缝。</p>
+<div class="controls">
+<label>速度 <select id="speed"><option value="1">100%</option><option value="0.5">50%</option><option value="0.25">25%</option></select></label>
+<label>背景 <select id="background"><option value="#101018">黑</option><option value="#ffffff">白</option><option value="#d1b9e9">淡紫</option></select></label>
+<button id="play">播放3轮</button>
+<button id="stop">停止</button>
+<span id="status">待载入</span>
+</div>
+<canvas id="stage" width="1024" height="1024"></canvas>
+<p class="note">需在本地HTTP服务器或GitHub Pages中打开。播放记录仅证明实际绘制和调度，不能自动判定美术、足底接触或家族切换合格。</p>
+<script>
+"use strict";
+const canvas=document.getElementById("stage"),ctx=canvas.getContext("2d");
+const imgPaths=Array.from({length:20},(_,i)=>"../frames/idle/"+String(i).padStart(3,"0")+".png");
+let cache=null,cancel=false,lastDrawn=null;
+const status=document.getElementById("status");
+async function loadFrames(){
+  if(cache)return cache;
+  cache=await Promise.all(imgPaths.map(async p=>{const im=new Image();im.src=new URL(p,location.href).href;await im.decode();return im;}));
+  status.textContent="已加载"+cache.length+"张候选帧";
+  return cache;
+}
+function drawFrame(index,bg){
+  ctx.fillStyle=bg||document.getElementById("background").value;
+  ctx.fillRect(0,0,1024,1024);
+  ctx.drawImage(cache[index],0,0,1024,1024);
+  lastDrawn=index;
+  status.textContent="帧 "+String(index).padStart(3,"0")+" / 019";
+}
+function wait(ms){return new Promise(res=>setTimeout(res,Math.max(0,ms)))}
+window.setBackdrop=async function(bg){await loadFrames();drawFrame(lastDrawn??0,bg)};
+window.playCycles=async function(speed,cycles){
+  if(![1,0.5,0.25].includes(speed)||!Number.isInteger(cycles)||cycles<1||cycles>10)throw Error("bad args");
+  await loadFrames();
+  cancel=false;
+  const intervalMs=1000/12/speed,n=20*cycles,t0=performance.now(),seq=[];
+  let paints=0,maxLatenessMs=0,maxFramePaintGapMs=0,lastPaintAt=t0;
+  for(let i=0;i<n;i++){
+    if(cancel)break;
+    await wait(t0+i*intervalMs-performance.now());
+    const record=await new Promise(resolve=>requestAnimationFrame(()=>{
+      const now=performance.now(),frame=i%20;
+      drawFrame(frame);
+      resolve({time:now,index:frame});
+    }));
+    maxLatenessMs=Math.max(maxLatenessMs,record.time-(t0+i*intervalMs));
+    maxFramePaintGapMs=Math.max(maxFramePaintGapMs,record.time-lastPaintAt);
+    lastPaintAt=record.time;seq.push(record.index);paints++;
+  }
+  await wait(t0+n*intervalMs-performance.now());
+  return {speed,cycles,decoded:cache.length,expectedPaints:n,paints,sequence:seq,elapsedMs:performance.now()-t0,maxLatenessMs,maxFramePaintGapMs,aborted:cancel,visuallyAccepted:false};
+};
+document.getElementById("play").onclick=async()=>{try{await window.playCycles(Number(document.getElementById("speed").value),3)}catch(e){status.textContent="播放错误："+e.message}};
+document.getElementById("stop").onclick=()=>{cancel=true;status.textContent="已停止"};
+document.getElementById("background").onchange=()=>window.setBackdrop(document.getElementById("background").value);
+loadFrames().then(()=>drawFrame(0)).catch(e=>{status.textContent="加载失败："+e.message});
+</script></main></body></html>

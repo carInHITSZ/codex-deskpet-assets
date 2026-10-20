@@ -1,0 +1,68 @@
+{
+  "clip": "idle",
+  "revision": "r01",
+  "url": "http://127.0.0.1:8765/submissions/idle/r01/qa/preview.html",
+  "speedRecords": [
+    {
+      "speed": 1,
+      "cycles": 3,
+      "decoded": 20,
+      "expectedPaints": 60,
+      "paints": 60,
+      "elapsedMs": 5000.199999999997,
+      "maxLatenessMs": 0.5666666666611491,
+      "maxFramePaintGapMs": 83.80000000000291,
+      "aborted": false,
+      "visuallyAccepted": false,
+      "sequenceCorrect": true,
+      "mechanicalOk": true
+    },
+    {
+      "speed": 0.5,
+      "cycles": 3,
+      "decoded": 20,
+      "expectedPaints": 60,
+      "paints": 60,
+      "elapsedMs": 10000,
+      "maxLatenessMs": 0.7999999999883585,
+      "maxFramePaintGapMs": 167.79999999998836,
+      "aborted": false,
+      "visuallyAccepted": false,
+      "sequenceCorrect": true,
+      "mechanicalOk": true
+    },
+    {
+      "speed": 0.25,
+      "cycles": 3,
+      "decoded": 20,
+      "expectedPaints": 60,
+      "paints": 60,
+      "elapsedMs": 19999.399999999994,
+      "maxLatenessMs": 0.633333333338669,
+      "maxFramePaintGapMs": 333.8000000000029,
+      "aborted": false,
+      "visuallyAccepted": false,
+      "sequenceCorrect": true,
+      "mechanicalOk": true
+    }
+  ],
+  "pageErrors": [],
+  "allMechanicalOk": true,
+  "technicalInterpretation": "Three real browser playback loops at each requested speed, with observed DOM/canvas paints and timing; screenshots saved for separate human artistic inspection.",
+  "visualAcceptance": "not_checked",
+  "anatomicalContact": "not_checked",
+  "familyTransitions": "not_checked",
+  "evidence": {
+    "run": "https://github.com/carInHITSZ/codex-deskpet-assets/actions/runs/39232840986",
+    "jobId": 117994713995,
+    "commit": "ba04f17f006f14faf7492f77d66396174a8fa7e1",
+    "source": "actual GitHub Actions Puppeteer browser job logs",
+    "retrievedUtc": "2026-10-19T09:53:27.009Z",
+    "artifact": "idle-r01-browser-playback",
+    "screenshotCount": 9,
+    "otherStatuses": {
+      "visual": "not_accepted",
+      "familyTransitions": "not_checked"
+    }
+  }
+}
